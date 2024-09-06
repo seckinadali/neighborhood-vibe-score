@@ -1,0 +1,719 @@
+{
+    "original_address": {
+        "address": "1006 Lausanne, Av. d'Ouchy 58",
+        "coordinates": [
+            46.508742299999994,
+            6.6273949499999985
+        ]
+    },
+    "facilities": {
+        "bars": {
+            "data": [
+                {
+                    "place_id": 1244887747,
+                    "name": "MGM",
+                    "location": {
+                        "lat": 46.507429,
+                        "lng": 6.62574
+                    },
+                    "tags": {
+                        "addr:housenumber": "14",
+                        "addr:postcode": "1007",
+                        "addr:street": "Rue du Lac",
+                        "amenity": "pub",
+                        "contact:facebook": "cafemgmlausanne",
+                        "email": "info@mgmcafe.ch",
+                        "name": "MGM",
+                        "opening_hours": "Mo-Th 07:30-01:00; Fr 07:30-02:00; Sa 08:45-02:00; Su 09:00-01:00",
+                        "opening_hours:signed": "no",
+                        "phone": "+41 21 616 38 81",
+                        "website": "https://www.lausanne-tourisme.ch/en/explore/mgm-cafe/"
+                    }
+                },
+                {
+                    "place_id": 4861643846,
+                    "name": "Florida",
+                    "location": {
+                        "lat": 46.5116148,
+                        "lng": 6.6260278
+                    },
+                    "tags": {
+                        "addr:postcode": "1007",
+                        "amenity": "pub",
+                        "name": "Florida",
+                        "opening_hours": "Mo-Fr 09:15-22:00; Sa 09:15-23:00",
+                        "phone": "+41 21 616 53 99"
+                    }
+                }
+            ],
+            "count": 2,
+            "min_time": 3.26,
+            "closest_facility": {
+                "place_id": 1244887747,
+                "name": "MGM",
+                "location": {
+                    "lat": 46.507429,
+                    "lng": 6.62574
+                },
+                "tags": {
+                    "addr:housenumber": "14",
+                    "addr:postcode": "1007",
+                    "addr:street": "Rue du Lac",
+                    "amenity": "pub",
+                    "contact:facebook": "cafemgmlausanne",
+                    "email": "info@mgmcafe.ch",
+                    "name": "MGM",
+                    "opening_hours": "Mo-Th 07:30-01:00; Fr 07:30-02:00; Sa 08:45-02:00; Su 09:00-01:00",
+                    "opening_hours:signed": "no",
+                    "phone": "+41 21 616 38 81",
+                    "website": "https://www.lausanne-tourisme.ch/en/explore/mgm-cafe/"
+                }
+            }
+        },
+        "restaurants": {
+            "data": [
+                {
+                    "place_id": 497304844,
+                    "name": "Boccalino",
+                    "location": {
+                        "lat": 46.5071714,
+                        "lng": 6.6271334
+                    },
+                    "tags": {
+                        "amenity": "restaurant",
+                        "cuisine": "italian;pizza;",
+                        "diet:vegetarian": "yes",
+                        "kids_area": "indoor",
+                        "name": "Boccalino",
+                        "opening_hours": "Mo-Fr 11:30-14:00, 18:00-22:00; Sa 11:30-22:00; Su 09:00-22:00",
+                        "phone": "+41 21 616 35 39",
+                        "website": "https://www.boccalino.ch/",
+                        "wheelchair": "no"
+                    }
+                },
+                {
+                    "place_id": 1230806994,
+                    "name": "La Riviera",
+                    "location": {
+                        "lat": 46.5071717,
+                        "lng": 6.6263109
+                    },
+                    "tags": {
+                        "amenity": "restaurant",
+                        "contact:facebook": "https://www.facebook.com/profile.php?id=100063463186191",
+                        "diet:vegetarian": "yes",
+                        "email": "info@brasserieriviera.com",
+                        "internet_access": "wlan",
+                        "internet_access:fee": "customers",
+                        "internet_access:ssid": "RIVIERA",
+                        "level": "0",
+                        "name": "La Riviera",
+                        "opening_hours": "Mo-Su 07:30-23:00",
+                        "phone": "+41 21 616 53 09",
+                        "start_date": "1969",
+                        "website": "https://www.brasserieriviera.com"
+                    }
+                },
+                {
+                    "place_id": 1230808910,
+                    "name": "Ch\u00e2teau d'Ouchy",
+                    "location": {
+                        "lat": 46.506718,
+                        "lng": 6.6276147
+                    },
+                    "tags": {
+                        "amenity": "restaurant",
+                        "name": "Ch\u00e2teau d'Ouchy",
+                        "outdoor_seating": "yes",
+                        "phone": "+41 21 331 32 32",
+                        "website": "https://www.chateaudouchy.ch/en/restaurants-bars/"
+                    }
+                },
+                {
+                    "place_id": 1433812389,
+                    "name": "Cafe du Vieil Ouchy",
+                    "location": {
+                        "lat": 46.5071861,
+                        "lng": 6.6278714
+                    },
+                    "tags": {
+                        "addr:housenumber": "3",
+                        "addr:street": "Place du Port",
+                        "amenity": "restaurant",
+                        "contact:facebook": "https://www.facebook.com/pages/Caf%C3%A9-du-Vieil-Ouchy/562109700534037",
+                        "cuisine": "regional",
+                        "email": "info@vieilouchy.ch",
+                        "name": "Cafe du Vieil Ouchy",
+                        "opening_hours": "Mo-Fr 10:00-00:00; Sa, Su 09:00-00:00",
+                        "operator": "Carine Duca",
+                        "phone": "+41 21 616 21 94",
+                        "website": "https://www.vieilouchy.ch/"
+                    }
+                },
+                {
+                    "place_id": 1433812390,
+                    "name": "L\u2019Accademia",
+                    "location": {
+                        "lat": 46.5072597,
+                        "lng": 6.6283971
+                    },
+                    "tags": {
+                        "amenity": "restaurant",
+                        "check_date:opening_hours": "2024-04-18",
+                        "contact:instagram": "laccademia_",
+                        "cuisine": "italian",
+                        "diet:vegetarian": "yes",
+                        "name": "L\u2019Accademia",
+                        "opening_hours": "Mo-Su 12:00-14:00,19:00-22:00; ",
+                        "phone": "+41 21 613 39 74",
+                        "source:opening_hours": "website",
+                        "website": "https://www.angleterre-residence.ch/restaurants/laccademia/"
+                    }
+                },
+                {
+                    "place_id": 1433812391,
+                    "name": "Cr\u00eaperie d'Ouchy",
+                    "location": {
+                        "lat": 46.5071933,
+                        "lng": 6.6281182
+                    },
+                    "tags": {
+                        "amenity": "restaurant",
+                        "name": "Cr\u00eaperie d'Ouchy",
+                        "opening_hours": "Mo-Fr 12:00-21:00; Sa,Su 11:30-21:00",
+                        "phone": "+41 21 616 26 07",
+                        "website": "https://www.ouchycrep.ch/"
+                    }
+                },
+                {
+                    "place_id": 3515520557,
+                    "name": "La Jonque",
+                    "location": {
+                        "lat": 46.5121889,
+                        "lng": 6.6250716
+                    },
+                    "tags": {
+                        "addr:city": "Lausanne",
+                        "addr:country": "CH",
+                        "addr:housenumber": "15",
+                        "addr:postcode": "1007",
+                        "addr:street": "Avenue de Cour",
+                        "amenity": "restaurant",
+                        "cuisine": "chinese;cantonese",
+                        "name": "La Jonque",
+                        "opening_hours": "Mo-Sa 11:45-14:00, Mo-Su 18:30-22:00",
+                        "phone": "+41 21 616 55 11",
+                        "website": "https://www.lajonque.com/",
+                        "wheelchair": "yes"
+                    }
+                },
+                {
+                    "place_id": 3687461622,
+                    "name": "L'ardoise",
+                    "location": {
+                        "lat": 46.5124076,
+                        "lng": 6.6277297
+                    },
+                    "tags": {
+                        "addr:housenumber": "4",
+                        "addr:street": "Avenue de Cour",
+                        "amenity": "restaurant",
+                        "cuisine": "fine_dining",
+                        "name": "L'ardoise",
+                        "opening_hours": "Mo-Fr 12:00-14:00, Tu-Sa 19:00-23:00",
+                        "phone": "+41 21 613 07 00",
+                        "stars": "4",
+                        "website": "https://www.carltonlausanne.com/bar-restaurant"
+                    }
+                },
+                {
+                    "place_id": 4395835227,
+                    "name": "Le Quai Gourmand",
+                    "location": {
+                        "lat": 46.5076477,
+                        "lng": 6.6252184
+                    },
+                    "tags": {
+                        "amenity": "restaurant",
+                        "name": "Le Quai Gourmand",
+                        "opening_hours": "Su-Fr 07:00-18:30; Sa 07:00-18:00"
+                    }
+                },
+                {
+                    "place_id": 4395837036,
+                    "name": "La croix d'ouchy",
+                    "location": {
+                        "lat": 46.5116352,
+                        "lng": 6.6297073
+                    },
+                    "tags": {
+                        "amenity": "restaurant",
+                        "check_date": "2024-04-29",
+                        "name": "La croix d'ouchy",
+                        "opening_hours": "Tu-Fr 11:00-24:00; Sa 18:00-24:00"
+                    }
+                },
+                {
+                    "place_id": 4861639006,
+                    "name": "Le Pinocchio",
+                    "location": {
+                        "lat": 46.5118185,
+                        "lng": 6.6256924
+                    },
+                    "tags": {
+                        "amenity": "restaurant",
+                        "contact:facebook": "restaurantlepinocchiolausanne",
+                        "cuisine": "italian;pizza",
+                        "name": "Le Pinocchio",
+                        "opening_hours": "Mo-Fr 11:00-14:30, Tu-Sa 18:00-23:00",
+                        "phone": "+41 21 616 40 37",
+                        "website": "http://www.le-pinocchio.ch/"
+                    }
+                },
+                {
+                    "place_id": 4861659193,
+                    "name": "Keyann",
+                    "location": {
+                        "lat": 46.5088525,
+                        "lng": 6.6261881
+                    },
+                    "tags": {
+                        "amenity": "restaurant",
+                        "name": "Keyann",
+                        "opening_hours": "Mo-Su 11:00-13:30,17:30-20:30"
+                    }
+                },
+                {
+                    "place_id": 5574606169,
+                    "name": "Saveurs d'ailleurs",
+                    "location": {
+                        "lat": 46.5076191,
+                        "lng": 6.6275019
+                    },
+                    "tags": {
+                        "addr:city": "Lausanne",
+                        "addr:housenumber": "67",
+                        "addr:postcode": "1006",
+                        "addr:street": "Avenue d'Ouchy",
+                        "amenity": "restaurant",
+                        "cuisine": "thai",
+                        "internet_access": "yes",
+                        "kids_area": "no",
+                        "name": "Saveurs d'ailleurs",
+                        "opening_hours": "Tu-Sa 11:00-20:00",
+                        "outdoor_seating": "no",
+                        "phone": "+41 21 601 67 67",
+                        "self_service": "yes",
+                        "takeaway": "yes",
+                        "website": "https://www.saveursdailleurs.ch/"
+                    }
+                },
+                {
+                    "place_id": 5678906240,
+                    "name": "Anne-Sophie Pic au Beau-Rivage Palace",
+                    "location": {
+                        "lat": 46.5079249,
+                        "lng": 6.6307278
+                    },
+                    "tags": {
+                        "amenity": "restaurant",
+                        "cuisine": "french",
+                        "name": "Anne-Sophie Pic au Beau-Rivage Palace",
+                        "stars": "2",
+                        "website": "https://www.brp.ch/restaurants-bars/anne-sophie-pic/le-restaurant/"
+                    }
+                },
+                {
+                    "place_id": 6501212358,
+                    "name": "Terrasse d'Ouchy",
+                    "location": {
+                        "lat": 46.5065757,
+                        "lng": 6.6257375
+                    },
+                    "tags": {
+                        "addr:city": "Lausanne",
+                        "addr:country": "CH",
+                        "addr:housenumber": "1A",
+                        "addr:postcode": "1006",
+                        "addr:street": "Place de la navigation",
+                        "amenity": "restaurant",
+                        "contact:facebook": "https://facebook.com/pages/Terrasse-Ouchy",
+                        "contact:instagram": "terrasse_ouchy",
+                        "name": "Terrasse d'Ouchy",
+                        "opening_hours": "Mo-Su 10:00-23:00",
+                        "phone": "+41 21 617 42 24",
+                        "website": "https://www.terrasse-ouchy.ch/"
+                    }
+                },
+                {
+                    "place_id": 7091380485,
+                    "name": "Le pr\u00e9-fleuri",
+                    "location": {
+                        "lat": 46.512799,
+                        "lng": 6.6298788
+                    },
+                    "tags": {
+                        "addr:housenumber": "22",
+                        "addr:postcode": "1006",
+                        "addr:street": "Avenue d'Ouchy",
+                        "amenity": "restaurant",
+                        "cuisine": "georgian",
+                        "name": "Le pr\u00e9-fleuri",
+                        "opening_hours": "Mo-Fr 09:00-23:00; Sa-Su 11:30-23:00",
+                        "phone": "+41 21 616 63 67",
+                        "website": "https://www.restaurantgeorgien.ch/"
+                    }
+                },
+                {
+                    "place_id": 8131580931,
+                    "name": "Hoian",
+                    "location": {
+                        "lat": 46.5076188,
+                        "lng": 6.6223241
+                    },
+                    "tags": {
+                        "addr:housenumber": "7",
+                        "addr:street": "Quai de la Nautique",
+                        "amenity": "restaurant",
+                        "cuisine": "vietnamese",
+                        "diet:vegetarian": "yes",
+                        "name": "Hoian",
+                        "opening_hours": "Mo-Su 11:30-14:30, 18:00-23:30",
+                        "website": "https://hoianbbq.com"
+                    }
+                },
+                {
+                    "place_id": 8851375026,
+                    "name": "SUSHIZEN Ouchy",
+                    "location": {
+                        "lat": 46.5071463,
+                        "lng": 6.6270683
+                    },
+                    "tags": {
+                        "addr:city": "Lausanne",
+                        "addr:housenumber": "76",
+                        "addr:postcode": "1006",
+                        "addr:street": "Avenue d'Ouchy",
+                        "amenity": "restaurant",
+                        "brand": "SUSHIZEN",
+                        "cuisine": "sushi;japanese",
+                        "name": "SUSHIZEN Ouchy",
+                        "outdoor_seating": "no",
+                        "takeaway": "only",
+                        "website": "https://www.sushizen.shop/francais/shop-page/sushizen-ouchy"
+                    }
+                },
+                {
+                    "place_id": 9533058317,
+                    "name": "White Horse",
+                    "location": {
+                        "lat": 46.5078598,
+                        "lng": 6.6272187
+                    },
+                    "tags": {
+                        "addr:postcode": "1006",
+                        "amenity": "restaurant",
+                        "contact:facebook": "whitehorselausanne",
+                        "contact:instagram": "whitehorselausanne",
+                        "name": "White Horse",
+                        "opening_hours": "Mo-Th 06:45-01:00; Fr 06:45-02:00; Sa 08:00-02:00; Su 08:00-01:00",
+                        "phone": "+41 21 616 75 75",
+                        "website": "https://whitehorse.ch/"
+                    }
+                },
+                {
+                    "place_id": 9611153817,
+                    "name": "Yasmine",
+                    "location": {
+                        "lat": 46.5106361,
+                        "lng": 6.6262733
+                    },
+                    "tags": {
+                        "amenity": "restaurant",
+                        "name": "Yasmine",
+                        "opening_hours": "Mo-Sa 11:30-14:30, 17:00-22:00"
+                    }
+                },
+                {
+                    "place_id": 9838532083,
+                    "name": "La Nautica",
+                    "location": {
+                        "lat": 46.5077021,
+                        "lng": 6.6226467
+                    },
+                    "tags": {
+                        "amenity": "restaurant",
+                        "cuisine": "italian",
+                        "name": "La Nautica",
+                        "website": "https://lanautica.ch/"
+                    }
+                },
+                {
+                    "place_id": 10082403116,
+                    "name": "Takayama",
+                    "location": {
+                        "lat": 46.5087759,
+                        "lng": 6.6274864
+                    },
+                    "tags": {
+                        "amenity": "restaurant",
+                        "cuisine": "japanese",
+                        "name": "Takayama",
+                        "phone": "+41 21 601 98 88"
+                    }
+                },
+                {
+                    "place_id": 10617723148,
+                    "name": "Piazza San Marco",
+                    "location": {
+                        "lat": 46.511786,
+                        "lng": 6.6291634
+                    },
+                    "tags": {
+                        "addr:city": "Lausanne",
+                        "addr:country": "CH",
+                        "addr:housenumber": "38",
+                        "addr:postcode": "1006",
+                        "addr:street": "Avenue d'Ouchy",
+                        "amenity": "restaurant",
+                        "capacity": "110",
+                        "cuisine": "italian",
+                        "diet:vegetarian": "yes",
+                        "internet_access": "wlan",
+                        "internet_access:fee": "customers",
+                        "name": "Piazza San Marco",
+                        "opening_hours": "Mo-Fr 09:00-14:30, 18:00-00:00; Sa 18:00-00:00",
+                        "outdoor_seating": "yes",
+                        "outdoor_seating:capacity": "50",
+                        "phone": "+41 21 601 27 20",
+                        "reservation": "yes",
+                        "website": "https://piazza-san-marco.ch/",
+                        "website:menu": "http://piazza-san-marco.ch/carte.php"
+                    }
+                }
+            ],
+            "count": 23,
+            "min_time": 0.06,
+            "closest_facility": {
+                "place_id": 10082403116,
+                "name": "Takayama",
+                "location": {
+                    "lat": 46.5087759,
+                    "lng": 6.6274864
+                },
+                "tags": {
+                    "amenity": "restaurant",
+                    "cuisine": "japanese",
+                    "name": "Takayama",
+                    "phone": "+41 21 601 98 88"
+                }
+            }
+        },
+        "kindergarten": {
+            "data": [],
+            "count": 0,
+            "min_time": null,
+            "closest_facility": null
+        },
+        "public_transportation": {
+            "data": [
+                {
+                    "place_id": 415763632,
+                    "name": "Taxi Services - Ouchy",
+                    "location": {
+                        "lat": 46.5068304,
+                        "lng": 6.6267484
+                    },
+                    "tags": {
+                        "amenity": "taxi",
+                        "name": "Taxi Services - Ouchy",
+                        "operator": "Taxi Services",
+                        "phone": "+41 844 814 814",
+                        "website": "https://www.taxiservices.ch/"
+                    }
+                }
+            ],
+            "count": 1,
+            "min_time": 3.39,
+            "closest_facility": {
+                "place_id": 415763632,
+                "name": "Taxi Services - Ouchy",
+                "location": {
+                    "lat": 46.5068304,
+                    "lng": 6.6267484
+                },
+                "tags": {
+                    "amenity": "taxi",
+                    "name": "Taxi Services - Ouchy",
+                    "operator": "Taxi Services",
+                    "phone": "+41 844 814 814",
+                    "website": "https://www.taxiservices.ch/"
+                }
+            }
+        },
+        "gym_fitness": {
+            "data": [],
+            "count": 0,
+            "min_time": null,
+            "closest_facility": null
+        },
+        "grocery_stores_supermarkets": {
+            "data": [
+                {
+                    "place_id": 282021895,
+                    "name": "Migros",
+                    "location": {
+                        "lat": 46.5079638,
+                        "lng": 6.6248618
+                    },
+                    "tags": {
+                        "addr:city": "Lausanne",
+                        "addr:housenumber": "2",
+                        "addr:postcode": "1007",
+                        "addr:street": "avenue de Rhodanie",
+                        "branch": "Partenaire",
+                        "brand": "Migros",
+                        "brand:wikidata": "Q680727",
+                        "brand:wikipedia": "en:Migros",
+                        "cash_withdrawal": "postfinance_card",
+                        "cash_withdrawal:fee": "no",
+                        "cash_withdrawal:purchase_required": "no",
+                        "cash_withdrawal:type": "checkout",
+                        "name": "Migros",
+                        "note": "The opening hours change during the winter but I was unable to find them (and I'm to lazy to really look :p)",
+                        "opening_hours": "Mo-Sa 08:00-21:00; Su 09:00-20:00",
+                        "payment:cash": "yes",
+                        "payment:credit_cards": "yes",
+                        "payment:debit_cards": "yes",
+                        "payment:maestro": "yes",
+                        "payment:mastercard": "yes",
+                        "payment:visa": "yes",
+                        "payment:visa_debit": "yes",
+                        "phone": "+41 58 573 73 40",
+                        "shop": "supermarket",
+                        "website": "https://filialen.migros.ch/fr/migros-partenaire-mp-ouchy"
+                    }
+                },
+                {
+                    "place_id": 9655509317,
+                    "name": "Kiosque & Alimentation de cour",
+                    "location": {
+                        "lat": 46.5122287,
+                        "lng": 6.6249352
+                    },
+                    "tags": {
+                        "name": "Kiosque & Alimentation de cour",
+                        "opening_hours": "Mo-Su 08:00-20:00",
+                        "shop": "convenience"
+                    }
+                },
+                {
+                    "place_id": 11128294705,
+                    "name": "Kim Hoa alimentation asiatique",
+                    "location": {
+                        "lat": 46.5094154,
+                        "lng": 6.6267061
+                    },
+                    "tags": {
+                        "addr:postcode": "1006",
+                        "name": "Kim Hoa alimentation asiatique",
+                        "opening_hours": "Mo 10:00-19:00; Tu-Fr 09:00-19:00; Sa 09:00-18:00; Su 10:00-18:00",
+                        "phone": "+41 21 617 25 54",
+                        "shop": "convenience",
+                        "website": "https://kim-hoa-produce-market.business.site/"
+                    }
+                }
+            ],
+            "count": 3,
+            "min_time": 2.49,
+            "closest_facility": {
+                "place_id": 11128294705,
+                "name": "Kim Hoa alimentation asiatique",
+                "location": {
+                    "lat": 46.5094154,
+                    "lng": 6.6267061
+                },
+                "tags": {
+                    "addr:postcode": "1006",
+                    "name": "Kim Hoa alimentation asiatique",
+                    "opening_hours": "Mo 10:00-19:00; Tu-Fr 09:00-19:00; Sa 09:00-18:00; Su 10:00-18:00",
+                    "phone": "+41 21 617 25 54",
+                    "shop": "convenience",
+                    "website": "https://kim-hoa-produce-market.business.site/"
+                }
+            }
+        },
+        "gas_ev_charging": {
+            "data": [
+                {
+                    "place_id": 360435741,
+                    "name": "Bateaux seulement",
+                    "location": {
+                        "lat": 46.5070058,
+                        "lng": 6.6214654
+                    },
+                    "tags": {
+                        "amenity": "fuel",
+                        "compressed_air": "no",
+                        "name": "Bateaux seulement",
+                        "operator": "Agip"
+                    }
+                }
+            ],
+            "count": 1,
+            "min_time": 8.93,
+            "closest_facility": {
+                "place_id": 360435741,
+                "name": "Bateaux seulement",
+                "location": {
+                    "lat": 46.5070058,
+                    "lng": 6.6214654
+                },
+                "tags": {
+                    "amenity": "fuel",
+                    "compressed_air": "no",
+                    "name": "Bateaux seulement",
+                    "operator": "Agip"
+                }
+            }
+        },
+        "schools": {
+            "data": [
+                {
+                    "place_id": 9532937417,
+                    "name": "Atelier c\u00e9ramique de la harpe - \u00c9cole de potterie",
+                    "location": {
+                        "lat": 46.5125876,
+                        "lng": 6.6258729
+                    },
+                    "tags": {
+                        "amenity": "school",
+                        "email": "bertibourquin@hotmail.com",
+                        "name": "Atelier c\u00e9ramique de la harpe - \u00c9cole de potterie",
+                        "opening_hours": "Mo, Th 19:30-21:30; Tu, Fr 19:00-21:00; We 09:30-11:30, 18:00-20:00, 13:30-15:00",
+                        "phone": "+41 79 733 12 24;+41 79 527 02 08",
+                        "website": "https://lepot.ch/"
+                    }
+                }
+            ],
+            "count": 1,
+            "min_time": 6.85,
+            "closest_facility": {
+                "place_id": 9532937417,
+                "name": "Atelier c\u00e9ramique de la harpe - \u00c9cole de potterie",
+                "location": {
+                    "lat": 46.5125876,
+                    "lng": 6.6258729
+                },
+                "tags": {
+                    "amenity": "school",
+                    "email": "bertibourquin@hotmail.com",
+                    "name": "Atelier c\u00e9ramique de la harpe - \u00c9cole de potterie",
+                    "opening_hours": "Mo, Th 19:30-21:30; Tu, Fr 19:00-21:00; We 09:30-11:30, 18:00-20:00, 13:30-15:00",
+                    "phone": "+41 79 733 12 24;+41 79 527 02 08",
+                    "website": "https://lepot.ch/"
+                }
+            }
+        }
+    }
+}

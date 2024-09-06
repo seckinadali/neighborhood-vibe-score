@@ -1,0 +1,3307 @@
+{
+    "original_address": {
+        "address": "8005 Z\u00fcrich, Heinrichstrasse 200",
+        "coordinates": [
+            47.3878165,
+            8.5251461
+        ]
+    },
+    "facilities": {
+        "bars": {
+            "data": [
+                {
+                    "place_id": 267345323,
+                    "name": "Big Ben Westside Pub",
+                    "location": {
+                        "lat": 47.3872345,
+                        "lng": 8.519462
+                    },
+                    "tags": {
+                        "addr:city": "Z\u00fcrich",
+                        "addr:country": "CH",
+                        "addr:housenumber": "234",
+                        "addr:postcode": "8005",
+                        "addr:street": "Hardstrasse",
+                        "amenity": "pub",
+                        "check_date": "2024-06-04",
+                        "name": "Big Ben Westside Pub",
+                        "opening_hours": "Tu,We 17:00-24:00, Th 17:00-01:00, Fr 16:00-02:00, Sa 15:00-02:00, Mo 17:00-22:00, Mo-Fr 11:00-14:00",
+                        "operator": "Holenstein Gastro",
+                        "outdoor_seating": "yes",
+                        "phone": "+41 44 271 02 66",
+                        "website": "https://www.bigbenwestside.ch/",
+                        "wheelchair": "no"
+                    }
+                },
+                {
+                    "place_id": 267345815,
+                    "name": "Billiardino",
+                    "location": {
+                        "lat": 47.388361,
+                        "lng": 8.5223501
+                    },
+                    "tags": {
+                        "addr:city": "Z\u00fcrich",
+                        "addr:housenumber": "245",
+                        "addr:street": "Heinrichstrasse",
+                        "amenity": "pub",
+                        "description": "Billardsport und Restaurant",
+                        "name": "Billiardino",
+                        "opening_hours": "Mo-Th 14:00-00:00, Fr 14:00-03:00, Sa 13:00-03:00, Su 13:00-00:00",
+                        "phone": "+41439603333",
+                        "sport": "billiards",
+                        "website": "https://www.billiardino.ch/"
+                    }
+                },
+                {
+                    "place_id": 283689479,
+                    "name": "4. Akt",
+                    "location": {
+                        "lat": 47.3895233,
+                        "lng": 8.5217251
+                    },
+                    "tags": {
+                        "addr:city": "Z\u00fcrich",
+                        "addr:country": "CH",
+                        "addr:housenumber": "262",
+                        "addr:postcode": "8005",
+                        "addr:street": "Heinrichstrasse",
+                        "amenity": "pub",
+                        "check_date": "2024-06-04",
+                        "name": "4. Akt",
+                        "opening_hours": "Mo 11:00-14:00,17:00-22:00, Tu,We 11:00-14:00,17:00-24:00, Th 11:00-14:00,17:00-01:00, Fr 11:00-14:00,16:00-02:00, Sa 15:00-02:00",
+                        "operator": "Holenstein Gastro",
+                        "outdoor_seating": "yes",
+                        "phone": "+41 44 271 03 68",
+                        "website": "https://4akt.ch/",
+                        "wheelchair": "no"
+                    }
+                },
+                {
+                    "place_id": 305586752,
+                    "name": "Sph\u00e8res",
+                    "location": {
+                        "lat": 47.3919262,
+                        "lng": 8.5187946
+                    },
+                    "tags": {
+                        "addr:city": "Z\u00fcrich",
+                        "addr:housenumber": "66",
+                        "addr:postcode": "8005",
+                        "addr:street": "Hardturmstrasse",
+                        "amenity": "bar",
+                        "check_date": "2024-01-18",
+                        "indoor_seating": "yes",
+                        "name": "Sph\u00e8res",
+                        "opening_hours": "Mo-Fr 08:00-22:30; Sa-Su 09:30-19:00",
+                        "outdoor_seating": "yes",
+                        "website": "https://spheres.cc/",
+                        "wheelchair": "limited"
+                    }
+                },
+                {
+                    "place_id": 444463631,
+                    "name": "Matahari Bar",
+                    "location": {
+                        "lat": 47.3840524,
+                        "lng": 8.5309307
+                    },
+                    "tags": {
+                        "addr:housenumber": "237",
+                        "addr:postcode": "8005",
+                        "addr:street": "Langstrasse",
+                        "amenity": "pub",
+                        "name": "Matahari Bar",
+                        "opening_hours": "Tu,We 17:00-02:00, Fr 17:00-04:00, Sa 19:00-04:00, Th 17:00-03:00",
+                        "website": "http://www.mataharibar.ch",
+                        "wheelchair": "no"
+                    }
+                },
+                {
+                    "place_id": 465277329,
+                    "name": "St. Joseph's Pub",
+                    "location": {
+                        "lat": 47.3863612,
+                        "lng": 8.5280176
+                    },
+                    "tags": {
+                        "addr:city": "Z\u00fcrich",
+                        "addr:country": "CH",
+                        "addr:housenumber": "23",
+                        "addr:postcode": "8005",
+                        "addr:street": "Fabrikstrasse",
+                        "amenity": "pub",
+                        "check_date": "2024-06-22",
+                        "name": "St. Joseph's Pub",
+                        "opening_hours": "Mo-Th 16:00-24:00; Fr 11:00-01:00; Sa 17:00-01:00",
+                        "operator": "Holenstein Gastro",
+                        "website": "https://www.st-josephs-pub.ch/",
+                        "wheelchair": "no"
+                    }
+                },
+                {
+                    "place_id": 598560604,
+                    "name": "Kasheme",
+                    "location": {
+                        "lat": 47.3827935,
+                        "lng": 8.5295411
+                    },
+                    "tags": {
+                        "addr:city": "Z\u00fcrich",
+                        "addr:country": "CH",
+                        "addr:housenumber": "56",
+                        "addr:postcode": "8005",
+                        "addr:street": "Neugasse",
+                        "amenity": "bar",
+                        "name": "Kasheme",
+                        "website": "http://www.kasheme.com/",
+                        "wheelchair": "no"
+                    }
+                },
+                {
+                    "place_id": 683372653,
+                    "name": "planet5",
+                    "location": {
+                        "lat": 47.3873408,
+                        "lng": 8.5304131
+                    },
+                    "tags": {
+                        "amenity": "bar",
+                        "check_date": "2024-02-25",
+                        "name": "planet5",
+                        "toilets:wheelchair": "yes",
+                        "wheelchair": "limited"
+                    }
+                },
+                {
+                    "place_id": 1596052317,
+                    "name": "Clouds",
+                    "location": {
+                        "lat": 47.3860207,
+                        "lng": 8.5171884
+                    },
+                    "tags": {
+                        "addr:city": "Z\u00fcrich",
+                        "addr:housenumber": "5",
+                        "addr:postcode": "8005",
+                        "addr:street": "Maagplatz",
+                        "amenity": "bar",
+                        "level": "36",
+                        "name": "Clouds",
+                        "operator": "Candrian Catering",
+                        "website": "https://clouds.ch/#bar",
+                        "wheelchair": "yes"
+                    }
+                },
+                {
+                    "place_id": 1937429081,
+                    "name": "Hotel Rivington & Sons",
+                    "location": {
+                        "lat": 47.3862839,
+                        "lng": 8.5174558
+                    },
+                    "tags": {
+                        "addr:city": "Z\u00fcrich",
+                        "addr:country": "CH",
+                        "addr:housenumber": "201",
+                        "addr:postcode": "8005",
+                        "addr:street": "Hardstrasse",
+                        "amenity": "bar",
+                        "name": "Hotel Rivington & Sons",
+                        "opening_hours": "Mo 07:00-23:00, Tu,We 07:00-24:00, Th 07:00-01:00, Fr 07:00-02:00, Sa 18:00-02:00",
+                        "website": "https://hotelrivingtonandsons.ch/",
+                        "wheelchair": "limited"
+                    }
+                },
+                {
+                    "place_id": 2904967414,
+                    "name": "Eldorado",
+                    "location": {
+                        "lat": 47.3836636,
+                        "lng": 8.5326533
+                    },
+                    "tags": {
+                        "addr:city": "Z\u00fcrich",
+                        "addr:housenumber": "109",
+                        "addr:postcode": "8005",
+                        "addr:street": "Limmatstrasse",
+                        "amenity": "bar",
+                        "check_date": "2023-04-07",
+                        "description": "Craft Beer Bar",
+                        "microbrewery": "yes",
+                        "name": "Eldorado",
+                        "outdoor_seating": "yes",
+                        "phone": "+41 43 540 90 31",
+                        "smoking": "outside",
+                        "website": "http://www.eldorado-zh.ch/",
+                        "wheelchair": "no"
+                    }
+                },
+                {
+                    "place_id": 2947456933,
+                    "name": "Barrio 5",
+                    "location": {
+                        "lat": 47.3865408,
+                        "lng": 8.5287954
+                    },
+                    "tags": {
+                        "amenity": "bar",
+                        "check_date": "2023-09-26",
+                        "name": "Barrio 5",
+                        "opening_hours": "Mo-Fr 11:30-14:00, Mo-Th 18:00-24:00; Fr,Sa 18:00-05:00",
+                        "website": "https://barrio5.ch/"
+                    }
+                },
+                {
+                    "place_id": 3297129089,
+                    "name": "novotelcafe",
+                    "location": {
+                        "lat": 47.3891581,
+                        "lng": 8.5166796
+                    },
+                    "tags": {
+                        "amenity": "bar",
+                        "name": "novotelcafe",
+                        "opening_hours": "Mo-Fr 06:00-23:00; Sa-Su",
+                        "wheelchair": "yes"
+                    }
+                },
+                {
+                    "place_id": 3393151844,
+                    "name": "Damm f\u00fcr Dich",
+                    "location": {
+                        "lat": 47.3904856,
+                        "lng": 8.5276442
+                    },
+                    "tags": {
+                        "addr:housenumber": "3",
+                        "addr:postcode": "8037",
+                        "addr:street": "H\u00f6nggerstrasse",
+                        "alt_name": "Damm",
+                        "amenity": "bar",
+                        "check_date": "2023-04-07",
+                        "indoor_seating": "yes",
+                        "name": "Damm f\u00fcr Dich",
+                        "opening_hours": "Mo-Fr 17:00-23:00; Sa 15:00-23:59",
+                        "outdoor_seating": "yes",
+                        "payment:credit_cards": "yes",
+                        "payment:debit_cards": "yes",
+                        "smoking": "outside",
+                        "toilets": "yes",
+                        "toilets:wheelchair": "yes",
+                        "wheelchair": "limited"
+                    }
+                },
+                {
+                    "place_id": 3854227063,
+                    "name": "The International Beer Bar",
+                    "location": {
+                        "lat": 47.3828872,
+                        "lng": 8.5287112
+                    },
+                    "tags": {
+                        "addr:city": "Z\u00fcrich",
+                        "addr:country": "CH",
+                        "addr:housenumber": "7",
+                        "addr:postcode": "8005",
+                        "addr:street": "Luisenstrasse",
+                        "amenity": "bar",
+                        "brewery": "various",
+                        "name": "The International Beer Bar",
+                        "opening_hours": "Mo-Su 16:00-24:00",
+                        "outdoor_seating": "yes",
+                        "website": "https://www.theinternational.ch/"
+                    }
+                },
+                {
+                    "place_id": 4408534201,
+                    "name": "Chicago Bar",
+                    "location": {
+                        "lat": 47.3825931,
+                        "lng": 8.5299484
+                    },
+                    "tags": {
+                        "addr:city": "Z\u00fcrich",
+                        "addr:postcode": "8005",
+                        "amenity": "bar",
+                        "check_date:opening_hours": "2022-07-07",
+                        "name": "Chicago Bar",
+                        "opening_hours:signed": "no",
+                        "wheelchair": "limited"
+                    }
+                },
+                {
+                    "place_id": 4509024289,
+                    "name": "Vineria Centrale",
+                    "location": {
+                        "lat": 47.3825403,
+                        "lng": 8.5300127
+                    },
+                    "tags": {
+                        "addr:city": "Z\u00fcrich",
+                        "addr:housenumber": "42",
+                        "addr:postcode": "8005",
+                        "addr:street": "Neugasse",
+                        "amenity": "bar",
+                        "check_date": "2023-06-10",
+                        "name": "Vineria Centrale",
+                        "outdoor_seating": "yes",
+                        "smoking": "outside",
+                        "website": "https://vineriacentrale.ch",
+                        "wheelchair": "yes"
+                    }
+                },
+                {
+                    "place_id": 4895551237,
+                    "name": "AYA",
+                    "location": {
+                        "lat": 47.3884868,
+                        "lng": 8.5206867
+                    },
+                    "tags": {
+                        "addr:city": "Z\u00fcrich",
+                        "addr:housenumber": "260",
+                        "addr:postcode": "8005",
+                        "addr:street": "Hardstrasse",
+                        "amenity": "bar",
+                        "name": "AYA",
+                        "opening_hours": "Mo-Th 08:30-24:00, Fr 08:30-01:00, Sa 14:00-01:00, Su 13:00-24:00",
+                        "outdoor_seating": "yes",
+                        "website": "https://www.aya-bar.ch/",
+                        "wheelchair": "yes"
+                    }
+                },
+                {
+                    "place_id": 4906342670,
+                    "name": "IQ Bar",
+                    "location": {
+                        "lat": 47.3900813,
+                        "lng": 8.522261
+                    },
+                    "tags": {
+                        "addr:city": "Z\u00fcrich",
+                        "addr:housenumber": "316",
+                        "addr:postcode": "8005",
+                        "addr:street": "Hardstrasse",
+                        "amenity": "bar",
+                        "check_date": "2024-01-19",
+                        "indoor_seating": "yes",
+                        "name": "IQ Bar",
+                        "opening_hours": "Mo-Th 11:30-01:00, Fr 11:30-02:00, Sa 18:00-02:00",
+                        "opening_hours:covid19": "Mo-Fr 16:00-24:00; Sa: 18:00-24:00",
+                        "outdoor_seating": "yes"
+                    }
+                },
+                {
+                    "place_id": 5833437957,
+                    "name": "Don Weber",
+                    "location": {
+                        "lat": 47.3878238,
+                        "lng": 8.5244351
+                    },
+                    "tags": {
+                        "amenity": "bar",
+                        "check_date": "2024-04-14",
+                        "name": "Don Weber",
+                        "website": "https://donweber.ch/"
+                    }
+                },
+                {
+                    "place_id": 6327686792,
+                    "name": "NietturmBar",
+                    "location": {
+                        "lat": 47.3887737,
+                        "lng": 8.5189288
+                    },
+                    "tags": {
+                        "addr:city": "Z\u00fcrich",
+                        "addr:housenumber": "4",
+                        "addr:postcode": "8005",
+                        "addr:street": "Schiffbaustrasse",
+                        "amenity": "bar",
+                        "name": "NietturmBar",
+                        "website": "https://www.nietturm.ch"
+                    }
+                },
+                {
+                    "place_id": 7996050275,
+                    "name": "Escherwyss Shisha Lounge",
+                    "location": {
+                        "lat": 47.3873982,
+                        "lng": 8.5196228
+                    },
+                    "tags": {
+                        "amenity": "bar",
+                        "name": "Escherwyss Shisha Lounge",
+                        "opening_hours": "Mo-Th 11:00-02:00, Fr,Sa 11:00-04:00, Su 11:00-02:00",
+                        "website": "https://escherwyss-shisha-lounge.ch/"
+                    }
+                },
+                {
+                    "place_id": 9234454006,
+                    "name": "M\u00e4x Club",
+                    "location": {
+                        "lat": 47.3867082,
+                        "lng": 8.5171685
+                    },
+                    "tags": {
+                        "addr:city": "Z\u00fcrich",
+                        "addr:country": "CH",
+                        "addr:housenumber": "24",
+                        "addr:postcode": "8005",
+                        "addr:street": "Zahnradstrasse",
+                        "amenity": "bar",
+                        "name": "M\u00e4x Club",
+                        "website": "https://maexzuerich.com/impressum/"
+                    }
+                },
+                {
+                    "place_id": 10048648151,
+                    "name": "k2",
+                    "location": {
+                        "lat": 47.3865085,
+                        "lng": 8.5164968
+                    },
+                    "tags": {
+                        "addr:city": "Z\u00fcrich",
+                        "addr:housenumber": "22",
+                        "addr:postcode": "8005",
+                        "addr:street": "Zahnradstrasse",
+                        "amenity": "bar",
+                        "level": "0",
+                        "name": "k2",
+                        "opening_hours": "Mo-Fr 11:30-13:30; PH closed",
+                        "website": "https://k2bistro.ch",
+                        "wheelchair": "no"
+                    }
+                },
+                {
+                    "place_id": 11091863725,
+                    "name": "Haus am Fluss",
+                    "location": {
+                        "lat": 47.3888831,
+                        "lng": 8.5281704
+                    },
+                    "tags": {
+                        "addr:housenumber": "274",
+                        "addr:street": "Sihlquai",
+                        "amenity": "bar",
+                        "check_date": "2024-02-13",
+                        "name": "Haus am Fluss",
+                        "opening_hours": "Mo 17:00-23:00; Tu, We 11:00-23:00; Th-Sa 11:00-00:00; Su 11:00-22:00",
+                        "website": "https://haus-am-fluss.ch/"
+                    }
+                }
+            ],
+            "count": 25,
+            "min_time": 0.7,
+            "closest_facility": {
+                "place_id": 5833437957,
+                "name": "Don Weber",
+                "location": {
+                    "lat": 47.3878238,
+                    "lng": 8.5244351
+                },
+                "tags": {
+                    "amenity": "bar",
+                    "check_date": "2024-04-14",
+                    "name": "Don Weber",
+                    "website": "https://donweber.ch/"
+                }
+            }
+        },
+        "restaurants": {
+            "data": [
+                {
+                    "place_id": 261914358,
+                    "name": "Dar",
+                    "location": {
+                        "lat": 47.3835914,
+                        "lng": 8.5283234
+                    },
+                    "tags": {
+                        "addr:city": "Z\u00fcrich",
+                        "addr:housenumber": "5",
+                        "addr:postcode": "8005",
+                        "addr:street": "Gasometerstrasse",
+                        "amenity": "restaurant",
+                        "check_date": "2024-02-25",
+                        "check_date:opening_hours": "2023-09-11",
+                        "cuisine": "moroccan",
+                        "diet:vegan": "yes",
+                        "indoor_seating": "yes",
+                        "name": "Dar",
+                        "opening_hours": "We-Fr 18:00-22:00; Sa,Su 10:00-14:00,18:00-22:00",
+                        "outdoor_seating": "yes",
+                        "reservation": "yes",
+                        "toilets": "yes",
+                        "toilets:wheelchair": "yes",
+                        "website": "https://www.restaurantdar.com/",
+                        "wheelchair": "yes"
+                    }
+                },
+                {
+                    "place_id": 267345309,
+                    "name": "Soho",
+                    "location": {
+                        "lat": 47.3884346,
+                        "lng": 8.5208041
+                    },
+                    "tags": {
+                        "addr:city": "Z\u00fcrich",
+                        "addr:country": "CH",
+                        "addr:housenumber": "260",
+                        "addr:postcode": "8005",
+                        "addr:street": "Hardstrasse",
+                        "amenity": "restaurant",
+                        "cuisine": "steak_house;tapas",
+                        "name": "Soho",
+                        "opening_hours": "Tu-Th 17:00-24:00, Fr 17:00-02:00, Sa 18:00-04:00",
+                        "website": "https://www.soho-zurich.ch/"
+                    }
+                },
+                {
+                    "place_id": 299610695,
+                    "name": "Don Weber",
+                    "location": {
+                        "lat": 47.3878614,
+                        "lng": 8.5244404
+                    },
+                    "tags": {
+                        "amenity": "restaurant",
+                        "check_date": "2024-04-14",
+                        "cuisine": "mexican",
+                        "name": "Don Weber",
+                        "opening_hours": "Mo-Fr 11:30-24:00, Sa 17:00-24:00, Su 17:00-23:00",
+                        "opening_hours:covid19": "Tu-Fr 11:30-24:00; Sa 17:00-24:00",
+                        "opening_hours:kitchen": "Mo-Fr 11:30-14:00, Mo-Sa 18:00-24:00, Su 18:00-23:00",
+                        "website": "https://donweber.ch/",
+                        "wheelchair": "yes"
+                    }
+                },
+                {
+                    "place_id": 305586626,
+                    "name": "Les Halles",
+                    "location": {
+                        "lat": 47.3878633,
+                        "lng": 8.5186448
+                    },
+                    "tags": {
+                        "addr:city": "Z\u00fcrich",
+                        "addr:housenumber": "6",
+                        "addr:postcode": "8005",
+                        "addr:street": "Pfingstweidstrasse",
+                        "amenity": "restaurant",
+                        "cuisine": "french",
+                        "name": "Les Halles",
+                        "opening_hours": "Mo-We 11:00-24:00; Th,Fr 11:00+ \"11:00 till late\"; Sa 16:00+ \"16:00 till late\"",
+                        "website": "https://www.les-halles.ch",
+                        "wheelchair": "no"
+                    }
+                },
+                {
+                    "place_id": 312580271,
+                    "name": "LILY'S",
+                    "location": {
+                        "lat": 47.3825398,
+                        "lng": 8.5296036
+                    },
+                    "tags": {
+                        "addr:city": "Z\u00fcrich",
+                        "addr:country": "CH",
+                        "addr:housenumber": "197",
+                        "addr:postcode": "8005",
+                        "addr:street": "Langstrasse",
+                        "amenity": "restaurant",
+                        "check_date": "2024-02-12",
+                        "cuisine": "asian",
+                        "delivery": "yes",
+                        "name": "LILY'S",
+                        "opening_hours": "Mo-Sa 11:00-24:00; Su 12:00-22:30",
+                        "payment:postfinance_card": "yes",
+                        "phone": "+41 44 440 18 85",
+                        "smoking": "no",
+                        "takeaway": "yes",
+                        "website": "https://lilys.ch/",
+                        "wheelchair": "no"
+                    }
+                },
+                {
+                    "place_id": 321000070,
+                    "name": "Stazione Paradiso",
+                    "location": {
+                        "lat": 47.3867368,
+                        "lng": 8.5340332
+                    },
+                    "tags": {
+                        "addr:city": "Z\u00fcrich",
+                        "addr:housenumber": "89a",
+                        "addr:postcode": "8037",
+                        "addr:street": "Wasserwerkstrasse",
+                        "amenity": "restaurant",
+                        "diet:vegan": "yes",
+                        "diet:vegetarian": "yes",
+                        "indoor_seating": "yes",
+                        "name": "Stazione Paradiso",
+                        "opening_hours": "We-Fr 11:30-00:00; Sa, Su 11:30-00:00",
+                        "outdoor_seating": "yes",
+                        "smoking": "outside",
+                        "website": "https://www.stazioneparadiso.ch/",
+                        "wheelchair": "limited"
+                    }
+                },
+                {
+                    "place_id": 385208811,
+                    "name": "LaSalle",
+                    "location": {
+                        "lat": 47.3886695,
+                        "lng": 8.5191166
+                    },
+                    "tags": {
+                        "addr:city": "Z\u00fcrich",
+                        "addr:housenumber": "4",
+                        "addr:postcode": "8005",
+                        "addr:street": "Schiffbaustrasse",
+                        "amenity": "restaurant",
+                        "cuisine": "regional",
+                        "email": "info@lasalle-restaurant.ch",
+                        "fax": "+41 44 258 70 71",
+                        "name": "LaSalle",
+                        "opening_hours": "Mo-Tu 11:00-24:00, We-Th 11:00-01:00, Fr 11:00-02:00, Sa 17:00-02:00, Su 17:00-24:00",
+                        "phone": "+41 44 258 70 71",
+                        "website": "https://www.lasalle-restaurant.ch",
+                        "wheelchair": "yes"
+                    }
+                },
+                {
+                    "place_id": 432809553,
+                    "name": "threeOfive",
+                    "location": {
+                        "lat": 47.3899318,
+                        "lng": 8.5212819
+                    },
+                    "tags": {
+                        "addr:housenumber": "305",
+                        "addr:postcode": "8005",
+                        "addr:street": "Hardstrasse",
+                        "amenity": "restaurant",
+                        "check_date": "2024-02-11",
+                        "diet:vegetarian": "yes",
+                        "name": "threeOfive",
+                        "opening_hours": "11:30-13:30",
+                        "phone": "+41 43 544 82 30",
+                        "website": "https://threeofive.sv-restaurant.ch/",
+                        "wheelchair": "no"
+                    }
+                },
+                {
+                    "place_id": 446784539,
+                    "name": "Spicy Box",
+                    "location": {
+                        "lat": 47.382624,
+                        "lng": 8.5312467
+                    },
+                    "tags": {
+                        "addr:housenumber": "77",
+                        "addr:street": "Josefstrasse",
+                        "amenity": "restaurant",
+                        "check_date": "2024-03-26",
+                        "cuisine": "indian",
+                        "name": "Spicy Box",
+                        "wheelchair": "no"
+                    }
+                },
+                {
+                    "place_id": 451727063,
+                    "name": "Nooch Asian Kitchen",
+                    "location": {
+                        "lat": 47.3887272,
+                        "lng": 8.5213785
+                    },
+                    "tags": {
+                        "addr:city": "Z\u00fcrich",
+                        "addr:housenumber": "267",
+                        "addr:postcode": "8005",
+                        "addr:street": "Heinrichstrasse",
+                        "amenity": "restaurant",
+                        "branch": "Z\u00fcrich Steinfels",
+                        "cuisine": "asian;sushi",
+                        "delivery": "yes",
+                        "email": "steinfels@nooch.ch",
+                        "name": "Nooch Asian Kitchen",
+                        "opening_hours": "Mo-Th 11:00-23:00; Fr 11:00-24:00; Sa 12:00-24:00; Su 12:00-23:00",
+                        "opening_hours:covid19": "Mo-Fr 11:30-21:00; Sa-Su 12:00-21:00",
+                        "opening_hours:kitchen": "Mo-Th 11:00-22:00; Fr 11:00-23:00; Sa 12:00-23:00; Su 12:00-22:00",
+                        "operator": "Fredy Wiesner Gastronomie",
+                        "outdoor_seating": "yes",
+                        "phone": "+41 44 366 85 35",
+                        "takeaway": "yes",
+                        "website": "https://www.nooch.ch/nooch-zuerich-steinfels"
+                    }
+                },
+                {
+                    "place_id": 451727066,
+                    "name": "Brauerei Steinfels",
+                    "location": {
+                        "lat": 47.3884825,
+                        "lng": 8.5211173
+                    },
+                    "tags": {
+                        "addr:city": "Z\u00fcrich",
+                        "addr:country": "CH",
+                        "addr:housenumber": "267",
+                        "addr:postcode": "8005",
+                        "addr:street": "Heinrichstrasse",
+                        "amenity": "restaurant",
+                        "brewery": "yes",
+                        "capacity": "335",
+                        "cuisine": "burger",
+                        "microbrewery": "yes",
+                        "name": "Brauerei Steinfels",
+                        "opening_hours": "Mo-Th 11:00-24:00; Fr 11:00-01:00, Sa 13:00-01:00, Su 13:00-23:00",
+                        "opening_hours:covid19": "Mo-Th 11:00-14:00,17:00-22:00; Fr 11:00-14:00,16:00-24:00; Sa 17:00-24:00",
+                        "operator": "Kramer Gastronomie",
+                        "outdoor_seating": "yes",
+                        "takeaway": "beer",
+                        "website": "https://brauerei-steinfels.ch/"
+                    }
+                },
+                {
+                    "place_id": 451727077,
+                    "name": "Tibetasia",
+                    "location": {
+                        "lat": 47.3844648,
+                        "lng": 8.5278368
+                    },
+                    "tags": {
+                        "addr:city": "Z\u00fcrich",
+                        "addr:postcode": "8005",
+                        "amenity": "restaurant",
+                        "changing_table": "no",
+                        "check_date": "2024-06-04",
+                        "contact:phone": "+41 44 2712030",
+                        "contact:website": "https://tibetasia.ch",
+                        "cuisine": "asian;tibetan",
+                        "diet:vegetarian": "yes",
+                        "highchair": "yes",
+                        "name": "Tibetasia",
+                        "opening_hours": "Mo-Fr 11:30-14:00, 18:00-23:00; Sa 18:00-23:00; Su 17:30-22:00",
+                        "outdoor_seating": "yes",
+                        "payment:postfinance_card": "yes",
+                        "smoking": "no",
+                        "toilets:wheelchair": "no",
+                        "wheelchair": "no"
+                    }
+                },
+                {
+                    "place_id": 465612622,
+                    "name": "Damas",
+                    "location": {
+                        "lat": 47.384599,
+                        "lng": 8.5275777
+                    },
+                    "tags": {
+                        "addr:city": "Z\u00fcrich",
+                        "addr:housenumber": "51",
+                        "addr:postcode": "8005",
+                        "addr:street": "Josefstrasse",
+                        "alt_name": "Schwanen",
+                        "amenity": "restaurant",
+                        "check_date": "2024-06-04",
+                        "cuisine": "syrian",
+                        "email": "info@restaurantdamas.ch",
+                        "name": "Damas",
+                        "opening_hours": "Mo-Su 10:00-24:00",
+                        "outdoor_seating": "yes",
+                        "phone": "+41 44 273 28 58",
+                        "website": "http://www.restaurantdamas.ch",
+                        "wheelchair": "no"
+                    }
+                },
+                {
+                    "place_id": 470220209,
+                    "name": "Eisenhof",
+                    "location": {
+                        "lat": 47.3836276,
+                        "lng": 8.5287302
+                    },
+                    "tags": {
+                        "addr:city": "Z\u00fcrich",
+                        "addr:postcode": "8005",
+                        "amenity": "restaurant",
+                        "cuisine": "regional",
+                        "indoor_seating": "yes",
+                        "name": "Eisenhof",
+                        "opening_hours": "Mo-Fr 09:00-24:00; Sa 18:00-24:00",
+                        "outdoor_seating": "yes",
+                        "website": "https://www.restauranteisenhof.ch/",
+                        "wheelchair": "no"
+                    }
+                },
+                {
+                    "place_id": 480274061,
+                    "name": "Nordbr\u00fccke",
+                    "location": {
+                        "lat": 47.39337,
+                        "lng": 8.5294371
+                    },
+                    "tags": {
+                        "addr:city": "Z\u00fcrich",
+                        "addr:country": "CH",
+                        "addr:housenumber": "58",
+                        "addr:postcode": "8037",
+                        "addr:street": "Dammstrasse",
+                        "amenity": "restaurant",
+                        "check_date": "2022-08-14",
+                        "drive_in": "no",
+                        "internet_access": "wlan",
+                        "internet_access:fee": "yes",
+                        "microbrewery": "no",
+                        "name": "Nordbr\u00fccke",
+                        "opening_hours": "Mo-Th 08:00-01:00; Fr 08:00-02:00; Sa 09:00-02:00; Su 09:00-24:00",
+                        "phone": "+41 44 271 01 77",
+                        "smoking": "separated",
+                        "toilets:wheelchair": "yes",
+                        "website": "https://www.nordbruecke.ch/",
+                        "wheelchair": "yes"
+                    }
+                },
+                {
+                    "place_id": 480274132,
+                    "name": "The Artisan",
+                    "location": {
+                        "lat": 47.3935843,
+                        "lng": 8.5296761
+                    },
+                    "tags": {
+                        "addr:city": "Z\u00fcrich",
+                        "addr:housenumber": "4",
+                        "addr:postcode": "8037",
+                        "addr:street": "Nordbr\u00fccke",
+                        "amenity": "restaurant",
+                        "cuisine": "international",
+                        "indoor_seating": "yes",
+                        "name": "The Artisan",
+                        "outdoor_seating": "yes",
+                        "phone": "+41 44 501 35 71",
+                        "smoking": "outside",
+                        "takeaway": "no",
+                        "website": "https://theartisan.ch/"
+                    }
+                },
+                {
+                    "place_id": 582819971,
+                    "name": "AMO e lino",
+                    "location": {
+                        "lat": 47.3847471,
+                        "lng": 8.5311137
+                    },
+                    "tags": {
+                        "addr:city": "Z\u00fcrich",
+                        "addr:country": "CH",
+                        "addr:housenumber": "6",
+                        "addr:postcode": "8005",
+                        "addr:street": "Limmatplatz",
+                        "amenity": "restaurant",
+                        "check_date": "2024-06-04",
+                        "cuisine": "pizza",
+                        "diet:vegetarian": "yes",
+                        "name": "AMO e lino",
+                        "opening_hours": "Mo-Su 11:00-24:00",
+                        "outdoor_seating": "yes",
+                        "website": "https://amoelino.ch/",
+                        "wheelchair": "yes"
+                    }
+                },
+                {
+                    "place_id": 683388001,
+                    "name": "Don Paco",
+                    "location": {
+                        "lat": 47.3884508,
+                        "lng": 8.5257299
+                    },
+                    "tags": {
+                        "amenity": "restaurant",
+                        "check_date": "2024-02-19",
+                        "name": "Don Paco",
+                        "opening_hours": "Mo-Sa 11:30-14:30,18:00-23:00; Su off",
+                        "phone": "+41 44 271 18 19",
+                        "wheelchair": "no"
+                    }
+                },
+                {
+                    "place_id": 721046173,
+                    "name": "Limmathof",
+                    "location": {
+                        "lat": 47.3874963,
+                        "lng": 8.5272804
+                    },
+                    "tags": {
+                        "addr:city": "Z\u00fcrich",
+                        "addr:housenumber": "127",
+                        "addr:postcode": "8005",
+                        "addr:street": "Limmatstrasse",
+                        "amenity": "restaurant",
+                        "check_date": "2023-04-07",
+                        "indoor_seating": "yes",
+                        "name": "Limmathof",
+                        "opening_hours": "Mo-Fr 09:00-23:00; Sa 16:00-23:00",
+                        "outdoor_seating": "yes",
+                        "website": "https://www.arbeitskette.ch",
+                        "wheelchair": "no"
+                    }
+                },
+                {
+                    "place_id": 721046177,
+                    "name": "Alpenrose",
+                    "location": {
+                        "lat": 47.3871627,
+                        "lng": 8.528489
+                    },
+                    "tags": {
+                        "addr:city": "Z\u00fcrich",
+                        "addr:country": "CH",
+                        "addr:housenumber": "12",
+                        "addr:postcode": "8005",
+                        "addr:street": "Fabrikstrasse",
+                        "amenity": "restaurant",
+                        "check_date": "2024-02-13",
+                        "cuisine": "regional",
+                        "indoor_seating": "yes",
+                        "name": "Alpenrose",
+                        "opening_hours": "Tu-Fr 11:00-23:00; Sa 17:00-23:30; Su 17:00-22:00",
+                        "outdoor_seating": "yes",
+                        "website": "https://www.restaurantalpenrose.ch",
+                        "wheelchair": "no"
+                    }
+                },
+                {
+                    "place_id": 721046235,
+                    "name": "a fatt",
+                    "location": {
+                        "lat": 47.3863054,
+                        "lng": 8.5289489
+                    },
+                    "tags": {
+                        "addr:city": "Z\u00fcrich",
+                        "addr:country": "CH",
+                        "addr:housenumber": "189",
+                        "addr:postcode": "8005",
+                        "addr:street": "Limmatstrasse",
+                        "amenity": "restaurant",
+                        "check_date": "2024-02-13",
+                        "cuisine": "malaysian",
+                        "diet:vegan": "yes",
+                        "diet:vegetarian": "yes",
+                        "indoor_seating": "yes",
+                        "name": "a fatt",
+                        "opening_hours": "Sa,Su 11:00-22:00; We-Fr 11:00-14:00,17:00-22:00; Mo,Tu off",
+                        "outdoor_seating": "yes",
+                        "phone": "+41 44 304 16 89",
+                        "website": "https://restaurant-a-fatt.business.site",
+                        "wheelchair": "no"
+                    }
+                },
+                {
+                    "place_id": 725765073,
+                    "name": "Millennium",
+                    "location": {
+                        "lat": 47.3842264,
+                        "lng": 8.5319218
+                    },
+                    "tags": {
+                        "amenity": "restaurant",
+                        "check_date": "2024-03-26",
+                        "cuisine": "pizza",
+                        "diet:vegetarian": "yes",
+                        "name": "Millennium",
+                        "opening_hours": "Mo-Th, Su 06:30-04:00; Fr, Sa 00:00-24:00",
+                        "outdoor_seating": "yes",
+                        "website": "http://millennium-restaurant.ch/",
+                        "wheelchair": "no"
+                    }
+                },
+                {
+                    "place_id": 973933405,
+                    "name": "Migros Restaurant",
+                    "location": {
+                        "lat": 47.3855243,
+                        "lng": 8.5312041
+                    },
+                    "tags": {
+                        "addr:city": "Z\u00fcrich",
+                        "addr:country": "CH",
+                        "addr:housenumber": "152",
+                        "addr:postcode": "8005",
+                        "addr:street": "Limmatstrasse",
+                        "alt_name": "Migros Restaurant Limmatplatz",
+                        "amenity": "restaurant",
+                        "branch": "Z\u00fcrich Limmatplatz",
+                        "brand": "Migros Restaurant",
+                        "brand:wikidata": "Q680727",
+                        "check_date": "2023-06-02",
+                        "cuisine": "international",
+                        "delivery": "no",
+                        "diet:vegetarian": "yes",
+                        "internet_access": "wlan",
+                        "level": "0",
+                        "name": "Migros Restaurant",
+                        "opening_hours": "Mo-Sa 11:00-14:00; PH off",
+                        "operator": "Genossenschaft Migros Z\u00fcrich",
+                        "payment:mastercard": "yes",
+                        "payment:visa": "yes",
+                        "phone": "+41585635340",
+                        "self_service": "yes",
+                        "smoking": "no",
+                        "website": "https://filialen.migros.ch/de/migros-restaurant-zuerich-limmatplatz",
+                        "wheelchair": "yes"
+                    }
+                },
+                {
+                    "place_id": 1168864896,
+                    "name": "Viadukt",
+                    "location": {
+                        "lat": 47.3861863,
+                        "lng": 8.5209904
+                    },
+                    "tags": {
+                        "amenity": "restaurant",
+                        "check_date:opening_hours": "2023-09-26",
+                        "name": "Viadukt",
+                        "opening_hours": "Mo-Fr 11:15-13:30",
+                        "website": "https://zkb-hard.sv-restaurant.ch/de/menuplan/viadukt/",
+                        "wheelchair": "yes"
+                    }
+                },
+                {
+                    "place_id": 1373290925,
+                    "name": "Yume Ramen",
+                    "location": {
+                        "lat": 47.3823657,
+                        "lng": 8.5303266
+                    },
+                    "tags": {
+                        "addr:city": "Z\u00fcrich",
+                        "addr:postcode": "8005",
+                        "amenity": "restaurant",
+                        "check_date": "2024-01-20",
+                        "cuisine": "noodle",
+                        "name": "Yume Ramen",
+                        "opening_hours": "Mo,Su off; Tu-Fr 18:00-21:30; Sa 12:00-13:30,18:00-21:30",
+                        "operator": "Sala of Tokyo",
+                        "wheelchair": "no"
+                    }
+                },
+                {
+                    "place_id": 1375347141,
+                    "name": "Babo's Restaurant",
+                    "location": {
+                        "lat": 47.3819642,
+                        "lng": 8.5294299
+                    },
+                    "tags": {
+                        "addr:city": "Z\u00fcrich",
+                        "addr:housenumber": "192",
+                        "addr:postcode": "8005",
+                        "addr:street": "Langstrasse",
+                        "amenity": "restaurant",
+                        "indoor_seating": "yes",
+                        "name": "Babo's Restaurant",
+                        "outdoor_seating": "yes"
+                    }
+                },
+                {
+                    "place_id": 1375347145,
+                    "name": "Don\u2019t Worry Eat Curry",
+                    "location": {
+                        "lat": 47.3828582,
+                        "lng": 8.5307697
+                    },
+                    "tags": {
+                        "addr:city": "Z\u00fcrich",
+                        "addr:housenumber": "29",
+                        "addr:postcode": "8005",
+                        "addr:street": "Mattengasse",
+                        "amenity": "restaurant",
+                        "check_date": "2023-09-24",
+                        "check_date:opening_hours": "2022-10-13",
+                        "cuisine": "indian",
+                        "name": "Don\u2019t Worry Eat Curry",
+                        "opening_hours": "Mo-Th 11:30-22:00; Fr,Sa 11:30-23:00",
+                        "opening_hours:signed": "no",
+                        "phone": "+41 43 366 82 94",
+                        "takeaway": "yes",
+                        "website": "https://www.dontworry-eatcurry.ch/",
+                        "wheelchair": "no"
+                    }
+                },
+                {
+                    "place_id": 1383580139,
+                    "name": "Co Chin Chin",
+                    "location": {
+                        "lat": 47.3837599,
+                        "lng": 8.5284695
+                    },
+                    "tags": {
+                        "addr:city": "Z\u00fcrich",
+                        "addr:housenumber": "7",
+                        "addr:postcode": "8005",
+                        "addr:street": "Gasometerstrasse",
+                        "amenity": "restaurant",
+                        "check_date": "2024-06-04",
+                        "cuisine": "vietnamese",
+                        "indoor_seating": "yes",
+                        "name": "Co Chin Chin",
+                        "opening_hours": "Mo-Fr 11:00-14:30,18:00-23:00, Sa 10:00-24:00, Su 10:00-21:00",
+                        "outdoor_seating": "yes",
+                        "website": "https://www.cochinchin.ch",
+                        "wheelchair": "limited"
+                    }
+                },
+                {
+                    "place_id": 1383580144,
+                    "name": "Amigos Tapas",
+                    "location": {
+                        "lat": 47.3839003,
+                        "lng": 8.5307988
+                    },
+                    "tags": {
+                        "addr:city": "Z\u00fcrich",
+                        "addr:housenumber": "231",
+                        "addr:postcode": "8005",
+                        "addr:street": "Langstrasse",
+                        "amenity": "restaurant",
+                        "check_date": "2024-03-26",
+                        "name": "Amigos Tapas",
+                        "wheelchair": "limited"
+                    }
+                },
+                {
+                    "place_id": 1508362751,
+                    "name": "Restaurant Markthalle",
+                    "location": {
+                        "lat": 47.3876044,
+                        "lng": 8.5260285
+                    },
+                    "tags": {
+                        "addr:city": "Z\u00fcrich",
+                        "addr:country": "CH",
+                        "addr:housenumber": "231",
+                        "addr:postcode": "8005",
+                        "addr:street": "Limmatstrasse",
+                        "amenity": "restaurant",
+                        "check_date": "2024-06-04",
+                        "cuisine": "international",
+                        "description": "Im Viadukt, Bogen 36, 37, 46 und 47",
+                        "email": "info@restaurant-maha.ch",
+                        "indoor_seating": "yes",
+                        "name": "Restaurant Markthalle",
+                        "opening_hours": "Mo 09:00-23:00; Tu-Sa 09:00-24:00; Su off",
+                        "operator": "Gasometer AG",
+                        "outdoor_seating": "yes",
+                        "phone": "+41 44 201 00 60",
+                        "toilets:wheelchair": "yes",
+                        "website": "https://www.restaurant-maha.ch/",
+                        "wheelchair": "yes"
+                    }
+                },
+                {
+                    "place_id": 1525269373,
+                    "name": "Taj Palace",
+                    "location": {
+                        "lat": 47.3910244,
+                        "lng": 8.526532
+                    },
+                    "tags": {
+                        "addr:city": "Z\u00fcrich",
+                        "addr:country": "CH",
+                        "addr:housenumber": "25",
+                        "addr:postcode": "8037",
+                        "addr:street": "H\u00f6nggerstrasse",
+                        "amenity": "restaurant",
+                        "check_date": "2023-04-07",
+                        "cuisine": "indian",
+                        "name": "Taj Palace",
+                        "opening_hours": "Mo-Fr 12:00-14:00, 18:00-00:00; Sa-Su 18:00-00:00",
+                        "phone": "+41 44 271 67 20",
+                        "wheelchair": "no"
+                    }
+                },
+                {
+                    "place_id": 1525269376,
+                    "name": "Il Basilico H10",
+                    "location": {
+                        "lat": 47.3909511,
+                        "lng": 8.5272823
+                    },
+                    "tags": {
+                        "addr:city": "Z\u00fcrich",
+                        "addr:country": "CH",
+                        "addr:housenumber": "10",
+                        "addr:postcode": "8037",
+                        "addr:street": "H\u00f6nggerstrasse",
+                        "amenity": "restaurant",
+                        "cuisine": "italian;pizza",
+                        "delivery": "yes",
+                        "name": "Il Basilico H10",
+                        "opening_hours": "Mo-Sa 11:00-13:30, 17:00-23:00; Su, PH 11:30-23:00",
+                        "outdoor_seating": "yes",
+                        "phone": "+41 44 450 88 99",
+                        "takeaway": "yes",
+                        "website": "https://www.ilbasilico.ch/",
+                        "wheelchair": "yes"
+                    }
+                },
+                {
+                    "place_id": 1528733083,
+                    "name": "Da Pone",
+                    "location": {
+                        "lat": 47.3915816,
+                        "lng": 8.5251298
+                    },
+                    "tags": {
+                        "addr:city": "Z\u00fcrich",
+                        "addr:housenumber": "43",
+                        "addr:postcode": "8037",
+                        "addr:street": "H\u00f6nggerstrasse",
+                        "amenity": "restaurant",
+                        "check_date": "2024-06-18",
+                        "cuisine": "pizza",
+                        "highchair": "yes",
+                        "name": "Da Pone",
+                        "opening_hours": "Mo-Fr 11:30-14:00, 18:00-23:30; Sa-Su 11:30-23:30",
+                        "outdoor_seating": "yes",
+                        "phone": "+41 43 344 55 44",
+                        "takeaway": "yes",
+                        "website": "https://www.dapone.ch/",
+                        "wheelchair": "no"
+                    }
+                },
+                {
+                    "place_id": 1535240139,
+                    "name": "il Gallo",
+                    "location": {
+                        "lat": 47.3903732,
+                        "lng": 8.522875
+                    },
+                    "tags": {
+                        "addr:city": "Z\u00fcrich",
+                        "amenity": "restaurant",
+                        "level": "0",
+                        "name": "il Gallo"
+                    }
+                },
+                {
+                    "place_id": 1916287498,
+                    "name": "Wurst und Moritz",
+                    "location": {
+                        "lat": 47.3901439,
+                        "lng": 8.5223613
+                    },
+                    "tags": {
+                        "addr:city": "Z\u00fcrich",
+                        "addr:country": "CH",
+                        "addr:housenumber": "318",
+                        "addr:postcode": "8005",
+                        "addr:street": "Hardstrasse",
+                        "amenity": "restaurant",
+                        "check_date": "2024-01-18",
+                        "cuisine": "sausage",
+                        "diet:vegan": "yes",
+                        "diet:vegetarian": "yes",
+                        "indoor_seating": "yes",
+                        "name": "Wurst und Moritz",
+                        "opening_hours": "Mo-We 11:00-22:00; Th-Sa 10:00-23:45; Su 11:00-22:00",
+                        "opening_hours:covid19": "Mo-Su 11:00-18:00",
+                        "outdoor_seating": "yes",
+                        "source": "survey",
+                        "website": "http://wurstundmoritz-zuerich.ch/",
+                        "wheelchair": "no"
+                    }
+                },
+                {
+                    "place_id": 1937429078,
+                    "name": "Brisket",
+                    "location": {
+                        "lat": 47.387695,
+                        "lng": 8.5187881
+                    },
+                    "tags": {
+                        "addr:city": "Z\u00fcrich",
+                        "addr:housenumber": "6",
+                        "addr:postcode": "8005",
+                        "addr:street": "Pfingstweidstrasse",
+                        "amenity": "restaurant",
+                        "check_date": "2024-01-30",
+                        "cuisine": "Southern_BBQ;american",
+                        "indoor_seating": "yes",
+                        "name": "Brisket",
+                        "opening_hours": "Tu-Fr 11:30-13:30,17:00-23:00; Sa 16:00-23:00",
+                        "outdoor_seating": "yes",
+                        "website": "https://www.brisket.ch/"
+                    }
+                },
+                {
+                    "place_id": 1937429085,
+                    "name": "LY'S Asia",
+                    "location": {
+                        "lat": 47.3863155,
+                        "lng": 8.5167264
+                    },
+                    "tags": {
+                        "addr:city": "Z\u00fcrich",
+                        "addr:country": "CH",
+                        "addr:housenumber": "21",
+                        "addr:postcode": "8005",
+                        "addr:street": "Zahnradstrasse",
+                        "alt_name": "LY'S Asia Maag-Areal",
+                        "amenity": "restaurant",
+                        "branch": "Z\u00fcrich Industrie",
+                        "cuisine": "asian",
+                        "email": "contact@lys-asia.ch",
+                        "name": "LY'S Asia",
+                        "opening_hours": "Sa 17:00-24:00; Su-Fr 11:00-15:00,17:00-24:00",
+                        "operator": "LCL Gastro",
+                        "phone": "+41 44 999 08 08",
+                        "website": "https://lys-asia.ch/restaurant/"
+                    }
+                },
+                {
+                    "place_id": 1978573308,
+                    "name": "Cinque",
+                    "location": {
+                        "lat": 47.383294,
+                        "lng": 8.5301807
+                    },
+                    "tags": {
+                        "addr:city": "Z\u00fcrich",
+                        "addr:country": "CH",
+                        "addr:housenumber": "215",
+                        "addr:postcode": "8005",
+                        "addr:street": "Langstrasse",
+                        "amenity": "restaurant",
+                        "check_date": "2024-06-04",
+                        "cuisine": "italian",
+                        "name": "Cinque",
+                        "opening_hours": "Mo-Fr 11:30-14:00, Mo-Sa 18:00-24:00",
+                        "website": "http://www.restaurant-cinque.ch",
+                        "wheelchair": "no"
+                    }
+                },
+                {
+                    "place_id": 2069791719,
+                    "name": "Aubrey",
+                    "location": {
+                        "lat": 47.3891509,
+                        "lng": 8.5177829
+                    },
+                    "tags": {
+                        "addr:city": "Z\u00fcrich",
+                        "addr:housenumber": "10",
+                        "addr:postcode": "8005",
+                        "addr:street": "Schiffbaustrasse",
+                        "amenity": "restaurant",
+                        "indoor_seating": "yes",
+                        "name": "Aubrey",
+                        "opening_hours": "Mo-Th 11:00-24:00; Fr 11:00-04:00, Sa 18:00-04:00",
+                        "outdoor_seating": "yes",
+                        "website": "https://www.aubrey.ch/"
+                    }
+                },
+                {
+                    "place_id": 2124855613,
+                    "name": "Frau Gerolds Garten",
+                    "location": {
+                        "lat": 47.385169,
+                        "lng": 8.5190628
+                    },
+                    "tags": {
+                        "addr:city": "Z\u00fcrich",
+                        "addr:housenumber": "23",
+                        "addr:postcode": "8005",
+                        "addr:street": "Geroldstrasse",
+                        "amenity": "restaurant",
+                        "check_date:opening_hours": "2024-06-06",
+                        "indoor_seating": "yes",
+                        "name": "Frau Gerolds Garten",
+                        "opening_hours": "Th-Sa 11:00-23:45; Su 12:00-22:00; Mo-We 11:00-23:00",
+                        "outdoor_seating": "yes",
+                        "website": "https://www.fraugerold.ch"
+                    }
+                },
+                {
+                    "place_id": 2465121289,
+                    "name": "Rosso",
+                    "location": {
+                        "lat": 47.3854018,
+                        "lng": 8.5183169
+                    },
+                    "tags": {
+                        "addr:city": "Zurich",
+                        "addr:housenumber": "31",
+                        "addr:postcode": "8005",
+                        "addr:street": "Geroldstrasse",
+                        "amenity": "restaurant",
+                        "check_date:opening_hours": "2023-09-11",
+                        "check_date:opening_hours:url": "2023-09-11",
+                        "cuisine": "italian",
+                        "name": "Rosso",
+                        "opening_hours": "Mo off; Tu-Fr 11:30-14:00,18:00-00:30; Sa 18:00-00:30; Su 17:30-00:30",
+                        "opening_hours:url": "https://restaurant-rosso.ch/oeffnungszeiten/",
+                        "phone": "+41 43 818 22 54",
+                        "website": "https://www.restaurant-rosso.ch"
+                    }
+                },
+                {
+                    "place_id": 2674582306,
+                    "name": "Manjaal",
+                    "location": {
+                        "lat": 47.3843311,
+                        "lng": 8.5286143
+                    },
+                    "tags": {
+                        "addr:city": "Z\u00fcrich",
+                        "addr:housenumber": "25",
+                        "addr:postcode": "8005",
+                        "addr:street": "Motorenstrasse",
+                        "amenity": "restaurant",
+                        "check_date": "2024-06-04",
+                        "cuisine": "indian",
+                        "name": "Manjaal",
+                        "outdoor_seating": "yes",
+                        "phone": "+41 43 321 30 50",
+                        "wheelchair": "no"
+                    }
+                },
+                {
+                    "place_id": 2697748607,
+                    "name": "Costa Brava",
+                    "location": {
+                        "lat": 47.3885207,
+                        "lng": 8.5256303
+                    },
+                    "tags": {
+                        "amenity": "restaurant",
+                        "check_date": "2024-02-19",
+                        "cuisine": "spanish",
+                        "name": "Costa Brava",
+                        "not:brand:wikidata": "Q608845",
+                        "opening_hours": "Mo-Fr 11:30-14:30, Mo-Sa 18:00-24:00",
+                        "phone": "+41 44 272 27 71",
+                        "website": "https://www.costabrava-zuerich.ch/",
+                        "wheelchair": "no"
+                    }
+                },
+                {
+                    "place_id": 2697748612,
+                    "name": "Pizzeria Margheri",
+                    "location": {
+                        "lat": 47.3886259,
+                        "lng": 8.5253686
+                    },
+                    "tags": {
+                        "addr:city": "Z\u00fcrich",
+                        "addr:housenumber": "273",
+                        "addr:postcode": "8005",
+                        "addr:street": "Limmatstrasse",
+                        "amenity": "restaurant",
+                        "cuisine": "italian",
+                        "name": "Pizzeria Margheri",
+                        "old_name": "Italian Monkey",
+                        "phone": "+41 43 366 86 04",
+                        "website": "https://margheri.ch/"
+                    }
+                },
+                {
+                    "place_id": 2904476133,
+                    "name": "4Leoni Firenze",
+                    "location": {
+                        "lat": 47.3843323,
+                        "lng": 8.5302362
+                    },
+                    "tags": {
+                        "addr:city": "Z\u00fcrich",
+                        "addr:housenumber": "43",
+                        "addr:postcode": "8005",
+                        "addr:street": "Luisenstrasse",
+                        "amenity": "restaurant",
+                        "check_date": "2024-06-04",
+                        "contact:phone": "+41 44 271 00 66",
+                        "contact:website": "www.4leoni-firenze.ch",
+                        "cuisine": "italian",
+                        "name": "4Leoni Firenze",
+                        "opening_hours": "Mo-Fr 11:30-14:30,18:00-23:30; Sa 18:00-23:30; Su 11:30-23:30",
+                        "outdoor_seating": "yes",
+                        "website": "https://4leoni-firenze.ch/",
+                        "wheelchair": "no"
+                    }
+                },
+                {
+                    "place_id": 2904476134,
+                    "name": "Valentin's",
+                    "location": {
+                        "lat": 47.3846382,
+                        "lng": 8.5297901
+                    },
+                    "tags": {
+                        "amenity": "restaurant",
+                        "check_date": "2024-02-20",
+                        "check_date:opening_hours": "2021-02-07",
+                        "name": "Valentin's",
+                        "opening_hours": "Mo-Fr 11:30-14:00,17:30-24:00, Sa 18:00-02:00",
+                        "wheelchair": "no"
+                    }
+                },
+                {
+                    "place_id": 2904476135,
+                    "name": "La Contrada",
+                    "location": {
+                        "lat": 47.384832,
+                        "lng": 8.5295929
+                    },
+                    "tags": {
+                        "addr:housenumber": "83",
+                        "addr:street": "Heinrichstrasse",
+                        "amenity": "restaurant",
+                        "check_date": "2024-02-20",
+                        "contact:email": "info@lacontrada.ch",
+                        "name": "La Contrada",
+                        "opening_hours": "Tu-Fr 10:00-14:00, 17:30-00:30; Sa, Su 17:30-00:30",
+                        "phone": "+41442725090",
+                        "website": "https://www.lacontrada.ch/",
+                        "wheelchair": "no"
+                    }
+                },
+                {
+                    "place_id": 2904476136,
+                    "name": "Friends Corner",
+                    "location": {
+                        "lat": 47.3847907,
+                        "lng": 8.5277141
+                    },
+                    "tags": {
+                        "addr:city": "Z\u00fcrich",
+                        "addr:housenumber": "146",
+                        "addr:postcode": "8005",
+                        "addr:street": "Josefstrasse",
+                        "amenity": "restaurant",
+                        "check_date": "2024-06-04",
+                        "check_date:opening_hours": "2023-01-15",
+                        "cuisine": "indian",
+                        "name": "Friends Corner",
+                        "opening_hours": "Mo-Sa 11:00-22:30",
+                        "wheelchair": "no",
+                        "wheelchair:description": "Terassensitzpl\u00e4tze vor dem Restaurant"
+                    }
+                },
+                {
+                    "place_id": 2904487294,
+                    "name": "Josef",
+                    "location": {
+                        "lat": 47.3838905,
+                        "lng": 8.5289598
+                    },
+                    "tags": {
+                        "addr:city": "Z\u00fcrich",
+                        "addr:housenumber": "24",
+                        "addr:postcode": "8005",
+                        "addr:street": "Gasometerstrasse",
+                        "amenity": "restaurant",
+                        "check_date": "2024-06-04",
+                        "cuisine": "regional",
+                        "name": "Josef",
+                        "opening_hours": "Mo-Th 17:00-18:30 \"nur Bar\", 18:30-01:00, Fr-Sa 17:00-18:30 \"nur Bar\", 18:30-02:00",
+                        "outdoor_seating": "yes",
+                        "website": "https://www.josef.ch/",
+                        "wheelchair": "no"
+                    }
+                },
+                {
+                    "place_id": 2923001958,
+                    "name": "Chimy's",
+                    "location": {
+                        "lat": 47.3832801,
+                        "lng": 8.528361
+                    },
+                    "tags": {
+                        "addr:city": "Z\u00fcrich",
+                        "addr:housenumber": "76",
+                        "addr:postcode": "8005",
+                        "addr:street": "Neugasse",
+                        "amenity": "restaurant",
+                        "check_date": "2024-06-22",
+                        "contact:email": "chimys.zh@gmail.com",
+                        "contact:phone": "+41 43 366 82 72",
+                        "contact:website": "https://www.chimys.ch",
+                        "cuisine": "asian",
+                        "diet:vegan": "yes",
+                        "diet:vegetarian": "only",
+                        "name": "Chimy's",
+                        "opening_hours": "Mo 00:00-24:00; Tu-Sa 18:00-23:00; Su 17:30-22:00",
+                        "smoking": "outside",
+                        "takeaway": "yes",
+                        "toilets:wheelchair": "no",
+                        "wheelchair": "no"
+                    }
+                },
+                {
+                    "place_id": 3297129090,
+                    "name": "The Flave",
+                    "location": {
+                        "lat": 47.3890946,
+                        "lng": 8.5168772
+                    },
+                    "tags": {
+                        "amenity": "restaurant",
+                        "name": "The Flave",
+                        "opening_hours": "Mo-Su 07:00-23:00",
+                        "outdoor_seating": "yes",
+                        "wheelchair": "yes"
+                    }
+                },
+                {
+                    "place_id": 3352544250,
+                    "name": "Restaurant Viadukt",
+                    "location": {
+                        "lat": 47.3861426,
+                        "lng": 8.5220289
+                    },
+                    "tags": {
+                        "addr:city": "Z\u00fcrich",
+                        "addr:country": "CH",
+                        "addr:housenumber": "71",
+                        "addr:postcode": "8005",
+                        "addr:street": "Viaduktstrasse",
+                        "amenity": "restaurant",
+                        "check_date:opening_hours": "2023-04-29",
+                        "email": "info@restaurant-viadukt.ch",
+                        "indoor_seating": "yes",
+                        "name": "Restaurant Viadukt",
+                        "opening_hours": "Mo-Fr 08:00-24:00; Sa 09:00-24:00; Su 10:00-24:00",
+                        "outdoor_seating": "yes",
+                        "phone": "+41 43 204 18 99",
+                        "toilets:wheelchair": "yes",
+                        "website": "https://www.restaurant-viadukt.ch/",
+                        "wheelchair": "yes"
+                    }
+                },
+                {
+                    "place_id": 3685014138,
+                    "name": "Brooklyn Burgermeister",
+                    "location": {
+                        "lat": 47.3900195,
+                        "lng": 8.5222008
+                    },
+                    "tags": {
+                        "addr:city": "Z\u00fcrich",
+                        "addr:country": "CH",
+                        "addr:housenumber": "316",
+                        "addr:postcode": "8005",
+                        "addr:street": "Hardstrasse",
+                        "alt_name": "Brooklyn Burgermeister Escher-Wyss",
+                        "amenity": "restaurant",
+                        "branch": "Z\u00fcrich Industrie",
+                        "check_date": "2024-01-19",
+                        "cuisine": "burger",
+                        "indoor_seating": "yes",
+                        "name": "Brooklyn Burgermeister",
+                        "opening_hours": "Mo-Sa 11:00-23:00",
+                        "opening_hours:covid19": "Mo-Sa 12:00-22:00",
+                        "outdoor_seating": "yes",
+                        "website": "https://www.brooklyn-burgermeister.ch/escherwyss/"
+                    }
+                },
+                {
+                    "place_id": 3696058521,
+                    "name": "Maneez",
+                    "location": {
+                        "lat": 47.3841944,
+                        "lng": 8.5284377
+                    },
+                    "tags": {
+                        "addr:city": "Z\u00fcrich",
+                        "addr:housenumber": "137",
+                        "addr:postcode": "8005",
+                        "addr:street": "Josefstrasse",
+                        "amenity": "restaurant",
+                        "check_date": "2024-06-04",
+                        "cuisine": "indian",
+                        "name": "Maneez",
+                        "opening_hours": "Mo-Su 11:00-21:45",
+                        "outdoor_seating": "yes",
+                        "takeaway": "yes",
+                        "website": "https://www.maneez-zuerich.ch/",
+                        "wheelchair": "limited"
+                    }
+                },
+                {
+                    "place_id": 3799099678,
+                    "name": "Gerold Chuchi",
+                    "location": {
+                        "lat": 47.3850255,
+                        "lng": 8.5203173
+                    },
+                    "tags": {
+                        "addr:city": "Z\u00fcrich",
+                        "addr:housenumber": "5",
+                        "addr:postcode": "8005",
+                        "addr:street": "Geroldstrasse",
+                        "amenity": "restaurant",
+                        "cuisine": "burger;pasta",
+                        "name": "Gerold Chuchi",
+                        "opening_hours:covid19": "Mo-Fr 11:30-14:00,18:30-22:30",
+                        "website": "https://www.geroldchuchi.ch"
+                    }
+                },
+                {
+                    "place_id": 3862642766,
+                    "name": "ChopChop",
+                    "location": {
+                        "lat": 47.3834555,
+                        "lng": 8.5303841
+                    },
+                    "tags": {
+                        "addr:city": "Z\u00fcrich",
+                        "addr:housenumber": "102",
+                        "addr:postcode": "8005",
+                        "addr:street": "Josefstrasse",
+                        "amenity": "restaurant",
+                        "check_date": "2024-03-22",
+                        "name": "ChopChop",
+                        "opening_hours": "Mo-Su 11:00-23:00",
+                        "outdoor_seating": "yes",
+                        "website": "https://chop-chop.ch/",
+                        "wheelchair": "no"
+                    }
+                },
+                {
+                    "place_id": 3904527066,
+                    "name": "Lilly Jo",
+                    "location": {
+                        "lat": 47.3882232,
+                        "lng": 8.5176146
+                    },
+                    "tags": {
+                        "addr:city": "Z\u00fcrich",
+                        "addr:country": "CH",
+                        "addr:housenumber": "16",
+                        "addr:postcode": "8005",
+                        "addr:street": "Pfingstweidstrasse",
+                        "amenity": "restaurant",
+                        "cuisine": "regional",
+                        "indoor_seating": "yes",
+                        "name": "Lilly Jo",
+                        "opening_hours": "May-Sep Mo-Fr 07:00-19:00; Oct-Apr Mo-Fr 07:00-17:00",
+                        "operator": "ZFV-Unternehmungen",
+                        "outdoor_seating": "yes",
+                        "website": "https://lillyjo.ch/"
+                    }
+                },
+                {
+                    "place_id": 4309713089,
+                    "name": "Santa Lucia",
+                    "location": {
+                        "lat": 47.3838555,
+                        "lng": 8.5295871
+                    },
+                    "tags": {
+                        "addr:city": "Z\u00fcrich",
+                        "addr:country": "CH",
+                        "addr:housenumber": "31",
+                        "addr:postcode": "8005",
+                        "addr:street": "Luisenstrasse",
+                        "alt_name": "Santa Lucia Limmatplatz",
+                        "amenity": "restaurant",
+                        "branch": "Z\u00fcrich Industrie",
+                        "brand": "Santa Lucia",
+                        "brand:wikidata": "Q110419156",
+                        "check_date": "2024-06-04",
+                        "cuisine": "pizza;italian",
+                        "name": "Santa Lucia",
+                        "opening_hours": "Mo-Su 11:00-24:00",
+                        "operator": "Bindella",
+                        "outdoor_seating": "yes",
+                        "oven": "wood_fired",
+                        "takeaway": "yes",
+                        "website": "https://www.bindella.ch/de/santa-lucia-limmatplatz.html",
+                        "wheelchair": "yes"
+                    }
+                },
+                {
+                    "place_id": 4402737890,
+                    "name": "Zum Gaul",
+                    "location": {
+                        "lat": 47.3859082,
+                        "lng": 8.5181661
+                    },
+                    "tags": {
+                        "addr:city": "Z\u00fcrich",
+                        "addr:housenumber": "35",
+                        "addr:postcode": "8005",
+                        "addr:street": "Geroldstrasse",
+                        "amenity": "restaurant",
+                        "check_date:opening_hours": "2023-04-29",
+                        "cuisine": "burger",
+                        "diet:vegetarian": "yes",
+                        "indoor_seating": "no",
+                        "name": "Zum Gaul",
+                        "opening_hours": "Mo-Fr 09:30-24:00; Sa 11:00-24:00; Su off",
+                        "outdoor_seating": "yes",
+                        "website": "http://www.zumgaul.ch"
+                    }
+                },
+                {
+                    "place_id": 4413895695,
+                    "name": "The Butcher",
+                    "location": {
+                        "lat": 47.3888334,
+                        "lng": 8.5224703
+                    },
+                    "tags": {
+                        "addr:city": "Z\u00fcrich",
+                        "addr:housenumber": "239",
+                        "addr:postcode": "8005",
+                        "addr:street": "Heinrichstrasse",
+                        "amenity": "restaurant",
+                        "branch": "Z\u00fcrich Industrie",
+                        "check_date": "2024-06-04",
+                        "cuisine": "burger",
+                        "delivery": "yes",
+                        "email": "zuerich-west@butcher.ch",
+                        "name": "The Butcher",
+                        "opening_hours": "Mo-Th 11:00-23:00; Fr 11:00-24:00; Sa 12:00-24:00; Su 12:00-23:00",
+                        "opening_hours:covid19": "Mo-Fr 11:00-23:00, Sa 12:00-23:00; Su 12:00-22:00",
+                        "opening_hours:kitchen": "Mo-Th 11:00-22:30; Fr 11:00-23:30; Sa 12:00-23:30; Su 12:00-21:30",
+                        "operator": "Fredy Wiesner Gastronomie",
+                        "outdoor_seating": "yes",
+                        "phone": "+41 44 271 48 00",
+                        "smoking": "no",
+                        "takeaway": "yes",
+                        "website": "https://www.butcher.ch/zuerich-heinrichstrasse",
+                        "wheelchair": "yes"
+                    }
+                },
+                {
+                    "place_id": 5429035465,
+                    "name": "Kitchen Republic",
+                    "location": {
+                        "lat": 47.3889173,
+                        "lng": 8.5222924
+                    },
+                    "tags": {
+                        "addr:city": "Z\u00fcrich",
+                        "addr:country": "CH",
+                        "addr:housenumber": "239",
+                        "addr:postcode": "8005",
+                        "addr:street": "Heinrichstrasse",
+                        "amenity": "restaurant",
+                        "branch": "Z\u00fcrich-West",
+                        "cuisine": "asian;sushi;burger;poke;korean;dumpling",
+                        "email": "zuerich-west@kitchen-republic.ch",
+                        "name": "Kitchen Republic",
+                        "opening_hours": "Mo-Th 11:30-22:00; Fr-Sa 11:30-22:30; Su 12:00-22:00",
+                        "operator": "Familie Wiesner Gastronomie AG",
+                        "phone": "+41 44 271 48 01",
+                        "website": "https://www.kitchen-republic.ch/de/zuerich-west",
+                        "wheelchair": "yes"
+                    }
+                },
+                {
+                    "place_id": 6569753582,
+                    "name": "Loi",
+                    "location": {
+                        "lat": 47.3892343,
+                        "lng": 8.5250511
+                    },
+                    "tags": {
+                        "addr:city": "Z\u00fcrich",
+                        "addr:housenumber": "268-270",
+                        "addr:postcode": "8005",
+                        "addr:street": "Limmatstrasse",
+                        "amenity": "restaurant",
+                        "branch": "Z\u00fcrich L\u00f6wenbr\u00e4ukunst",
+                        "check_date": "2024-02-13",
+                        "email": "contact@loi-bistro.ch",
+                        "name": "Loi",
+                        "opening_hours": "Mo,Sa-Su off; Tu-Fr 09:30-17:00",
+                        "phone": "+41 44 200 75 11",
+                        "website": "https://loi-bistro.ch"
+                    }
+                },
+                {
+                    "place_id": 6680755386,
+                    "name": "Afghan Anar",
+                    "location": {
+                        "lat": 47.3840078,
+                        "lng": 8.5318712
+                    },
+                    "tags": {
+                        "addr:city": "Z\u00fcrich",
+                        "addr:country": "CH",
+                        "addr:housenumber": "22",
+                        "addr:postcode": "8005",
+                        "addr:street": "Fierzgasse",
+                        "amenity": "restaurant",
+                        "check_date": "2024-06-21",
+                        "cuisine": "afghan",
+                        "diet:vegan": "yes",
+                        "diet:vegetarian": "yes",
+                        "indoor_seating": "yes",
+                        "name": "Afghan Anar",
+                        "opening_hours": "Mo-Fr 11:30-23:00; Sa 18:00-23:30; Su off",
+                        "outdoor_seating": "yes",
+                        "payment:mastercard": "yes",
+                        "payment:visa": "yes",
+                        "phone": "+41 44 223 17 87",
+                        "website": "https://www.afghananar.ch",
+                        "wheelchair": "yes"
+                    }
+                },
+                {
+                    "place_id": 6842658701,
+                    "name": "Thali House",
+                    "location": {
+                        "lat": 47.3831028,
+                        "lng": 8.5301347
+                    },
+                    "tags": {
+                        "addr:city": "Z\u00fcrich",
+                        "addr:housenumber": "213",
+                        "addr:postcode": "8005",
+                        "addr:street": "Langstrasse",
+                        "amenity": "restaurant",
+                        "check_date": "2023-06-10",
+                        "cuisine": "indian",
+                        "delivery": "yes",
+                        "email": "info@th1.ch",
+                        "name": "Thali House",
+                        "opening_hours": "Mo-Su 11:00-21:45",
+                        "opening_hours:signed": "no",
+                        "phone": "+41 44 821 67 33",
+                        "smoking": "no",
+                        "takeaway": "yes",
+                        "website": "https://www.th1.ch/",
+                        "wheelchair": "yes"
+                    }
+                },
+                {
+                    "place_id": 7578000581,
+                    "name": "Kai Sushi",
+                    "location": {
+                        "lat": 47.388899,
+                        "lng": 8.5203297
+                    },
+                    "tags": {
+                        "addr:city": "Z\u00fcrich",
+                        "addr:country": "CH",
+                        "addr:housenumber": "261",
+                        "addr:postcode": "8005",
+                        "addr:street": "Hardstrasse",
+                        "alt_name": "Kai Sushi Schiffbau",
+                        "amenity": "restaurant",
+                        "branch": "Z\u00fcrich Schiffbau",
+                        "check_date": "2024-06-04",
+                        "cuisine": "sushi",
+                        "indoor_seating": "yes",
+                        "name": "Kai Sushi",
+                        "opening_hours": "Mo-Fr 11:30-14:00, 17:30-23:00; Sa-Su 17:30-23:00",
+                        "operator": "Urban Food Culture",
+                        "outdoor_seating": "yes",
+                        "website": "https://kaisushi.ch/de/standorte/schiffbau/",
+                        "wheelchair": "yes"
+                    }
+                },
+                {
+                    "place_id": 7580656369,
+                    "name": "Clouds",
+                    "location": {
+                        "lat": 47.3860799,
+                        "lng": 8.5171898
+                    },
+                    "tags": {
+                        "addr:city": "Z\u00fcrich",
+                        "addr:housenumber": "5",
+                        "addr:postcode": "8005",
+                        "addr:street": "Maagplatz",
+                        "amenity": "restaurant",
+                        "name": "Clouds",
+                        "operator": "Candrian Catering",
+                        "website": "https://clouds.ch/#restaurant"
+                    }
+                },
+                {
+                    "place_id": 8643617160,
+                    "name": "Osso",
+                    "location": {
+                        "lat": 47.3816304,
+                        "lng": 8.529384
+                    },
+                    "tags": {
+                        "addr:city": "Z\u00fcrich",
+                        "addr:housenumber": "121",
+                        "addr:postcode": "8005",
+                        "addr:street": "Zollstrasse",
+                        "amenity": "restaurant",
+                        "check_date": "2023-09-24",
+                        "cuisine": "italian",
+                        "indoor_seating": "yes",
+                        "level": "0",
+                        "name": "Osso",
+                        "opening_hours": "Su-Th 09:00-24:00; Fr,Sa 09:00-02:00",
+                        "outdoor_seating": "yes",
+                        "phone": "+41 44 523 76 33",
+                        "website": "https://ossozuerich.ch/",
+                        "wheelchair": "yes"
+                    }
+                },
+                {
+                    "place_id": 9271949217,
+                    "name": "roots",
+                    "location": {
+                        "lat": 47.3873149,
+                        "lng": 8.5171254
+                    },
+                    "tags": {
+                        "addr:city": "Z\u00fcrich",
+                        "addr:housenumber": "8",
+                        "addr:postcode": "8005",
+                        "addr:street": "Maschinenstrasse",
+                        "amenity": "restaurant",
+                        "check_date": "2024-03-02",
+                        "diet:vegan": "yes",
+                        "name": "roots",
+                        "opening_hours": "Mo-Fr 07:00-20:00; Sa 09:00-17:00; PH,Su 10:00-16:00",
+                        "website": "https://rootsandfriends.com/location/maschinenstrasse"
+                    }
+                },
+                {
+                    "place_id": 9791832241,
+                    "name": "Z\u00fcriwest",
+                    "location": {
+                        "lat": 47.3863074,
+                        "lng": 8.520317
+                    },
+                    "tags": {
+                        "amenity": "restaurant",
+                        "check_date:opening_hours": "2023-09-26",
+                        "name": "Z\u00fcriwest",
+                        "opening_hours": "Mo-Fr 11:15-13:30",
+                        "website": "https://zkb-hard.sv-restaurant.ch/de/menuplan/zueriwest/",
+                        "wheelchair": "yes"
+                    }
+                },
+                {
+                    "place_id": 9791832243,
+                    "name": "Bistro",
+                    "location": {
+                        "lat": 47.3861209,
+                        "lng": 8.5197344
+                    },
+                    "tags": {
+                        "amenity": "restaurant",
+                        "check_date:opening_hours": "2023-09-26",
+                        "name": "Bistro",
+                        "opening_hours": "Mo-Fr 11:15-13:30",
+                        "website": "https://zkb-hard.sv-restaurant.ch/de/menuplan/bistro/",
+                        "wheelchair": "yes"
+                    }
+                },
+                {
+                    "place_id": 10623709323,
+                    "name": "Kleinw\u00e4scherei",
+                    "location": {
+                        "lat": 47.3870148,
+                        "lng": 8.5201885
+                    },
+                    "tags": {
+                        "addr:city": "Z\u00fcrich",
+                        "addr:housenumber": "12",
+                        "addr:postcode": "8005",
+                        "addr:street": "Neue Hard",
+                        "air_conditioning": "no",
+                        "amenity": "restaurant",
+                        "check_date": "2024-06-04",
+                        "diet:vegan": "yes",
+                        "diet:vegetarian": "yes",
+                        "indoor_seating": "yes",
+                        "name": "Kleinw\u00e4scherei",
+                        "opening_hours": "Mo off; Tu-We 11:30-23:00; Th-Fr 11:30-03:00; Sa 13:00-03:00; Su 16:00-23:00",
+                        "outdoor_seating": "yes",
+                        "phone": "+41 44 591 78 58",
+                        "smoking": "outside",
+                        "website": "https://zentralwaescherei.space/gastro",
+                        "wheelchair": "no"
+                    }
+                },
+                {
+                    "place_id": 10750585942,
+                    "name": "Riviera",
+                    "location": {
+                        "lat": 47.3830089,
+                        "lng": 8.5303012
+                    },
+                    "tags": {
+                        "amenity": "restaurant",
+                        "check_date": "2024-06-04",
+                        "cuisine": "pizza",
+                        "name": "Riviera",
+                        "wheelchair": "no"
+                    }
+                },
+                {
+                    "place_id": 10793793070,
+                    "name": "Elmira",
+                    "location": {
+                        "lat": 47.3889195,
+                        "lng": 8.5264887
+                    },
+                    "tags": {
+                        "amenity": "restaurant",
+                        "cuisine": "regional",
+                        "diet:seafood": "yes",
+                        "name": "Elmira",
+                        "website": "https://www.elmira.zuerich"
+                    }
+                },
+                {
+                    "place_id": 11057125637,
+                    "name": "Haus am Fluss Asian Food Hall & Bar",
+                    "location": {
+                        "lat": 47.3889262,
+                        "lng": 8.5281915
+                    },
+                    "tags": {
+                        "addr:city": "Z\u00fcrich",
+                        "addr:street": "Sihlquai",
+                        "amenity": "restaurant",
+                        "bar": "yes",
+                        "brewery": "yes",
+                        "check_date": "2024-02-13",
+                        "cuisine": "asian",
+                        "name": "Haus am Fluss Asian Food Hall & Bar",
+                        "outdoor_seating": "yes",
+                        "website": "https://haus-am-fluss.ch"
+                    }
+                },
+                {
+                    "place_id": 11409351594,
+                    "name": "Casa Aurelio",
+                    "location": {
+                        "lat": 47.3831405,
+                        "lng": 8.5297441
+                    },
+                    "tags": {
+                        "addr:city": "Z\u00fcrich",
+                        "addr:housenumber": "209",
+                        "addr:postcode": "8005",
+                        "addr:street": "Langstrasse",
+                        "amenity": "restaurant",
+                        "contact:email": "info@casaaurelio.ch",
+                        "contact:phone": "+41 44 272 77 44",
+                        "contact:website": "https://casaaurelio.ch/de/",
+                        "name": "Casa Aurelio"
+                    }
+                },
+                {
+                    "place_id": 11535099499,
+                    "name": "JIAOZI",
+                    "location": {
+                        "lat": 47.3823411,
+                        "lng": 8.5300095
+                    },
+                    "tags": {
+                        "addr:city": "Z\u00fcrich",
+                        "addr:housenumber": "41",
+                        "addr:postcode": "8005",
+                        "addr:street": "Neugasse",
+                        "alt_name": "JIAOZI By L\u00c8 Cuisine",
+                        "amenity": "restaurant",
+                        "check_date": "2024-02-12",
+                        "cuisine": "chinese",
+                        "name": "JIAOZI",
+                        "opening_hours": "Mo off; Tu-Fr 18:00-22:00; Sa-Su 12:00-14:00,17:00-22:00"
+                    }
+                },
+                {
+                    "place_id": 11670091356,
+                    "name": "Angry Chicken",
+                    "location": {
+                        "lat": 47.3887574,
+                        "lng": 8.5223451
+                    },
+                    "tags": {
+                        "amenity": "restaurant",
+                        "check_date": "2024-02-27",
+                        "cuisine": "korean",
+                        "description": "Korean fried chicken",
+                        "level": "0",
+                        "name": "Angry Chicken",
+                        "opening_hours": "Mo-We 11:30-22:00; Th-Sa 11:30-23:00; Su 12:00-22:00",
+                        "wheelchair": "yes"
+                    }
+                }
+            ],
+            "count": 77,
+            "min_time": 0.71,
+            "closest_facility": {
+                "place_id": 299610695,
+                "name": "Don Weber",
+                "location": {
+                    "lat": 47.3878614,
+                    "lng": 8.5244404
+                },
+                "tags": {
+                    "amenity": "restaurant",
+                    "check_date": "2024-04-14",
+                    "cuisine": "mexican",
+                    "name": "Don Weber",
+                    "opening_hours": "Mo-Fr 11:30-24:00, Sa 17:00-24:00, Su 17:00-23:00",
+                    "opening_hours:covid19": "Tu-Fr 11:30-24:00; Sa 17:00-24:00",
+                    "opening_hours:kitchen": "Mo-Fr 11:30-14:00, Mo-Sa 18:00-24:00, Su 18:00-23:00",
+                    "website": "https://donweber.ch/",
+                    "wheelchair": "yes"
+                }
+            }
+        },
+        "kindergarten": {
+            "data": [
+                {
+                    "place_id": 446783265,
+                    "name": "GFZ Kindertagesst\u00e4tte 5",
+                    "location": {
+                        "lat": 47.3827376,
+                        "lng": 8.5314784
+                    },
+                    "tags": {
+                        "amenity": "kindergarten",
+                        "capacity": "46",
+                        "email": "kita5@gfz-zh.ch",
+                        "name": "GFZ Kindertagesst\u00e4tte 5",
+                        "operator": "Stiftung GFZ | Gemeinn\u00fctzige Frauen Z\u00fcrich",
+                        "phone": "+41 44 271 70 80",
+                        "website": "http://www.gfz-zh.ch/kita-5"
+                    }
+                },
+                {
+                    "place_id": 465614398,
+                    "name": "Kindertagesst\u00e4tte Regenbogen",
+                    "location": {
+                        "lat": 47.3870012,
+                        "lng": 8.5231009
+                    },
+                    "tags": {
+                        "amenity": "kindergarten",
+                        "name": "Kindertagesst\u00e4tte Regenbogen",
+                        "website": "https://www.kita-regenbogen.ch/"
+                    }
+                },
+                {
+                    "place_id": 6628634883,
+                    "name": "Kinderhort Wasserwerk - Mittag-Abend",
+                    "location": {
+                        "lat": 47.3883195,
+                        "lng": 8.5310748
+                    },
+                    "tags": {
+                        "amenity": "kindergarten",
+                        "contact:city": "Z\u00fcrich",
+                        "contact:housenumber": "119",
+                        "contact:phone": "+41 44 413 74 39",
+                        "contact:postcode": "8037",
+                        "contact:street": "Wasserwerkstrasse",
+                        "contact:website": "https://www.stadt-zuerich.ch/schulen/de/letten/betreuung/standorte.html#wasserwerk",
+                        "name": "Kinderhort Wasserwerk - Mittag-Abend",
+                        "operator": "Stadt Z\u00fcrich, SSD, Schulkreis Waidberg, Schuleinheit Letten",
+                        "operator:type": "public"
+                    }
+                },
+                {
+                    "place_id": 6632963126,
+                    "name": "Kindergarten Josef",
+                    "location": {
+                        "lat": 47.3851966,
+                        "lng": 8.5254523
+                    },
+                    "tags": {
+                        "amenity": "kindergarten",
+                        "contact:city": "Z\u00fcrich",
+                        "contact:housenumber": "169",
+                        "contact:phone": "+41 44 413 77 14",
+                        "contact:postcode": "8005",
+                        "contact:street": "Josefstrasse",
+                        "contact:website": "https://www.stadt-zuerich.ch/schulen/de/kornhaus/ueberuns/standorte/kindergaerten.html",
+                        "name": "Kindergarten Josef",
+                        "operator": "Stadt Z\u00fcrich, SSD, Schulkreis Limmattal, Schuleinheit Kornahus",
+                        "operator:type": "public"
+                    }
+                },
+                {
+                    "place_id": 6632963127,
+                    "name": "Kindergarten Neugasse",
+                    "location": {
+                        "lat": 47.3835589,
+                        "lng": 8.5250483
+                    },
+                    "tags": {
+                        "amenity": "kindergarten",
+                        "contact:city": "Z\u00fcrich",
+                        "contact:housenumber": "99",
+                        "contact:phone": "+41 44 413 77 23",
+                        "contact:postcode": "8005",
+                        "contact:street": "Neugasse",
+                        "contact:website": "https://www.stadt-zuerich.ch/schulen/de/kornhaus/ueberuns/standorte/kindergaerten.html",
+                        "isced:level": "0",
+                        "name": "Kindergarten Neugasse",
+                        "operator": "Stadt Z\u00fcrich, SSD, Schulkreis Limmattal, Schuleinheit Kornahus",
+                        "operator:type": "public"
+                    }
+                },
+                {
+                    "place_id": 6632963128,
+                    "name": "Kindergarten Sch\u00fctze 1-2-3",
+                    "location": {
+                        "lat": 47.3890627,
+                        "lng": 8.5228595
+                    },
+                    "tags": {
+                        "addr:city": "Z\u00fcrich",
+                        "addr:postcode": "8005",
+                        "amenity": "kindergarten",
+                        "contact:city": "Z\u00fcrich",
+                        "contact:housenumber": "240",
+                        "contact:phone": "+41 44 413 33 68",
+                        "contact:postcode": "8005",
+                        "contact:street": "Heinrichstrasse",
+                        "contact:website": "https://www.stadt-zuerich.ch/schulen/de/schuetze/ueberuns/standorte/kindergaerten.html",
+                        "name": "Kindergarten Sch\u00fctze 1-2-3",
+                        "operator": "Stadt Z\u00fcrich, SSD, Schulkreis Limmattal, Schuleinheit Sch\u00fctze"
+                    }
+                },
+                {
+                    "place_id": 9243250836,
+                    "name": "Kindergarten Kornhaus",
+                    "location": {
+                        "lat": 47.3862449,
+                        "lng": 8.5301096
+                    },
+                    "tags": {
+                        "amenity": "kindergarten",
+                        "contact:city": "Z\u00fcrich",
+                        "contact:housenumber": "176",
+                        "contact:phone": "+41 44 413 33 14",
+                        "contact:postcode": "8005",
+                        "contact:street": "Limmatstrasse",
+                        "contact:website": "https://www.stadt-zuerich.ch/schulen/de/kornhaus/ueberuns/standorte/kindergaerten.html",
+                        "name": "Kindergarten Kornhaus"
+                    }
+                }
+            ],
+            "count": 7,
+            "min_time": 2.57,
+            "closest_facility": {
+                "place_id": 465614398,
+                "name": "Kindertagesst\u00e4tte Regenbogen",
+                "location": {
+                    "lat": 47.3870012,
+                    "lng": 8.5231009
+                },
+                "tags": {
+                    "amenity": "kindergarten",
+                    "name": "Kindertagesst\u00e4tte Regenbogen",
+                    "website": "https://www.kita-regenbogen.ch/"
+                }
+            }
+        },
+        "public_transportation": {
+            "data": [
+                {
+                    "place_id": 29382367,
+                    "name": "Wipkingerplatz",
+                    "location": {
+                        "lat": 47.3926467,
+                        "lng": 8.5233842
+                    },
+                    "tags": {
+                        "ele": "409",
+                        "name": "Wipkingerplatz",
+                        "network": "ZVV",
+                        "operator": "VBZ",
+                        "public_transport": "stop_position",
+                        "railway": "tram_stop",
+                        "ref": "2937",
+                        "tram": "yes",
+                        "uic_name": "Z\u00fcrich, Wipkingerplatz",
+                        "uic_ref": "8591437"
+                    }
+                },
+                {
+                    "place_id": 1535896473,
+                    "name": "Schiffbau",
+                    "location": {
+                        "lat": 47.3876253,
+                        "lng": 8.5194617
+                    },
+                    "tags": {
+                        "ele": "404",
+                        "name": "Schiffbau",
+                        "network": "ZVV",
+                        "operator": "VBZ",
+                        "public_transport": "stop_position",
+                        "railway": "tram_stop",
+                        "ref": "6759",
+                        "tram": "yes",
+                        "uic_name": "Z\u00fcrich, Schiffbau",
+                        "uic_ref": "8594239"
+                    }
+                },
+                {
+                    "place_id": 2267027159,
+                    "name": "Limmatplatz",
+                    "location": {
+                        "lat": 47.3845001,
+                        "lng": 8.5317699
+                    },
+                    "tags": {
+                        "ele": "405",
+                        "name": "Limmatplatz",
+                        "network": "ZVV",
+                        "operator": "VBZ",
+                        "public_transport": "stop_position",
+                        "railway": "tram_stop",
+                        "ref": "1557",
+                        "tram": "yes",
+                        "uic_name": "Z\u00fcrich, Limmatplatz",
+                        "uic_ref": "8591257",
+                        "wheelchair": "yes"
+                    }
+                },
+                {
+                    "place_id": 2268534971,
+                    "name": "Quellenstrasse",
+                    "location": {
+                        "lat": 47.3866102,
+                        "lng": 8.528909
+                    },
+                    "tags": {
+                        "ele": "404",
+                        "name": "Quellenstrasse",
+                        "network": "ZVV",
+                        "operator": "VBZ",
+                        "public_transport": "stop_position",
+                        "railway": "tram_stop",
+                        "ref": "2014",
+                        "tram": "yes",
+                        "uic_name": "Z\u00fcrich, Quellenstrasse",
+                        "uic_ref": "8591306"
+                    }
+                },
+                {
+                    "place_id": 2268534978,
+                    "name": "L\u00f6wenbr\u00e4u",
+                    "location": {
+                        "lat": 47.3883018,
+                        "lng": 8.5262309
+                    },
+                    "tags": {
+                        "ele": "404",
+                        "name": "L\u00f6wenbr\u00e4u",
+                        "network": "ZVV",
+                        "old_name": "Dammweg",
+                        "operator": "VBZ",
+                        "public_transport": "stop_position",
+                        "railway": "tram_stop",
+                        "ref": "648",
+                        "tram": "yes",
+                        "uic_name": "Z\u00fcrich, L\u00f6wenbr\u00e4u",
+                        "uic_ref": "8591110",
+                        "wheelchair": "yes"
+                    }
+                },
+                {
+                    "place_id": 2268535002,
+                    "name": "Escher-Wyss-Platz",
+                    "location": {
+                        "lat": 47.390004,
+                        "lng": 8.5236162
+                    },
+                    "tags": {
+                        "ele": "408",
+                        "name": "Escher-Wyss-Platz",
+                        "network": "ZVV",
+                        "operator": "VBZ",
+                        "public_transport": "stop_position",
+                        "railway": "tram_stop",
+                        "ref": "799",
+                        "tram": "yes",
+                        "uic_name": "Z\u00fcrich, Escher-Wyss-Platz",
+                        "uic_ref": "8580522",
+                        "wheelchair": "yes"
+                    }
+                }
+            ],
+            "count": 6,
+            "min_time": 2.0,
+            "closest_facility": {
+                "place_id": 2268534978,
+                "name": "L\u00f6wenbr\u00e4u",
+                "location": {
+                    "lat": 47.3883018,
+                    "lng": 8.5262309
+                },
+                "tags": {
+                    "ele": "404",
+                    "name": "L\u00f6wenbr\u00e4u",
+                    "network": "ZVV",
+                    "old_name": "Dammweg",
+                    "operator": "VBZ",
+                    "public_transport": "stop_position",
+                    "railway": "tram_stop",
+                    "ref": "648",
+                    "tram": "yes",
+                    "uic_name": "Z\u00fcrich, L\u00f6wenbr\u00e4u",
+                    "uic_ref": "8591110",
+                    "wheelchair": "yes"
+                }
+            }
+        },
+        "gym_fitness": {
+            "data": [
+                {
+                    "place_id": 683404106,
+                    "name": "Balboa im Viadukt",
+                    "location": {
+                        "lat": 47.386468,
+                        "lng": 8.5226749
+                    },
+                    "tags": {
+                        "addr:city": "Z\u00fcrich",
+                        "addr:country": "CH",
+                        "addr:housenumber": "59",
+                        "addr:postcode": "8005",
+                        "addr:street": "Viaduktstrasse",
+                        "leisure": "fitness_centre",
+                        "name": "Balboa im Viadukt",
+                        "sport": "fitness",
+                        "website": "https://balboamove.ch/"
+                    }
+                },
+                {
+                    "place_id": 4668333250,
+                    "name": "Kieser Training",
+                    "location": {
+                        "lat": 47.3863684,
+                        "lng": 8.5177812
+                    },
+                    "tags": {
+                        "addr:city": "Z\u00fcrich",
+                        "addr:country": "CH",
+                        "addr:housenumber": "223",
+                        "addr:postcode": "8005",
+                        "addr:street": "Hardstrasse",
+                        "branch": "Prime Tower",
+                        "brand": "Kieser Training",
+                        "brand:wikidata": "Q1112367",
+                        "brand:wikipedia": "de:Kieser Training",
+                        "email": "zuerich3@kieser-training.com",
+                        "leisure": "fitness_centre",
+                        "name": "Kieser Training",
+                        "opening_hours": "Mo-Fr 06:30-21:00; Sa-Su,PH 09:00-18:00",
+                        "operator": "Kieser Training Schweiz",
+                        "phone": "+41 44 446 80 90",
+                        "sport": "fitness",
+                        "website": "https://www.kieser-training.ch/studios/zuerich-prime-tower/"
+                    }
+                },
+                {
+                    "place_id": 4845833732,
+                    "name": "ACTIV Fitness The Docks",
+                    "location": {
+                        "lat": 47.382156,
+                        "lng": 8.5296269
+                    },
+                    "tags": {
+                        "addr:city": "Z\u00fcrich",
+                        "addr:country": "CH",
+                        "addr:housenumber": "192",
+                        "addr:postcode": "8005",
+                        "addr:street": "Langstrasse",
+                        "check_date:opening_hours": "2022-08-24",
+                        "leisure": "fitness_centre",
+                        "level": "1",
+                        "name": "ACTIV Fitness The Docks",
+                        "old_name": "Silhouette",
+                        "opening_hours": "Mo,We,Fr 08:00-21:30; Tu,Th 07:00-21:30; Sa-Su 09:00-17:00",
+                        "operator": "Genossenschaft Migros Z\u00fcrich",
+                        "phone": "+41 44 273 99 73",
+                        "sauna": "yes",
+                        "swimming_pool": "no",
+                        "website": "https://www.activfitness.ch/Studio_Zuerich_the_Docks.page"
+                    }
+                },
+                {
+                    "place_id": 4845833733,
+                    "name": "ACTIV Fitness Nordbr\u00fccke",
+                    "location": {
+                        "lat": 47.3936136,
+                        "lng": 8.5295647
+                    },
+                    "tags": {
+                        "addr:city": "Z\u00fcrich",
+                        "addr:country": "CH",
+                        "addr:housenumber": "4",
+                        "addr:postcode": "8037",
+                        "addr:street": "Nordbr\u00fccke",
+                        "leisure": "fitness_centre",
+                        "name": "ACTIV Fitness Nordbr\u00fccke",
+                        "old_name": "Silhouette",
+                        "opening_hours": "Mo-Fr 08:00-21:00; Sa-Su 09:00-18:00",
+                        "operator": "Genossenschaft Migros Z\u00fcrich",
+                        "phone": "+41 44 273 56 10",
+                        "sauna": "yes",
+                        "swimming_pool": "no",
+                        "website": "https://www.activfitness.ch/Studio_Zuerich_Nordbruecke.page"
+                    }
+                },
+                {
+                    "place_id": 7867862262,
+                    "name": "Sportzentrum Josef",
+                    "location": {
+                        "lat": 47.3876677,
+                        "lng": 8.5207435
+                    },
+                    "tags": {
+                        "leisure": "sports_centre",
+                        "name": "Sportzentrum Josef",
+                        "opening_hours": "Mo-Fr 16:00-22:00; Sa-Su 10:00-20:00",
+                        "website": "https://www.stadt-zuerich.ch/ssd/de/index/sport/sportanlagen/sporthallen/dreifach-doppel-spezialhallen/sportzentrum_josef.html"
+                    }
+                },
+                {
+                    "place_id": 10113768771,
+                    "name": "Sport-/Turnhalle Sch\u00fctze",
+                    "location": {
+                        "lat": 47.389,
+                        "lng": 8.5231111
+                    },
+                    "tags": {
+                        "addr:city": "Z\u00fcrich",
+                        "addr:housenumber": "240",
+                        "addr:postcode": "8005",
+                        "addr:street": "Heinrichstrasse",
+                        "leisure": "sports_centre",
+                        "name": "Sport-/Turnhalle Sch\u00fctze",
+                        "sport": "multi"
+                    }
+                },
+                {
+                    "place_id": 11816698647,
+                    "name": "yoga anker west",
+                    "location": {
+                        "lat": 47.3876093,
+                        "lng": 8.5234875
+                    },
+                    "tags": {
+                        "leisure": "fitness_centre",
+                        "name": "yoga anker west",
+                        "sport": "yoga"
+                    }
+                }
+            ],
+            "count": 7,
+            "min_time": 2.24,
+            "closest_facility": {
+                "place_id": 11816698647,
+                "name": "yoga anker west",
+                "location": {
+                    "lat": 47.3876093,
+                    "lng": 8.5234875
+                },
+                "tags": {
+                    "leisure": "fitness_centre",
+                    "name": "yoga anker west",
+                    "sport": "yoga"
+                }
+            }
+        },
+        "grocery_stores_supermarkets": {
+            "data": [
+                {
+                    "place_id": 354555575,
+                    "name": "M-Express",
+                    "location": {
+                        "lat": 47.3912062,
+                        "lng": 8.5185804
+                    },
+                    "tags": {
+                        "addr:city": "Z\u00fcrich",
+                        "addr:country": "CH",
+                        "addr:housenumber": "11",
+                        "addr:postcode": "8005",
+                        "addr:street": "Hardturmstrasse",
+                        "alt_name": "M-Express Puls 5",
+                        "branch": "Z\u00fcrich Puls 5",
+                        "brand": "Migros",
+                        "check_date": "2024-02-11",
+                        "name": "M-Express",
+                        "opening_hours": "Mo-Fr 07:00-19:00, Sa 08:00-18:00; PH off",
+                        "operator": "Genossenschaft Migros Z\u00fcrich",
+                        "shop": "convenience",
+                        "website": "https://filialen.migros.ch/de/migros-supermarkt-zuerich-puls-5-m-express",
+                        "wheelchair": "yes"
+                    }
+                },
+                {
+                    "place_id": 446783264,
+                    "name": "India Supermarkt Maharajah",
+                    "location": {
+                        "lat": 47.3830393,
+                        "lng": 8.5306156
+                    },
+                    "tags": {
+                        "addr:city": "Z\u00fcrich",
+                        "addr:housenumber": "91",
+                        "addr:postcode": "8005",
+                        "addr:street": "Josefstrasse",
+                        "check_date": "2024-03-26",
+                        "check_date:opening_hours": "2022-09-11",
+                        "name": "India Supermarkt Maharajah",
+                        "opening_hours": "Mo-Sa 09:00-19:00",
+                        "shop": "convenience",
+                        "website": "https://www.indiasupermarkt.ch/",
+                        "wheelchair": "yes"
+                    }
+                },
+                {
+                    "place_id": 446784540,
+                    "name": "Limmatmarkt",
+                    "location": {
+                        "lat": 47.383792,
+                        "lng": 8.5325137
+                    },
+                    "tags": {
+                        "addr:housenumber": "111",
+                        "addr:street": "Limmatstrasse",
+                        "check_date": "2023-04-07",
+                        "level": "0",
+                        "name": "Limmatmarkt",
+                        "opening_hours": "Mo-Fr 07:00-20:00; Sa 07:00-19:00",
+                        "operator": "Familie Ibrendi",
+                        "payment:credit_cards": "yes",
+                        "payment:debit_cards": "yes",
+                        "shop": "convenience",
+                        "wheelchair": "limited"
+                    }
+                },
+                {
+                    "place_id": 725764681,
+                    "name": "Alnatura",
+                    "location": {
+                        "lat": 47.3845051,
+                        "lng": 8.5311548
+                    },
+                    "tags": {
+                        "addr:city": "Z\u00fcrich",
+                        "addr:country": "CH",
+                        "addr:housenumber": "5",
+                        "addr:postcode": "8005",
+                        "addr:street": "Limmatplatz",
+                        "check_date": "2024-06-13",
+                        "name": "Alnatura",
+                        "opening_hours": "Mo-Sa 08:00-20:00",
+                        "organic": "yes",
+                        "payment:credit_cards": "yes",
+                        "payment:debit_cards": "yes",
+                        "shop": "supermarket",
+                        "website": "https://www.alnatura.ch/de/filialfinder.html/migros-supermarkt-zuerich-limmatplatz",
+                        "wheelchair": "yes"
+                    }
+                },
+                {
+                    "place_id": 907840496,
+                    "name": "SP Enterprise",
+                    "location": {
+                        "lat": 47.3856431,
+                        "lng": 8.5269917
+                    },
+                    "tags": {
+                        "addr:city": "Z\u00fcrich",
+                        "addr:housenumber": "66",
+                        "addr:postcode": "8005",
+                        "addr:street": "R\u00f6ntgenstrasse",
+                        "check_date": "2024-06-04",
+                        "name": "SP Enterprise",
+                        "opening_hours": "Mo-Su,PH 07:00-21:00",
+                        "payment:cash": "yes",
+                        "shop": "convenience",
+                        "wheelchair": "yes"
+                    }
+                },
+                {
+                    "place_id": 1383632059,
+                    "name": "Kiosk Shop",
+                    "location": {
+                        "lat": 47.383637,
+                        "lng": 8.5308305
+                    },
+                    "tags": {
+                        "check_date": "2024-02-13",
+                        "check_date:opening_hours": "2022-09-11",
+                        "name": "Kiosk Shop",
+                        "opening_hours": "Mo-Th 15:00-24:00; Fr-Sa 15:00-02:00",
+                        "shop": "convenience",
+                        "wheelchair": "no"
+                    }
+                },
+                {
+                    "place_id": 6152240578,
+                    "name": "S K Trading",
+                    "location": {
+                        "lat": 47.3843155,
+                        "lng": 8.5272789
+                    },
+                    "tags": {
+                        "addr:housenumber": "1",
+                        "addr:street": "Quellenstrasse",
+                        "check_date": "2024-06-22",
+                        "check_date:opening_hours": "2022-11-09",
+                        "description": "Indian and Asian products store",
+                        "name": "S K Trading",
+                        "opening_hours": "Mo-Fr 10:00-20:00; Sa 09:00-17:00",
+                        "phone": "+41 76 449 60 94",
+                        "shop": "convenience",
+                        "wheelchair": "no"
+                    }
+                },
+                {
+                    "place_id": 6375515143,
+                    "name": "Jai Kiosk",
+                    "location": {
+                        "lat": 47.3829856,
+                        "lng": 8.5302453
+                    },
+                    "tags": {
+                        "check_date:opening_hours": "2022-10-10",
+                        "name": "Jai Kiosk",
+                        "opening_hours:signed": "no",
+                        "shop": "convenience",
+                        "wheelchair": "no"
+                    }
+                },
+                {
+                    "place_id": 6640039346,
+                    "name": "Yaal Aruvi",
+                    "location": {
+                        "lat": 47.3829745,
+                        "lng": 8.5290982
+                    },
+                    "tags": {
+                        "check_date": "2024-06-22",
+                        "name": "Yaal Aruvi",
+                        "opening_hours": "Mo-Su 09:00-23:00",
+                        "shop": "convenience",
+                        "wheelchair": "no"
+                    }
+                },
+                {
+                    "place_id": 9902520720,
+                    "name": "Amuthan kiosk shop",
+                    "location": {
+                        "lat": 47.3862333,
+                        "lng": 8.5281384
+                    },
+                    "tags": {
+                        "check_date": "2024-06-22",
+                        "name": "Amuthan kiosk shop",
+                        "shop": "convenience",
+                        "wheelchair": "no"
+                    }
+                },
+                {
+                    "place_id": 11646615934,
+                    "name": "Zarana Kiosk",
+                    "location": {
+                        "lat": 47.3850216,
+                        "lng": 8.5293595
+                    },
+                    "tags": {
+                        "addr:housenumber": "85",
+                        "addr:street": "Heinrichstrasse",
+                        "check_date": "2024-02-20",
+                        "name": "Zarana Kiosk",
+                        "opening_hours": "Mo-Th 08:00-23:30; Fr-Sa 10:00-26:00, Su 10:30-22:30",
+                        "shop": "convenience",
+                        "wheelchair": "no"
+                    }
+                },
+                {
+                    "place_id": 11646615935,
+                    "name": "New Avataar",
+                    "location": {
+                        "lat": 47.3851562,
+                        "lng": 8.5291782
+                    },
+                    "tags": {
+                        "check_date": "2024-02-20",
+                        "name": "New Avataar",
+                        "opening_hours": "Mo-Fr 10:00-19:30; Sa 09:00-19:00; Su off",
+                        "phone": "+41 41 501 10 00",
+                        "shop": "convenience",
+                        "wheelchair": "no"
+                    }
+                }
+            ],
+            "count": 12,
+            "min_time": 3.51,
+            "closest_facility": {
+                "place_id": 9902520720,
+                "name": "Amuthan kiosk shop",
+                "location": {
+                    "lat": 47.3862333,
+                    "lng": 8.5281384
+                },
+                "tags": {
+                    "check_date": "2024-06-22",
+                    "name": "Amuthan kiosk shop",
+                    "shop": "convenience",
+                    "wheelchair": "no"
+                }
+            }
+        },
+        "gas_ev_charging": {
+            "data": [
+                {
+                    "place_id": 283181019,
+                    "name": "Migrol Service Sihlquai",
+                    "location": {
+                        "lat": 47.3860523,
+                        "lng": 8.5319464
+                    },
+                    "tags": {
+                        "addr:city": "Z\u00fcrich",
+                        "addr:country": "CH",
+                        "addr:housenumber": "155",
+                        "addr:postcode": "8005",
+                        "addr:street": "Sihlquai",
+                        "alt_name": "Migrol Sihlquai",
+                        "amenity": "fuel",
+                        "branch": "Z\u00fcrich Sihlquai",
+                        "brand": "Migrol",
+                        "brand:wikidata": "Q1747771",
+                        "compressed_air": "yes",
+                        "fuel:adblue": "yes",
+                        "fuel:diesel": "yes",
+                        "fuel:octane_95": "yes",
+                        "fuel:octane_98": "yes",
+                        "name": "Migrol Service Sihlquai",
+                        "opening_hours": "24/7",
+                        "operator": "Migrol",
+                        "payment:american_express": "yes",
+                        "payment:maestro": "yes",
+                        "payment:mastercard": "yes",
+                        "payment:notes": "yes",
+                        "payment:visa": "yes",
+                        "website": "https://www.migrol.ch/de/"
+                    }
+                },
+                {
+                    "place_id": 1525269396,
+                    "name": "Discount-Tankstelle",
+                    "location": {
+                        "lat": 47.391139,
+                        "lng": 8.5267589
+                    },
+                    "tags": {
+                        "amenity": "fuel",
+                        "brand": "Independent",
+                        "compressed_air": "no",
+                        "fuel:diesel": "yes",
+                        "fuel:octane_95": "yes",
+                        "fuel:octane_98": "yes",
+                        "name": "Discount-Tankstelle",
+                        "opening_hours": "24/7"
+                    }
+                },
+                {
+                    "place_id": 2697748656,
+                    "name": "Rigoni & Co",
+                    "location": {
+                        "lat": 47.3881064,
+                        "lng": 8.5245108
+                    },
+                    "tags": {
+                        "addr:city": "Z\u00fcrich",
+                        "addr:housenumber": "210",
+                        "addr:postcode": "8005",
+                        "addr:street": "Heinrichstrasse",
+                        "amenity": "fuel",
+                        "check_date": "2024-04-14",
+                        "compressed_air": "no",
+                        "contact:phone": "+41 44 271 04 66",
+                        "fuel:diesel": "yes",
+                        "fuel:octane_95": "yes",
+                        "level": "0",
+                        "name": "Rigoni & Co",
+                        "operator": "Rigoni & Co"
+                    }
+                },
+                {
+                    "place_id": 4833061690,
+                    "name": "Avia Wasserwerkstrasse",
+                    "location": {
+                        "lat": 47.3876457,
+                        "lng": 8.5333362
+                    },
+                    "tags": {
+                        "addr:city": "Z\u00fcrich",
+                        "addr:country": "CH",
+                        "addr:housenumber": "98",
+                        "addr:postcode": "8037",
+                        "addr:street": "Wasserwerkstrasse",
+                        "amenity": "fuel",
+                        "branch": "Z\u00fcrich Wasserwerkstrasse",
+                        "brand": "Avia",
+                        "brand:wikidata": "Q300147",
+                        "compressed_air": "yes",
+                        "fuel:diesel": "yes",
+                        "fuel:octane_95": "yes",
+                        "name": "Avia Wasserwerkstrasse",
+                        "opening_hours": "24/7",
+                        "operator": "Avia Osterwalder Z\u00fcrich"
+                    }
+                },
+                {
+                    "place_id": 4897213105,
+                    "name": "Besucher EBM",
+                    "location": {
+                        "lat": 47.3876768,
+                        "lng": 8.5254154
+                    },
+                    "tags": {
+                        "amenity": "charging_station",
+                        "brand": "EWZ",
+                        "capacity": "2",
+                        "name": "Besucher EBM",
+                        "operator": "EBM"
+                    }
+                },
+                {
+                    "place_id": 4979820134,
+                    "name": "Plug'n Roll Ladestation",
+                    "location": {
+                        "lat": 47.3864384,
+                        "lng": 8.5169064
+                    },
+                    "tags": {
+                        "access": "yes",
+                        "addr:city": "Z\u00fcrich",
+                        "amenity": "charging_station",
+                        "amperage": "32",
+                        "bicycle": "no",
+                        "brand": "Plug'n Roll",
+                        "capacity": "2",
+                        "description": "Plug'n Roll Ladestation",
+                        "fee": "yes",
+                        "fuel:electricity": "yes",
+                        "motorcar": "yes",
+                        "name": "Plug'n Roll Ladestation",
+                        "network": "Plug'n Roll",
+                        "opening_hours": "24/7",
+                        "operator": "Plug'n Roll",
+                        "operator:wikidata": "Q115241443",
+                        "socket:type2": "2",
+                        "voltage": "400",
+                        "website": "https://plugnroll.com",
+                        "wikimedia_commons": "Category:Repower (Swiss company)",
+                        "wikipedia": "de:Repower AG"
+                    }
+                },
+                {
+                    "place_id": 9047249147,
+                    "name": "evpass Ladestation",
+                    "location": {
+                        "lat": 47.3887737,
+                        "lng": 8.5180643
+                    },
+                    "tags": {
+                        "access": "yes",
+                        "amenity": "charging_station",
+                        "capacity": "22",
+                        "connectivity": "CCS ChaDeMo",
+                        "fee": "yes",
+                        "name": "evpass Ladestation",
+                        "operator": "Green Motion SA",
+                        "payment:rfid_card": "yes"
+                    }
+                }
+            ],
+            "count": 7,
+            "min_time": 0.31,
+            "closest_facility": {
+                "place_id": 4897213105,
+                "name": "Besucher EBM",
+                "location": {
+                    "lat": 47.3876768,
+                    "lng": 8.5254154
+                },
+                "tags": {
+                    "amenity": "charging_station",
+                    "brand": "EWZ",
+                    "capacity": "2",
+                    "name": "Besucher EBM",
+                    "operator": "EBM"
+                }
+            }
+        },
+        "schools": {
+            "data": [
+                {
+                    "place_id": 4841545849,
+                    "name": "Klubschule Migros Limmatplatz",
+                    "location": {
+                        "lat": 47.3857517,
+                        "lng": 8.531279
+                    },
+                    "tags": {
+                        "addr:city": "Z\u00fcrich",
+                        "addr:country": "CH",
+                        "addr:housenumber": "152",
+                        "addr:postcode": "8005",
+                        "addr:street": "Limmatstrasse",
+                        "amenity": "school",
+                        "check_date": "2023-06-02",
+                        "name": "Klubschule Migros Limmatplatz",
+                        "opening_hours": "Mo-Fr 08:00-20:00; Sa 09:00-11:30",
+                        "operator": "Migros-Kulturprozent",
+                        "phone": "+41 44 278 62 62",
+                        "website": "https://www.klubschule.ch/Standorte/Zuerich/Zuerich/Zuerich-Limmatplatz"
+                    }
+                },
+                {
+                    "place_id": 4967620683,
+                    "name": "Provisorium der Schule Kornhaus",
+                    "location": {
+                        "lat": 47.3866448,
+                        "lng": 8.5262516
+                    },
+                    "tags": {
+                        "addr:city": "Z\u00fcrich",
+                        "addr:country": "CH",
+                        "addr:housenumber": "143",
+                        "addr:postcode": "8005",
+                        "addr:street": "Heinrichstrasse",
+                        "amenity": "school",
+                        "check_date": "2024-02-12",
+                        "name": "Provisorium der Schule Kornhaus",
+                        "note": "Primarschule",
+                        "operator": "Stadt Z\u00fcrich, SSD, Schulkreis Limmattal"
+                    }
+                },
+                {
+                    "place_id": 9702104880,
+                    "name": "SHT Schweizer Handelsschule f\u00fcr Tourismus",
+                    "location": {
+                        "lat": 47.3884984,
+                        "lng": 8.5230797
+                    },
+                    "tags": {
+                        "amenity": "school",
+                        "contact:city": "Z\u00fcrich",
+                        "contact:email": "info@tourismus-kv.ch",
+                        "contact:housenumber": "235",
+                        "contact:phone": "+41 44 380 18 08",
+                        "contact:postcode": "8005",
+                        "contact:street": "Heinrichstrasse",
+                        "contact:website": "https://www.tourismus-kv.ch/",
+                        "isced:level": "3",
+                        "name": "SHT Schweizer Handelsschule f\u00fcr Tourismus",
+                        "operator": "Schweizer Handelsschule f\u00fcr Tourismus (SHT) - powered by Abreise AG",
+                        "operator:type": "private",
+                        "short_name": "SHT"
+                    }
+                },
+                {
+                    "place_id": 9717460420,
+                    "name": "Marie Meierhofer Institut f\u00fcr das Kind",
+                    "location": {
+                        "lat": 47.3883093,
+                        "lng": 8.5177342
+                    },
+                    "tags": {
+                        "amenity": "college",
+                        "contact:city": "Z\u00fcrich",
+                        "contact:email": "info@mmi.ch",
+                        "contact:housenumber": "16",
+                        "contact:phone": "+41 44 205 52 20",
+                        "contact:postcode": "8005",
+                        "contact:street": "Pfingstweidstrasse",
+                        "contact:website": "https://www.mmi.ch/de-ch/",
+                        "name": "Marie Meierhofer Institut f\u00fcr das Kind",
+                        "operator": "Marie Meierhofer-Institut f\u00fcr das Kind",
+                        "operator:type": "private"
+                    }
+                },
+                {
+                    "place_id": 9717537568,
+                    "name": "SFK Schule f\u00fcr F\u00f6rderkurse Z\u00fcrich",
+                    "location": {
+                        "lat": 47.3887489,
+                        "lng": 8.5221662
+                    },
+                    "tags": {
+                        "amenity": "school",
+                        "contact:city": "Z\u00fcrich",
+                        "contact:email": "sfk.zuerich@sfk.ch",
+                        "contact:housenumber": "239",
+                        "contact:phone": "+41 44 272 75 00",
+                        "contact:postcode": "8005",
+                        "contact:street": "Heinrichstrasse",
+                        "contact:website": "https://zh.sfk.ch/",
+                        "isced:level": "3",
+                        "name": "SFK Schule f\u00fcr F\u00f6rderkurse Z\u00fcrich",
+                        "operator": "SFK Schule f\u00fcr F\u00f6rderkurse Z\u00fcrich AG",
+                        "operator:type": "private"
+                    }
+                },
+                {
+                    "place_id": 10916226505,
+                    "name": "Star Institut Nachhilfe",
+                    "location": {
+                        "lat": 47.3831832,
+                        "lng": 8.5309358
+                    },
+                    "tags": {
+                        "amenity": "college",
+                        "level": "1",
+                        "name": "Star Institut Nachhilfe",
+                        "name:de": "Star Institut Gmbh",
+                        "name:en": "Star Institut Gmbh",
+                        "phone": "044 242 68 83",
+                        "website": "https://starinstitut.ch/"
+                    }
+                }
+            ],
+            "count": 6,
+            "min_time": 2.05,
+            "closest_facility": {
+                "place_id": 4967620683,
+                "name": "Provisorium der Schule Kornhaus",
+                "location": {
+                    "lat": 47.3866448,
+                    "lng": 8.5262516
+                },
+                "tags": {
+                    "addr:city": "Z\u00fcrich",
+                    "addr:country": "CH",
+                    "addr:housenumber": "143",
+                    "addr:postcode": "8005",
+                    "addr:street": "Heinrichstrasse",
+                    "amenity": "school",
+                    "check_date": "2024-02-12",
+                    "name": "Provisorium der Schule Kornhaus",
+                    "note": "Primarschule",
+                    "operator": "Stadt Z\u00fcrich, SSD, Schulkreis Limmattal"
+                }
+            }
+        }
+    }
+}

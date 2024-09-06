@@ -1,0 +1,267 @@
+{
+    "original_address": {
+        "address": "8355 Aadorf, Bruggwiesenstrasse 5",
+        "coordinates": [
+            47.492963450000005,
+            8.893470629289517
+        ]
+    },
+    "facilities": {
+        "bars": {
+            "data": [
+                {
+                    "place_id": 8073499923,
+                    "name": "P\u00e4ng Pub",
+                    "location": {
+                        "lat": 47.4930119,
+                        "lng": 8.8947331
+                    },
+                    "tags": {
+                        "amenity": "pub",
+                        "name": "P\u00e4ng Pub",
+                        "opening_hours": "Th-Sa 17:00-23:00",
+                        "website": "http://p\u00e4ngpub.ch/"
+                    }
+                }
+            ],
+            "count": 1,
+            "min_time": 4.39,
+            "closest_facility": {
+                "place_id": 8073499923,
+                "name": "P\u00e4ng Pub",
+                "location": {
+                    "lat": 47.4930119,
+                    "lng": 8.8947331
+                },
+                "tags": {
+                    "amenity": "pub",
+                    "name": "P\u00e4ng Pub",
+                    "opening_hours": "Th-Sa 17:00-23:00",
+                    "website": "http://p\u00e4ngpub.ch/"
+                }
+            }
+        },
+        "restaurants": {
+            "data": [
+                {
+                    "place_id": 3468081765,
+                    "name": "El Capone",
+                    "location": {
+                        "lat": 47.4939065,
+                        "lng": 8.8941025
+                    },
+                    "tags": {
+                        "amenity": "restaurant",
+                        "cuisine": "pizza",
+                        "name": "El Capone",
+                        "opening_hours": "Tu-Sa 11:00-14:30,17:30-23:00; Su 11:00-14:30,17:30-22:00",
+                        "url": "http://www.elcapone.ch/"
+                    }
+                },
+                {
+                    "place_id": 4002694690,
+                    "name": "Bella Napoli",
+                    "location": {
+                        "lat": 47.4912407,
+                        "lng": 8.8986862
+                    },
+                    "tags": {
+                        "amenity": "restaurant",
+                        "check_date": "2023-04-24",
+                        "cuisine": "italian",
+                        "name": "Bella Napoli",
+                        "opening_hours": "Tu-Sa 11:30-14:00,18:00-23:00; Su 17:30-22:00"
+                    }
+                },
+                {
+                    "place_id": 4002694691,
+                    "name": "Gr\u00fctli",
+                    "location": {
+                        "lat": 47.4919401,
+                        "lng": 8.8953231
+                    },
+                    "tags": {
+                        "amenity": "restaurant",
+                        "check_date": "2023-06-07",
+                        "cuisine": "regional",
+                        "name": "Gr\u00fctli"
+                    }
+                }
+            ],
+            "count": 3,
+            "min_time": 2.93,
+            "closest_facility": {
+                "place_id": 3468081765,
+                "name": "El Capone",
+                "location": {
+                    "lat": 47.4939065,
+                    "lng": 8.8941025
+                },
+                "tags": {
+                    "amenity": "restaurant",
+                    "cuisine": "pizza",
+                    "name": "El Capone",
+                    "opening_hours": "Tu-Sa 11:00-14:30,17:30-23:00; Su 11:00-14:30,17:30-22:00",
+                    "url": "http://www.elcapone.ch/"
+                }
+            }
+        },
+        "kindergarten": {
+            "data": [],
+            "count": 0,
+            "min_time": null,
+            "closest_facility": null
+        },
+        "public_transportation": {
+            "data": [],
+            "count": 0,
+            "min_time": null,
+            "closest_facility": null
+        },
+        "gym_fitness": {
+            "data": [],
+            "count": 0,
+            "min_time": null,
+            "closest_facility": null
+        },
+        "grocery_stores_supermarkets": {
+            "data": [
+                {
+                    "place_id": 320040684,
+                    "name": "Coop",
+                    "location": {
+                        "lat": 47.4930052,
+                        "lng": 8.8996297
+                    },
+                    "tags": {
+                        "brand": "Coop",
+                        "brand:wikidata": "Q432564",
+                        "brand:wikipedia": "de:Coop (Schweiz)",
+                        "check_date": "2023-11-13",
+                        "name": "Coop",
+                        "opening_hours": "Mo-Fr 08:00-20:00; Sa 08:00-18:00",
+                        "shop": "supermarket",
+                        "wheelchair": "yes"
+                    }
+                },
+                {
+                    "place_id": 7600368688,
+                    "name": "Coop Pronto",
+                    "location": {
+                        "lat": 47.4932576,
+                        "lng": 8.8988818
+                    },
+                    "tags": {
+                        "addr:city": "Aadorf",
+                        "addr:housenumber": "22",
+                        "addr:postcode": "8355",
+                        "addr:street": "Morgentalstrasse",
+                        "alt_name": "Coop Pronto Aadorf",
+                        "branch": "Aadorf",
+                        "brand": "Coop Pronto",
+                        "brand:wikidata": "Q1129777",
+                        "brand:wikipedia": "de:Coop Mineraloel",
+                        "check_date:opening_hours": "2022-05-09",
+                        "name": "Coop Pronto",
+                        "opening_hours": "Mo-Sa 06:00-22:00, Su 08:00-20:00",
+                        "operator": "Coop Mineraloel",
+                        "shop": "convenience",
+                        "website": "https://www.coop-pronto.ch/"
+                    }
+                }
+            ],
+            "count": 2,
+            "min_time": 7.63,
+            "closest_facility": {
+                "place_id": 7600368688,
+                "name": "Coop Pronto",
+                "location": {
+                    "lat": 47.4932576,
+                    "lng": 8.8988818
+                },
+                "tags": {
+                    "addr:city": "Aadorf",
+                    "addr:housenumber": "22",
+                    "addr:postcode": "8355",
+                    "addr:street": "Morgentalstrasse",
+                    "alt_name": "Coop Pronto Aadorf",
+                    "branch": "Aadorf",
+                    "brand": "Coop Pronto",
+                    "brand:wikidata": "Q1129777",
+                    "brand:wikipedia": "de:Coop Mineraloel",
+                    "check_date:opening_hours": "2022-05-09",
+                    "name": "Coop Pronto",
+                    "opening_hours": "Mo-Sa 06:00-22:00, Su 08:00-20:00",
+                    "operator": "Coop Mineraloel",
+                    "shop": "convenience",
+                    "website": "https://www.coop-pronto.ch/"
+                }
+            }
+        },
+        "gas_ev_charging": {
+            "data": [
+                {
+                    "place_id": 320040835,
+                    "name": "Coop Tankstelle",
+                    "location": {
+                        "lat": 47.4932576,
+                        "lng": 8.8987116
+                    },
+                    "tags": {
+                        "alt_name": "Coop Tankstelle Aadorf",
+                        "amenity": "fuel",
+                        "branch": "Aadorf",
+                        "brand": "Coop",
+                        "compressed_air": "yes",
+                        "name": "Coop Tankstelle",
+                        "opening_hours": "Mo-Sa 06:00-22:00; Su 06:00-20:00",
+                        "operator": "Coop Mineraloel",
+                        "wheelchair": "yes"
+                    }
+                },
+                {
+                    "place_id": 320040876,
+                    "name": "Ruedi R\u00fcssel",
+                    "location": {
+                        "lat": 47.4935613,
+                        "lng": 8.8982352
+                    },
+                    "tags": {
+                        "amenity": "fuel",
+                        "brand": "Ruedi R\u00fcssel",
+                        "brand:wikidata": "Q111725154",
+                        "name": "Ruedi R\u00fcssel",
+                        "opening_hours": "24/7",
+                        "operator": "Ruedi R\u00fcssel",
+                        "wheelchair": "limited"
+                    }
+                }
+            ],
+            "count": 2,
+            "min_time": 6.79,
+            "closest_facility": {
+                "place_id": 320040876,
+                "name": "Ruedi R\u00fcssel",
+                "location": {
+                    "lat": 47.4935613,
+                    "lng": 8.8982352
+                },
+                "tags": {
+                    "amenity": "fuel",
+                    "brand": "Ruedi R\u00fcssel",
+                    "brand:wikidata": "Q111725154",
+                    "name": "Ruedi R\u00fcssel",
+                    "opening_hours": "24/7",
+                    "operator": "Ruedi R\u00fcssel",
+                    "wheelchair": "limited"
+                }
+            }
+        },
+        "schools": {
+            "data": [],
+            "count": 0,
+            "min_time": null,
+            "closest_facility": null
+        }
+    }
+}

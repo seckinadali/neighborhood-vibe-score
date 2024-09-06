@@ -1,0 +1,93 @@
+{
+    "original_address": {
+        "address": "6319 Allenwinden, Winzr\u00fcti 39",
+        "coordinates": [
+            47.171187450000005,
+            8.55496775
+        ]
+    },
+    "facilities": {
+        "bars": {
+            "data": [],
+            "count": 0,
+            "min_time": null,
+            "closest_facility": null
+        },
+        "restaurants": {
+            "data": [
+                {
+                    "place_id": 273500930,
+                    "name": "L\u00f6wen",
+                    "location": {
+                        "lat": 47.1667167,
+                        "lng": 8.5532237
+                    },
+                    "tags": {
+                        "addr:city": "Allenwinden",
+                        "addr:housenumber": "35",
+                        "addr:postcode": "6319",
+                        "addr:street": "Dorfstrasse",
+                        "amenity": "restaurant",
+                        "name": "L\u00f6wen",
+                        "opening_hours:covid19": "closed"
+                    }
+                }
+            ],
+            "count": 1,
+            "min_time": 7.89,
+            "closest_facility": {
+                "place_id": 273500930,
+                "name": "L\u00f6wen",
+                "location": {
+                    "lat": 47.1667167,
+                    "lng": 8.5532237
+                },
+                "tags": {
+                    "addr:city": "Allenwinden",
+                    "addr:housenumber": "35",
+                    "addr:postcode": "6319",
+                    "addr:street": "Dorfstrasse",
+                    "amenity": "restaurant",
+                    "name": "L\u00f6wen",
+                    "opening_hours:covid19": "closed"
+                }
+            }
+        },
+        "kindergarten": {
+            "data": [],
+            "count": 0,
+            "min_time": null,
+            "closest_facility": null
+        },
+        "public_transportation": {
+            "data": [],
+            "count": 0,
+            "min_time": null,
+            "closest_facility": null
+        },
+        "gym_fitness": {
+            "data": [],
+            "count": 0,
+            "min_time": null,
+            "closest_facility": null
+        },
+        "grocery_stores_supermarkets": {
+            "data": [],
+            "count": 0,
+            "min_time": null,
+            "closest_facility": null
+        },
+        "gas_ev_charging": {
+            "data": [],
+            "count": 0,
+            "min_time": null,
+            "closest_facility": null
+        },
+        "schools": {
+            "data": [],
+            "count": 0,
+            "min_time": null,
+            "closest_facility": null
+        }
+    }
+}

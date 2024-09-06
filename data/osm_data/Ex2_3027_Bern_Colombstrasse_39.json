@@ -1,0 +1,629 @@
+{
+    "original_address": {
+        "address": "3027 Bern, Colombstrasse 39",
+        "coordinates": [
+            46.94559,
+            7.3777287
+        ]
+    },
+    "facilities": {
+        "bars": {
+            "data": [
+                {
+                    "place_id": 9482332061,
+                    "name": "Stars and Stripes",
+                    "location": {
+                        "lat": 46.9441427,
+                        "lng": 7.3724582
+                    },
+                    "tags": {
+                        "amenity": "bar",
+                        "email": "bern@starsandstripes.ch",
+                        "level": "0",
+                        "level:ref": "-1",
+                        "name": "Stars and Stripes",
+                        "opening_hours": "Mo-Th 17:00-22:00; Fr 17:00-23:30; Sa 15:00-23:30; Su 15:00-22:00",
+                        "outdoor_seating": "no",
+                        "phone": "+41 31 991 25 25",
+                        "website": "https://www.starsandstripes.ch/de/p/standorte/bern-1109.html",
+                        "wheelchair": "yes"
+                    }
+                }
+            ],
+            "count": 1,
+            "min_time": 8.57,
+            "closest_facility": {
+                "place_id": 9482332061,
+                "name": "Stars and Stripes",
+                "location": {
+                    "lat": 46.9441427,
+                    "lng": 7.3724582
+                },
+                "tags": {
+                    "amenity": "bar",
+                    "email": "bern@starsandstripes.ch",
+                    "level": "0",
+                    "level:ref": "-1",
+                    "name": "Stars and Stripes",
+                    "opening_hours": "Mo-Th 17:00-22:00; Fr 17:00-23:30; Sa 15:00-23:30; Su 15:00-22:00",
+                    "outdoor_seating": "no",
+                    "phone": "+41 31 991 25 25",
+                    "website": "https://www.starsandstripes.ch/de/p/standorte/bern-1109.html",
+                    "wheelchair": "yes"
+                }
+            }
+        },
+        "restaurants": {
+            "data": [
+                {
+                    "place_id": 2949154833,
+                    "name": "Holi",
+                    "location": {
+                        "lat": 46.9493855,
+                        "lng": 7.3804233
+                    },
+                    "tags": {
+                        "addr:city": "Bern",
+                        "addr:country": "CH",
+                        "addr:housenumber": "21",
+                        "addr:postcode": "3027",
+                        "addr:street": "Holenackerstrasse",
+                        "alt_name": "Holi Pizza Lieferservice",
+                        "amenity": "restaurant",
+                        "contact:phone": "+41 31 9910606",
+                        "delivery": "yes",
+                        "name": "Holi",
+                        "operator": "\u00dcnl\u00fc Rifat",
+                        "source": "survey and website",
+                        "takeaway": "yes",
+                        "website": "http://www.holi-pizza.ch"
+                    }
+                },
+                {
+                    "place_id": 2976324699,
+                    "name": "Piazza",
+                    "location": {
+                        "lat": 46.9483029,
+                        "lng": 7.3769832
+                    },
+                    "tags": {
+                        "amenity": "restaurant",
+                        "cuisine": "italian;pizza",
+                        "name": "Piazza",
+                        "opening_hours": "Mo-Su 10:00-23:00",
+                        "outdoor_seating": "yes",
+                        "website": "https://www.piazzabern.ch"
+                    }
+                },
+                {
+                    "place_id": 6448420112,
+                    "name": "Spiga",
+                    "location": {
+                        "lat": 46.9441266,
+                        "lng": 7.37346
+                    },
+                    "tags": {
+                        "addr:city": "Bern",
+                        "addr:housenumber": "4",
+                        "addr:postcode": "3027",
+                        "addr:street": "Gilberte-de-Courgenay-Platz",
+                        "amenity": "restaurant",
+                        "branch": "Westside",
+                        "check_date": "2022-09-17",
+                        "check_date:opening_hours": "2021-09-11",
+                        "cuisine": "italian",
+                        "diet:vegetarian": "yes",
+                        "email": "westside@spiga-ristorante.ch",
+                        "internet_access": "wlan",
+                        "internet_access:fee": "no",
+                        "level": "1",
+                        "level:ref": "0",
+                        "name": "Spiga",
+                        "opening_hours": "Mo-Th 11:00-21:00; Fr 11:00-23:00; Sa 10:00-23:00; Su 11:00-22:00",
+                        "operator": "SV (Schweiz)",
+                        "payment:american_express": "yes",
+                        "payment:diners_club": "yes",
+                        "payment:jcb": "yes",
+                        "payment:maestro": "yes",
+                        "payment:mastercard": "yes",
+                        "payment:postfinance_card": "yes",
+                        "payment:visa": "yes",
+                        "phone": "+41 31 991 99 77",
+                        "website": "https://www.spiga-ristorante.ch/i-ristoranti/detail/spiga-westside"
+                    }
+                },
+                {
+                    "place_id": 6448420114,
+                    "name": "Namamen",
+                    "location": {
+                        "lat": 46.9443121,
+                        "lng": 7.3731849
+                    },
+                    "tags": {
+                        "amenity": "restaurant",
+                        "branch": "Bern Westside",
+                        "check_date": "2022-09-17",
+                        "check_date:opening_hours": "2021-09-11",
+                        "cuisine": "korean",
+                        "diet:vegan": "yes",
+                        "diet:vegetarian": "yes",
+                        "email": "mail@namamen.ch",
+                        "level": "1",
+                        "level:ref": "0",
+                        "name": "Namamen",
+                        "opening_hours": "Mo-Th 11:00-22:00; Fr 11:00-23:30; Sa 10:00-23:30; Su 11:00-22:00",
+                        "payment:american_express": "yes",
+                        "payment:diners_club": "yes",
+                        "payment:jcb": "yes",
+                        "payment:maestro": "yes",
+                        "payment:mastercard": "yes",
+                        "payment:postfinance_card": "yes",
+                        "payment:visa": "yes",
+                        "phone": "+41 31 991 80 30",
+                        "website": "https://www.namamen.ch/"
+                    }
+                },
+                {
+                    "place_id": 7529066231,
+                    "name": "Yooji's",
+                    "location": {
+                        "lat": 46.9440219,
+                        "lng": 7.3729417
+                    },
+                    "tags": {
+                        "addr:city": "Bern",
+                        "addr:housenumber": "4",
+                        "addr:postcode": "3027",
+                        "addr:street": "Gilberte-de-Courgenay-Platz",
+                        "amenity": "restaurant",
+                        "branch": "Bern Westside",
+                        "brand": "Yooji's",
+                        "check_date": "2022-09-17",
+                        "check_date:opening_hours": "2021-09-11",
+                        "cuisine": "sushi",
+                        "delivery": "yes",
+                        "email": "westside@yoojis.ch",
+                        "level": "1",
+                        "level:ref": "0",
+                        "name": "Yooji's",
+                        "opening_hours": "Mo-Th,Su 11:00-22:00; Fr 11:00-23:30; Sa 10:00-23:30",
+                        "operator": "Two Spice",
+                        "payment:mastercard": "yes",
+                        "payment:twint": "yes",
+                        "payment:visa": "yes",
+                        "phone": "+41 31 333 02 02",
+                        "takeaway": "yes",
+                        "website": "https://www.yoojis.com/standorte/bern-i-westside/"
+                    }
+                },
+                {
+                    "place_id": 7671137613,
+                    "name": "Nooch",
+                    "location": {
+                        "lat": 46.9446702,
+                        "lng": 7.3744319
+                    },
+                    "tags": {
+                        "amenity": "restaurant",
+                        "level": "1",
+                        "level:ref": "0",
+                        "name": "Nooch",
+                        "opening_hours": "Mo-Sa 10:00-23:00; Su 10:00-22:00",
+                        "opening_hours:kitchen": "Mo-Sa 10:00-22:00; Su 10:00-21:30",
+                        "website": "https://www.nooch.ch/de/bern-westside"
+                    }
+                },
+                {
+                    "place_id": 9482332062,
+                    "name": "Tres Amigos",
+                    "location": {
+                        "lat": 46.9438908,
+                        "lng": 7.3725787
+                    },
+                    "tags": {
+                        "amenity": "restaurant",
+                        "cuisine": "mexican",
+                        "level": "0",
+                        "level:ref": "-1",
+                        "name": "Tres Amigos",
+                        "opening_hours": "Su-Th 10:00-22:00; Fr-Sa 10:00-23:30",
+                        "outdoor_seating": "no",
+                        "phone": "+41 31 998 22 22",
+                        "takeaway": "yes",
+                        "website": "https://www.tresamigos.ch/de/p/standorte/bern-1106.html",
+                        "wheelchair": "yes"
+                    }
+                }
+            ],
+            "count": 7,
+            "min_time": 4.85,
+            "closest_facility": {
+                "place_id": 2976324699,
+                "name": "Piazza",
+                "location": {
+                    "lat": 46.9483029,
+                    "lng": 7.3769832
+                },
+                "tags": {
+                    "amenity": "restaurant",
+                    "cuisine": "italian;pizza",
+                    "name": "Piazza",
+                    "opening_hours": "Mo-Su 10:00-23:00",
+                    "outdoor_seating": "yes",
+                    "website": "https://www.piazzabern.ch"
+                }
+            }
+        },
+        "kindergarten": {
+            "data": [
+                {
+                    "place_id": 4663801145,
+                    "name": "Holenacker I",
+                    "location": {
+                        "lat": 46.9491744,
+                        "lng": 7.3791864
+                    },
+                    "tags": {
+                        "addr:city": "Bern",
+                        "addr:country": "CH",
+                        "addr:housenumber": "12",
+                        "addr:postcode": "3027",
+                        "addr:street": "G\u00e4belbachstrasse",
+                        "amenity": "kindergarten",
+                        "name": "Holenacker I"
+                    }
+                }
+            ],
+            "count": 1,
+            "min_time": 7.65,
+            "closest_facility": {
+                "place_id": 4663801145,
+                "name": "Holenacker I",
+                "location": {
+                    "lat": 46.9491744,
+                    "lng": 7.3791864
+                },
+                "tags": {
+                    "addr:city": "Bern",
+                    "addr:country": "CH",
+                    "addr:housenumber": "12",
+                    "addr:postcode": "3027",
+                    "addr:street": "G\u00e4belbachstrasse",
+                    "amenity": "kindergarten",
+                    "name": "Holenacker I"
+                }
+            }
+        },
+        "public_transportation": {
+            "data": [
+                {
+                    "place_id": 308076048,
+                    "name": "Br\u00fcnnen Westside Bahnhof",
+                    "location": {
+                        "lat": 46.9441936,
+                        "lng": 7.3753698
+                    },
+                    "tags": {
+                        "name": "Br\u00fcnnen Westside Bahnhof",
+                        "network": "Libero",
+                        "operator": "Bernmobil",
+                        "public_transport": "stop_position",
+                        "railway": "tram_stop",
+                        "tram": "yes",
+                        "uic_name": "Bern Br\u00fcnnen Westside, Bahnhof",
+                        "uic_ref": "8582262"
+                    }
+                },
+                {
+                    "place_id": 308076088,
+                    "name": "G\u00e4belbach",
+                    "location": {
+                        "lat": 46.947723,
+                        "lng": 7.3772918
+                    },
+                    "tags": {
+                        "name": "G\u00e4belbach",
+                        "public_transport": "stop_position",
+                        "railway": "tram_stop",
+                        "tram": "yes"
+                    }
+                },
+                {
+                    "place_id": 1083620171,
+                    "name": "Holenacker",
+                    "location": {
+                        "lat": 46.9486827,
+                        "lng": 7.3823077
+                    },
+                    "tags": {
+                        "name": "Holenacker",
+                        "public_transport": "stop_position",
+                        "railway": "tram_stop",
+                        "tram": "yes"
+                    }
+                },
+                {
+                    "place_id": 1083620173,
+                    "name": "Ramuzstrasse",
+                    "location": {
+                        "lat": 46.946575,
+                        "lng": 7.3750189
+                    },
+                    "tags": {
+                        "name": "Ramuzstrasse",
+                        "public_transport": "stop_position",
+                        "railway": "tram_stop",
+                        "tram": "yes"
+                    }
+                }
+            ],
+            "count": 4,
+            "min_time": 3.49,
+            "closest_facility": {
+                "place_id": 308076088,
+                "name": "G\u00e4belbach",
+                "location": {
+                    "lat": 46.947723,
+                    "lng": 7.3772918
+                },
+                "tags": {
+                    "name": "G\u00e4belbach",
+                    "public_transport": "stop_position",
+                    "railway": "tram_stop",
+                    "tram": "yes"
+                }
+            }
+        },
+        "gym_fitness": {
+            "data": [
+                {
+                    "place_id": 3285401253,
+                    "name": "WingTsun",
+                    "location": {
+                        "lat": 46.9455127,
+                        "lng": 7.3832135
+                    },
+                    "tags": {
+                        "alt_name": "Fight 4 Fitness - WingTsun Schule Bern West",
+                        "contact:addr": "Riedbachstrasse 51, 3027 Bern",
+                        "contact:email": "info@fight4fitness.ch",
+                        "contact:phone": "+41 79 2399345",
+                        "leisure": "sports_centre",
+                        "name": "WingTsun",
+                        "opening_hours:url": "http://www.fight4fitness.ch/frame_head.php?seite=TRAINING",
+                        "source": "survey and website",
+                        "sport": "multi",
+                        "website": "https://www.fight4fitness.ch/"
+                    }
+                }
+            ],
+            "count": 1,
+            "min_time": 5.72,
+            "closest_facility": {
+                "place_id": 3285401253,
+                "name": "WingTsun",
+                "location": {
+                    "lat": 46.9455127,
+                    "lng": 7.3832135
+                },
+                "tags": {
+                    "alt_name": "Fight 4 Fitness - WingTsun Schule Bern West",
+                    "contact:addr": "Riedbachstrasse 51, 3027 Bern",
+                    "contact:email": "info@fight4fitness.ch",
+                    "contact:phone": "+41 79 2399345",
+                    "leisure": "sports_centre",
+                    "name": "WingTsun",
+                    "opening_hours:url": "http://www.fight4fitness.ch/frame_head.php?seite=TRAINING",
+                    "source": "survey and website",
+                    "sport": "multi",
+                    "website": "https://www.fight4fitness.ch/"
+                }
+            }
+        },
+        "grocery_stores_supermarkets": {
+            "data": [
+                {
+                    "place_id": 6325639403,
+                    "name": "Lidl",
+                    "location": {
+                        "lat": 46.9484456,
+                        "lng": 7.3771937
+                    },
+                    "tags": {
+                        "brand": "Lidl",
+                        "brand:wikidata": "Q151954",
+                        "brand:wikipedia": "en:Lidl",
+                        "name": "Lidl",
+                        "opening_hours": "Mo-Th 07:00-20:00; Fr 07:00-21:00; Sa 07:00-17:00",
+                        "shop": "supermarket"
+                    }
+                },
+                {
+                    "place_id": 9082323134,
+                    "name": "R\u00fcedu",
+                    "location": {
+                        "lat": 46.9477168,
+                        "lng": 7.3767695
+                    },
+                    "tags": {
+                        "check_date:opening_hours": "2022-01-19",
+                        "description": "Mit App rund um die Uhr ge\u00f6ffnet.",
+                        "name": "R\u00fcedu",
+                        "opening_hours": "06:00-21:00",
+                        "operator": "R\u00fcedu",
+                        "self_service": "only",
+                        "shop": "convenience",
+                        "website": "https://ruedu.ch/",
+                        "wheelchair": "yes",
+                        "wikidata": "Q112913831"
+                    }
+                }
+            ],
+            "count": 2,
+            "min_time": 3.1,
+            "closest_facility": {
+                "place_id": 9082323134,
+                "name": "R\u00fcedu",
+                "location": {
+                    "lat": 46.9477168,
+                    "lng": 7.3767695
+                },
+                "tags": {
+                    "check_date:opening_hours": "2022-01-19",
+                    "description": "Mit App rund um die Uhr ge\u00f6ffnet.",
+                    "name": "R\u00fcedu",
+                    "opening_hours": "06:00-21:00",
+                    "operator": "R\u00fcedu",
+                    "self_service": "only",
+                    "shop": "convenience",
+                    "website": "https://ruedu.ch/",
+                    "wheelchair": "yes",
+                    "wikidata": "Q112913831"
+                }
+            }
+        },
+        "gas_ev_charging": {
+            "data": [
+                {
+                    "place_id": 308075661,
+                    "name": "Shell",
+                    "location": {
+                        "lat": 46.9435046,
+                        "lng": 7.3711499
+                    },
+                    "tags": {
+                        "addr:city": "Bern",
+                        "addr:housenumber": "104",
+                        "addr:postcode": "3027",
+                        "addr:street": "Riedbachstrasse",
+                        "alt_name": "Migrol Westside",
+                        "amenity": "fuel",
+                        "branch": "Bern Westside",
+                        "brand": "Shell",
+                        "brand:wikidata": "Q110716465",
+                        "fuel:cng": "yes",
+                        "fuel:diesel": "yes",
+                        "fuel:octane_100": "yes",
+                        "fuel:octane_95": "yes",
+                        "name": "Shell",
+                        "operator": "Migrol",
+                        "website": "https://www.migrol.ch/de/"
+                    }
+                },
+                {
+                    "place_id": 371216706,
+                    "name": "Migrol Service Betlehem",
+                    "location": {
+                        "lat": 46.9465199,
+                        "lng": 7.3850241
+                    },
+                    "tags": {
+                        "addr:city": "Bern",
+                        "addr:country": "CH",
+                        "addr:housenumber": "33",
+                        "addr:postcode": "3027",
+                        "addr:street": "Fellerstrasse",
+                        "alt_name": "Migrol Betlehem",
+                        "amenity": "fuel",
+                        "branch": "Bern Betlehem",
+                        "brand": "Shell",
+                        "brand:wikidata": "Q154950",
+                        "contact:phone": "+41 31 9919322",
+                        "fuel:diesel": "yes",
+                        "fuel:octane_100": "yes",
+                        "fuel:octane_95": "yes",
+                        "name": "Migrol Service Betlehem",
+                        "note": "ref is Station Nr.",
+                        "operator": "Migrol",
+                        "ref": "1321",
+                        "website": "https://www.migrol.ch/de/",
+                        "wheelchair": "yes"
+                    }
+                },
+                {
+                    "place_id": 2276932083,
+                    "name": "No name available",
+                    "location": {
+                        "lat": 46.943517,
+                        "lng": 7.3722037
+                    },
+                    "tags": {
+                        "amenity": "charging_station",
+                        "authentication:none": "yes",
+                        "capacity": "2",
+                        "fee": "no",
+                        "motorcar": "yes",
+                        "note": "Zwei Ladepl\u00e4tze, davon einer f\u00fcr Mobility reserviert",
+                        "opening_hours": "24/7",
+                        "operator": "Migrol",
+                        "socket:type2": "2",
+                        "socket:type2:current": "16",
+                        "socket:type2:output": "11 kW"
+                    }
+                },
+                {
+                    "place_id": 11472669209,
+                    "name": "Westside Supercharger",
+                    "location": {
+                        "lat": 46.9434682,
+                        "lng": 7.3706146
+                    },
+                    "tags": {
+                        "access": "customers",
+                        "addr:city": "Bern",
+                        "addr:country": "CH",
+                        "addr:housenumber": "104",
+                        "addr:postcode": "3027",
+                        "addr:street": "Riedbachstrasse",
+                        "amenity": "charging_station",
+                        "brand": "Tesla Supercharger",
+                        "brand:wikidata": "Q17089620",
+                        "brand:wikipedia": "en:Tesla Supercharger",
+                        "capacity": "12",
+                        "covered": "no",
+                        "fee": "yes",
+                        "fuel:electricity": "yes",
+                        "motorcar": "yes",
+                        "name": "Westside Supercharger",
+                        "opening_hours": "24/7",
+                        "operator": "Tesla, Inc.",
+                        "operator:wikidata": "Q478214",
+                        "short_name": "Tesla",
+                        "socket:tesla_supercharger_ccs": "12",
+                        "socket:tesla_supercharger_ccs:output": "250 kW",
+                        "website": "https://www.tesla.com/findus/location/supercharger/302257"
+                    }
+                }
+            ],
+            "count": 4,
+            "min_time": 6.5,
+            "closest_facility": {
+                "place_id": 2276932083,
+                "name": "No name available",
+                "location": {
+                    "lat": 46.943517,
+                    "lng": 7.3722037
+                },
+                "tags": {
+                    "amenity": "charging_station",
+                    "authentication:none": "yes",
+                    "capacity": "2",
+                    "fee": "no",
+                    "motorcar": "yes",
+                    "note": "Zwei Ladepl\u00e4tze, davon einer f\u00fcr Mobility reserviert",
+                    "opening_hours": "24/7",
+                    "operator": "Migrol",
+                    "socket:type2": "2",
+                    "socket:type2:current": "16",
+                    "socket:type2:output": "11 kW"
+                }
+            }
+        },
+        "schools": {
+            "data": [],
+            "count": 0,
+            "min_time": null,
+            "closest_facility": null
+        }
+    }
+}
