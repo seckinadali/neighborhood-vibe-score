@@ -6,7 +6,7 @@ The purpose of this project is to develop a method to assign scores to neighborh
 
 This project was completed as a capstone for Constructor Academy's [data science bootcamp](https://academy.constructor.org/data-science/zurich). It was supervised by [Beate Brockmeier](https://www.linkedin.com/in/beate-brockmeier/), [Antonio Pipino](https://www.linkedin.com/in/antoniopipino/), Emmanouil Efthymio, and Michael Hofman from [Comparis](https://en.comparis.ch/), and mentored by [Ekaterina Butyugina](https://www.linkedin.com/in/ekaterina-butyugina/) and [Kunal Sharma](https://www.linkedin.com/in/drkunalsharma/) from Constructor Academy. The team, consisting of [Dashrath Reddy Kurli](https://www.linkedin.com/in/dashrath-reddy-kurli-520a952a4/), [Philippe Matter](https://www.linkedin.com/in/philippematter68/), and [Seckin Adali](https://www.linkedin.com/in/seckinadali/), created a system that provides free, comparable, and transparent metrics. This system enhances user engagement on Comparis by keeping comprehensive neighborhood information on-site.
 
-A working prototype is available as a Streamlit app via [this link](https://neighborhoodvibescore.streamlit.app/).
+This repository contains a simplified version of the original project, provided for demonstration purposes. A working prototype is available as a Streamlit app via [this link](https://neighborhoodvibescore.streamlit.app/).
 
 ![alt text](/docs/ScreenShot_Streamlit_better.jpg)
 
