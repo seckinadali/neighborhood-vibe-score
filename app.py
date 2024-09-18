@@ -1,8 +1,3 @@
-# running this code in Streamlit: 
-# open new terminal
-# type "cd src" 
-# type "streamlit run Plotting_Streamlit_5.py"
-
 import os
 import streamlit as st
 import pandas as pd
@@ -191,12 +186,14 @@ for i in range(len(FILES)):
     property_map[i+1] = {'PROPERTY': FILES[i],
                         'address': extract_address_from_path(FILES[i])}
 # Second:  display drop downlist,not in sidebar but as a header on the main page to avoid repetition:
-col111, col222, col333, col444 = st.columns([1,1,2,2])
-col222.subheader('Select a property :')
+col111, col222, col333 = st.columns([1,2,2])
+col111.subheader('Select an address:')
 # col222.write('') # sets a space for next line "summary style"
-col222.write('')
+# col222.write('')
 
-property_id = col333.selectbox('', list(range(1,len(FILES)+1))    , format_func=lambda x: property_map[x]['address'], label_visibility="collapsed", key='property_id')
+property_id = col222.selectbox('', list(range(1,len(FILES)+1))    , format_func=lambda x: property_map[x]['address'], label_visibility="collapsed", key='property_id')
+
+
 
 # select one property and load data:
 selected_property = property_map[property_id]
@@ -240,7 +237,8 @@ colx.plotly_chart(base_map, use_container_width=True)
 # Add summary next to the map
 coly.subheader('About the neighborhood')
 # this list comes directly from the script "Add_Chat_GPT_description"
-style_id = coly.selectbox('', ['neutral without emphasis','Real estate agent', 'Lex Fridman'],label_visibility="collapsed")
+# style_id = coly.selectbox('', ['neutral without emphasis','Real estate agent', 'Lex Fridman'],label_visibility="collapsed")
+style_id = 'neutral without emphasis'
 # style_id = 'neutral without emphasis'
 coly.write(PROPERTY['text_description'][style_id]['text'])
 
@@ -270,120 +268,7 @@ PersonalInterestsScore_placeholder = col_c.empty()
 
 
 
-
-
-
-#########################################################################################
-# COMMUTE TIME TO WORK
-#########################################################################################
-# User input:
-#########################################################################################
-st.subheader('Commute time to work')
-col1, col2, col3 = st.columns([1,1,2])
-col1.markdown('**Maximum acceptable commute time (minutes):**')
-col1.write('')
-default_address = "Bremgartnerstrasse 51, 8003 Zürich"
-# This selectbox also acts as a check box to allow the user to say if it's important or not:  
-max_commute_time = col2.number_input('', min_value=5, max_value=None, value=None, placeholder ='I don\'t care', step=5, label_visibility="collapsed", key="max_commute_time")
-col1.markdown('**Address:**')
-col1.write('')
-
-work_address = col2.text_input('', value = default_address, label_visibility="collapsed", key='work_address')
-col1.markdown('**Preferred mode of transport:**')
-preferred_mode_transport = col2.selectbox('', ['Foot','Bicycle', 'Car', 'Public transport'],label_visibility="collapsed", key='preferred_mode_transport')
-
-# # DEBUGGING:
-# st.write( {key: st.session_state[key] for key in  sorted(st.session_state.keys())   })
-
-# CALCULATE COMMMUTE TIME SCORE
-#########################################################################################
-if max_commute_time == None: # in this case do not calculate and return routes. Only use a "dummy" commute_time_score
-    commute_time_score = 0 ## this is a temporary fix, it must have a value otherwise the custom score does not get calculated.
-else:
-    # calculating routes must be done ONLY if variables property_id OR work_address change OR if its the first time that a route is calculated => when the PREVIOUS value of max_commute_time == None
-    if (property_id != st.session_state.property_id_previous or
-        work_address !=  st.session_state.work_address_previous or
-        st.session_state.max_commute_time_previous == None ) : # first time that a route is calculated
-        # update values: 
-        st.session_state.property_id_previous = property_id
-        st.session_state.work_address_previous = work_address
-        st.session_state.max_commute_time_previous = max_commute_time
-        
-        # Compute travel times:
-        start_coords = PROPERTY['original_address']['coordinates']
-        # by Foot_Bike_Car:
-        travel_times = get_travel_times_Foot_Bike_Car(work_address, start_coords) # outputs the dictionnary "travel_times" with three keys "Foot", "Bicycle", 'Car'
-        # by Public transport:
-        shortest_PT_route = get_travel_time_PT(work_address, start_coords)
-        # aggregate results:
-        travel_times['Public transport'] = convert_ddhhmmss_to_minutes(shortest_PT_route['duration']) # adds the "'Public transport'" key to the preceding dictionnary
-        travel_times_df = pd.DataFrame(list(travel_times.items()), columns=['Mode', 'Time (minutes)'])
-        st.session_state.travel_times_df_previous = travel_times_df
-
-        # AND define score:
-        # get the relevant time to consider for scoring:
-        commute_time_to_consider = int( travel_times_df[travel_times_df['Mode']==preferred_mode_transport]['Time (minutes)'] )
-        # assign a 1-4 score + update values
-        if commute_time_to_consider  > 2 * max_commute_time:
-            commute_time_score = 1
-            st.session_state.commute_time_score_previous = commute_time_score
-        elif commute_time_to_consider  >  max_commute_time:
-            commute_time_score = 2
-            st.session_state.commute_time_score_previous = commute_time_score
-        elif commute_time_to_consider  <  max_commute_time / 2:
-            commute_time_score = 4
-            st.session_state.commute_time_score_previous = commute_time_score
-        elif commute_time_to_consider  >=  max_commute_time / 2:
-            commute_time_score = 3
-            st.session_state.commute_time_score_previous = commute_time_score
-        else: 
-            commute_time_score = 2.5
-            # and update values
-            st.session_state.commute_time_score_previous = commute_time_score
-
-    else: # work_address and property_id do NOT change, but either max_commute_time OR preferred_mode_tranposrt changes => do not calculATE route but calculate commute_time_score => keep travel_times_df but update commute_time_score
-        if  (preferred_mode_transport != st.session_state.preferred_mode_transport_previous or
-            max_commute_time != st.session_state.max_commute_time_previous):
-            # keep travel_times_df
-            travel_times_df = st.session_state.travel_times_df_previous
-            # update values preferred_mode_transport and max_commute_time
-            st.session_state.preferred_mode_transport_previous = preferred_mode_transport
-            st.session_state.max_commute_time_previous = max_commute_time
-            # DEFINE THE SCORE: 
-            # get the relevant time to consider for scoring:
-            commute_time_to_consider = int( travel_times_df[travel_times_df['Mode']==preferred_mode_transport]['Time (minutes)'] )
-            # assign a 1-4 score:
-            if commute_time_to_consider  > 2 * max_commute_time:
-                commute_time_score = 1
-                st.session_state.commute_time_score_previous = commute_time_score
-            elif commute_time_to_consider  >  max_commute_time:
-                commute_time_score = 2
-                st.session_state.commute_time_score_previous = commute_time_score
-            elif commute_time_to_consider  <  max_commute_time / 2:
-                commute_time_score = 4
-                st.session_state.commute_time_score_previous = commute_time_score
-            elif commute_time_to_consider  >=  max_commute_time / 2:
-                commute_time_score = 3
-                st.session_state.commute_time_score_previous = commute_time_score
-            else: 
-                commute_time_score = 2.5
-                # and update values
-                st.session_state.commute_time_score_previous = commute_time_score
-
-# case where OTHER input widgets are moved: travel_times_df  and commute_time_score must still be available => get the last ones   
-if max_commute_time != None:
-    
-    travel_times_df = st.session_state.travel_times_df_previous
-    commute_time_score = st.session_state.commute_time_score_previous
-    # The dataframe is only showed if commute times have been computed
-    col3.dataframe(travel_times_df,use_container_width=True, hide_index=True)
-        
-# # DEBUGGING:
-# col1.write('')
-# col2.write('')
-# col1.write('')
-# col2.write('')
-# col1.write(f'DEBUGGING: Commute time score = {commute_time_score}')
+commute_time_score = 0
 
 # SCORES CALCULATION 
 ######################################################################################################
