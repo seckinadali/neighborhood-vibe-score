@@ -2,13 +2,11 @@
 
 ## Introduction
 
-The purpose of this project is to develop a method to assign scores to neighborhoods that capture the neighborhood vibe, helping home buyers and renters make informed decisions.
+This repository presents a simplified version of a capstone project developed in collaboration with [Comparis](https://en.comparis.ch/), a Swiss-based comparison platform, as part of [Constructor Academy's Data Science Bootcamp](https://academy.constructor.org/data-science/zurich). The project aims to assign scores that capture the vibe of different neighborhoods, helping home buyers and renters make more informed decisions by offering accessible, comparable, and transparent metrics.
 
-This project was completed as a capstone for Constructor Academy's [data science bootcamp](https://academy.constructor.org/data-science/zurich). It was supervised by [Beate Brockmeier](https://www.linkedin.com/in/beate-brockmeier/), [Antonio Pipino](https://www.linkedin.com/in/antoniopipino/), Emmanouil Efthymio, and Michael Hofman from [Comparis](https://en.comparis.ch/), and mentored by [Ekaterina Butyugina](https://www.linkedin.com/in/ekaterina-butyugina/) and [Kunal Sharma](https://www.linkedin.com/in/drkunalsharma/) from Constructor Academy. The team, consisting of [Dashrath Reddy Kurli](https://www.linkedin.com/in/dashrath-reddy-kurli-520a952a4/), [Philippe Matter](https://www.linkedin.com/in/philippematter68/), and [Seckin Adali](https://www.linkedin.com/in/seckinadali/), created a system that provides free, comparable, and transparent metrics. This system enhances user engagement on Comparis by keeping comprehensive neighborhood information on-site.
+Supervised by [Beate Brockmeier](https://www.linkedin.com/in/beate-brockmeier/), [Antonio Pipino](https://www.linkedin.com/in/antoniopipino/), Emmanouil Efthymio, and Michael Hofman from Comparis, and mentored by [Ekaterina Butyugina](https://www.linkedin.com/in/ekaterina-butyugina/) and [Kunal Sharma](https://www.linkedin.com/in/drkunalsharma/) from Constructor Academy, our team, consisting of [Dashrath Reddy Kurli](https://www.linkedin.com/in/dashrath-reddy-kurli-520a952a4/), [Philippe Matter](https://www.linkedin.com/in/philippematter68/), and [Seckin Adali](https://www.linkedin.com/in/seckinadali/), developed a system to enhance user engagement on Comparis by offering comprehensive neighborhood insights.
 
-This repository contains a simplified version of the original project, provided for demonstration purposes. A working prototype is available as a Streamlit app via [this link](https://neighborhoodvibescore.streamlit.app/).
-
-![alt text](/docs/ScreenShot_Streamlit_better.jpg)
+This repository contains a simplified sample of the original project for demonstration purposes. A working prototype can be explored via the Streamlit app at [this link](https://neighborhoodvibescore.streamlit.app/).
 
 ## Our Approach
 
@@ -18,7 +16,7 @@ Using normalization combined with a weighted sum, we assigned scores to neighbor
 - **Personal Interests Score:** This score uses user preferences as input to assign weights in the weighted sum, providing a personalized neighborhood rating.
 - **Neighborhood Vibe Score:** This score employs k-means clustering combined with descriptive statistics to determine weights, offering an automated and balanced approach to assigning scores.
 
-Additionally, to capture the neighborhood vibe, we fed the collected data, along with the population and the actual location of the neighborhood, to an LLM (ChatGPT 3.5 turbo) to generate summary texts in different styles, for example reminiscent of a “real estate brochure”.
+Additionally, to capture the neighborhood vibe, we fed the collected data, along with the population and the actual location of the neighborhood, to an LLM (ChatGPT 3.5 turbo) to generate summary texts in a "neutral style without emphasis".
 
 ## Data Sources
 
@@ -45,7 +43,7 @@ Please refer to [score_calculation.pdf](docs/score_calculation.pdf) for a detail
 We developed two types of neighborhood scores for a given address. Both scores take into account facility counts, weighted average ratings, and travel times to the closest facilities for eight different facility types, using a weighted sum to determine the score. One method uses user input to decide on the weights, while the other automates the process by considering clusters across the entire dataset of addresses.
 
 ### Personal Interests Score
-The user can input which facilities are important to them and provide information about their commute to work through a user-friendly interface on the Streamlit app (left sidebar). These preferences are adjusted as weights and used as coefficients in the weighted sum for the score. Additionally, using OpenRouteService and the Swiss Public Transport API, travel times to the specified workplace address, a defined maximum acceptable commute time, and the preferred means of travel are factored into the personal interests score, therefore returning a tailored score based on the user's preferences.
+The user can input which facilities are important to them through a user-friendly interface on the Streamlit app (left sidebar). These preferences are adjusted as weights and used as coefficients in the weighted sum for the score, therefore returning a tailored score based on the user's preferences.
 
 ### Neighborhood Vibe Score
 K-means clustering is applied to group the pool of all available addresses using all relevant data, including neighborhood population. The median of facility counts, adjusted by standard deviation, is then used to determine the weights for each facility type. These weights are applied in the weighted sum for the neighborhood score, ensuring an automated and balanced comparison between neighborhoods.
@@ -55,7 +53,6 @@ K-means clustering is applied to group the pool of all available addresses using
 - **Google Places API:** For facility data and ratings from Google.
 - **Overpass API:** For facility data from OpenStreetMap.
 - **OpenRouteService:** For calculating travel times.
-- **Swiss Public Transport API:** For integrating public transportation data.
 - **OpenAI (ChatGPT 3.5 turbo):** For generating neighborhood summary texts.
 
 ## Future Work and Improvements
@@ -64,4 +61,4 @@ K-means clustering is applied to group the pool of all available addresses using
 - **Crossing Data Sources:** Integrating data from both Google Places and OpenStreetMap to enhance data accuracy and coverage.
 - **Detailed Facility Labels:** Taking advantage of Overpass API's and/or the new Google Places API's more detailed facility labels for more precise data categorization.
 - **Integrating other types of data:** Quantitative data such as noise level data and internet coverage e.g. (available from Swiss federal sources) could also be be factored in the scores, allowing the user to further refine the search.
-- **Adapted Neighborhood Definitions:** Adjusting the definition of a neighborhood for suburban and rural areas to better reflect realistic accessibility (e.g. 15 minutes by public transportation rather than 10 minutes on foot) .
+- **Adapted Neighborhood Definitions:** Adjusting the definition of a neighborhood for suburban and rural areas to better reflect realistic accessibility (e.g. 15 minutes by public transportation rather than 10 minutes on foot).
