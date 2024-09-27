@@ -50,21 +50,21 @@ directory = r"data/google_data_isochrone_pop_cgpt"
 # - get_travel_times_Foot_Bike_Car(work_address, start_coords)
 # - get_travel_time_PT(work_address, start_coords)
 # are EXECUTED as soon as the max_commute_time is set to NOT NULL
-if 'max_commute_time_previous' not in st.session_state:
-    st.session_state.max_commute_time_previous = None
-# but are ALWAYS executed when the one of the variables property_id OR work_address change
-if 'property_id_previous' not in st.session_state:
-    st.session_state.property_id_previous = 7 
-if 'work_address_previous' not in st.session_state:
-    st.session_state.work_address_previous = "Bremgartnerstrasse 51, 8003 Zürich"
-# however, if the functions named above are NOT executed, the previous output should be kept
-if 'travel_times_df_previous' not in st.session_state:
-    st.session_state.travel_times_df_previous = None
-if 'commute_time_score_previous' not in st.session_state:
-    st.session_state.commute_time_score_previous = None  
-# and changing the preferred mode of transport should trigger only the commute_time_score calculation
-if 'preferred_mode_transport_previous' not in st.session_state:
-    st.session_state.preferred_mode_transport_previous = None  
+# if 'max_commute_time_previous' not in st.session_state:
+#     st.session_state.max_commute_time_previous = None
+# # but are ALWAYS executed when the one of the variables property_id OR work_address change
+# if 'property_id_previous' not in st.session_state:
+#     st.session_state.property_id_previous = 7 
+# if 'work_address_previous' not in st.session_state:
+#     st.session_state.work_address_previous = "Bremgartnerstrasse 51, 8003 Zürich"
+# # however, if the functions named above are NOT executed, the previous output should be kept
+# if 'travel_times_df_previous' not in st.session_state:
+#     st.session_state.travel_times_df_previous = None
+# if 'commute_time_score_previous' not in st.session_state:
+#     st.session_state.commute_time_score_previous = None  
+# # and changing the preferred mode of transport should trigger only the commute_time_score calculation
+# if 'preferred_mode_transport_previous' not in st.session_state:
+#     st.session_state.preferred_mode_transport_previous = None  
 
 # SOURCE DATA:
 # define files to be used : aim is to display directly the "address" present in the file name in the choice option.
