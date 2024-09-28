@@ -17,14 +17,15 @@ from src.app_helper_functions import (
 
 from src.assign_scores import assign_custom_scores, assign_cluster_scores
 
-st.set_page_config(page_title="Comparis Neighborhood Vibe Score", layout="wide") # this is the title appearing in the browser's tab
-st.title('The Comparis Neighborhood Vibe Score')
-st.markdown("<br>", unsafe_allow_html=True)  # add more "<br>" for more spacing. No effect without ", unsafe_allow_html=True"!
+# Constants
+TIME_BOUND = 10  # minutes
+DATA_DIRECTORY = "data/google_data_isochrone_pop_cgpt"
+PAGE_TITLE = "Comparis Neighborhood Vibe Score"
 
-# some global values:
-TIME_BOUND = 10 #minutes , also defined in "app_helper_functions.py"
-
-directory = r"data/google_data_isochrone_pop_cgpt"
+# Setup
+st.set_page_config(page_title=PAGE_TITLE, layout="wide")
+st.title(PAGE_TITLE)
+st.markdown("<br>", unsafe_allow_html=True)
 
 
 # facility_types = [   # NOT USED ??
