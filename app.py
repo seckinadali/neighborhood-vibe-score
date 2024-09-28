@@ -27,52 +27,22 @@ st.set_page_config(page_title=PAGE_TITLE, layout="wide")
 st.title(PAGE_TITLE)
 st.markdown("<br>", unsafe_allow_html=True)
 
-
-# facility_types = [   # NOT USED ??
-#     "bars",
-#     "restaurants",
-#     "kindergarten",
-#     "public_transportation",
-#     "gym_fitness",
-#     "grocery_stores_supermarkets",
-#     "gas_ev_charging",
-#     "schools"
-# ]
-
-# Initiliazes session_state to avoid that requests are sent to ORS and the PT API each time a widget (like a slider) is moved.
-# the functions:
-# - get_travel_times_Foot_Bike_Car(work_address, start_coords)
-# - get_travel_time_PT(work_address, start_coords)
-# are EXECUTED as soon as the max_commute_time is set to NOT NULL
-# if 'max_commute_time_previous' not in st.session_state:
-#     st.session_state.max_commute_time_previous = None
-# # but are ALWAYS executed when the one of the variables property_id OR work_address change
-# if 'property_id_previous' not in st.session_state:
-#     st.session_state.property_id_previous = 7 
-# if 'work_address_previous' not in st.session_state:
-#     st.session_state.work_address_previous = "Bremgartnerstrasse 51, 8003 Zürich"
-# # however, if the functions named above are NOT executed, the previous output should be kept
-# if 'travel_times_df_previous' not in st.session_state:
-#     st.session_state.travel_times_df_previous = None
-# if 'commute_time_score_previous' not in st.session_state:
-#     st.session_state.commute_time_score_previous = None  
-# # and changing the preferred mode of transport should trigger only the commute_time_score calculation
-# if 'preferred_mode_transport_previous' not in st.session_state:
-#     st.session_state.preferred_mode_transport_previous = None  
-
-# SOURCE DATA:
-# define files to be used : aim is to display directly the "address" present in the file name in the choice option.
-# ideally we have a function which lists all the files in a given folder, extract the ID (Ex1, Ex2) and 
-# the relevant address, and updates automatically the "property_map" dictionnary as well as the 
-# list in the radio button. 
-######################################################################################################
-
+# Helper functions
 def get_file_names(directory):
     return [
         os.path.join(directory, file) for file in os.listdir(directory) if file.endswith('.json')
     ]
 
-FILES = get_file_names(directory)
+def create_property_map(files):
+    return {
+        i+1: {'PROPERTY': file, 'address': extract_address_from_path(file)} for i, file in enumerate(files)
+    }
+
+# Load data
+FILES = get_file_names(DATA_DIRECTORY)
+property_map = create_property_map(FILES)
+
+
 
 
 ######################################################################################################
