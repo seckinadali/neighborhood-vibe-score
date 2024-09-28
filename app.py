@@ -7,22 +7,15 @@ import matplotlib.pyplot as plt
 from src.app_helper_functions import (
     load_data, 
     extract_address_from_path,
-    # get_facility_data, # not used here!
-    # get_isochrone_data,
-    # get_population_data,
-    # get_neighborhood_data,
     create_base_map,
     add_original_address,
     add_places,
     add_isochrone,
     add_population,
-    plot_facility_counts,
-    # convert_address_to_coordinates,
-    get_travel_times_Foot_Bike_Car,
-    get_travel_time_PT,
-    convert_ddhhmmss_to_minutes)
+    plot_facility_counts
+)
 
-from src.assign_scores import (assign_custom_scores, assign_cluster_scores)
+from src.assign_scores import assign_custom_scores, assign_cluster_scores
 
 st.set_page_config(page_title="Comparis Neighborhood Vibe Score", layout="wide") # this is the title appearing in the browser's tab
 st.title('The Comparis Neighborhood Vibe Score')
