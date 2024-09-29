@@ -42,16 +42,9 @@ def create_property_map(files):
 FILES = get_file_names(DATA_DIRECTORY)
 property_map = create_property_map(FILES)
 
-
-
-
-######################################################################################################
-######################################################################################################
-######################################################################################################
-# SIDEBAR:
-######################################################################################################
+# Sidebar
 st.sidebar.subheader('Personal interests')
-######################################################################################################
+
 weights = {
     'Balanced': {
         'gym_fitness': 5,
@@ -94,43 +87,15 @@ weights = {
         'grocery_stores_supermarkets': 8
     }
 }
-# Radiobutton to choose a weights preset:
-weights_preset_id = st.sidebar.selectbox('Following facilities are very (10) or not (0) important to you. Choose one of the presets in the drop-down list and adapt as wished.', list(weights.keys()), key='weights_preset_id')
 
-#  initializes the custom weights:
-weights['Custom'] = {}
-# Creates a new key in the weight dictionnary and AT THE SAME TIME MAKES 8 SLIDERS OUT OF THEM; 
-# FOR THE SLIDERS THE DEFAULT VALUES ("value" argument below) ARE = THE CHOSEN PRESET.
-# here potential link to make the sliders green like Comparis: https://discuss.streamlit.io/t/how-to-change-st-sidebar-slider-default-color/3900/4
-default_values = weights[weights_preset_id]
-for key in list(default_values.keys()): 
-    weights['Custom'][key] = st.sidebar.slider(key, min_value=0, max_value=10, value=default_values[key])
-# for the scoring the sum of the weights need to add up to 1:
-weights_normalized = {}
-for key, sub_dict in list(weights.items()):
-    total = sum(sub_dict.values())
-    weights_normalized[key]  = { key: value / total   for key, value in weights[key].items()}
+weights_preset_id = st.sidebar.selectbox('Choose a preset for facility importance:', list(weights.keys()), key='weights_preset_id')
 
-# create also the normalized weights for the 3 preset weights:
-infrastructure_weights_normalized = {key: value  /  sum(weights['Infrastructure'].values())  for key, value in weights['Infrastructure'].items()}
-services_weights_normalized = {key: value  /  sum(weights['Services'].values())  for key, value in weights['Services'].items()}
-entertainement_weights_normalized = {key: value  /  sum(weights['Entertainment'].values())  for key, value in weights['Entertainment'].items()}
+weights['Custom'] = {key: st.sidebar.slider(key, min_value=0, max_value=10, value=weights[weights_preset_id][key]) for key in weights[weights_preset_id]}
 
-# # DEBUGGING:
-# st.write('custom_weights')
-# st.write(weights['Custom'])
+weights_normalized = {key: {k: v / sum(sub_dict.values()) for k, v in sub_dict.items()} for key, sub_dict in weights.items()}
 
 
-# infrastructure_weights = weights['Infrastructure']
-# services_weights = weights['Services']
-# entertainement_weights = weights['Entertainment']
-# st.write('infrastructure, services and entertainment')
-# st.write(infrastructure_weights_normalized)
-# st.write(services_weights_normalized)
-# st.write(entertainement_weights_normalized)
 
-# st.write('all weights ?')
-# st.write(weights_normalized)
 
 ######################################################################################################
 st.sidebar.subheader('Layers')
@@ -239,11 +204,11 @@ commute_time_score = 0
 ######################################################################################################
 
 # initializes the scores dataframe with teh cluster score, then iterates thourgh the weights_normalized dict to compute the other scores (the 4 presets) calculates custom scores (ALTHOUGH THE FUNCTION IS CALLED "assign_custom_scores" IT CAN BE USED TO COMPUTE ANY SCORES)
-scores = assign_cluster_scores(directory)
+scores = assign_cluster_scores(DATA_DIRECTORY)
 scores.rename(columns={'cluster_score':'Neighborhood Vibe Score'}, inplace = True)
 for category in weights_normalized:
     if category != 'Balanced':
-        scores_cat = assign_custom_scores(directory,weights_normalized[category], commute_time_score )
+        scores_cat = assign_custom_scores(DATA_DIRECTORY,weights_normalized[category], commute_time_score )
         scores_cat.rename(columns={'custom_score':category}, inplace = True)
         scores = scores.merge(scores_cat, on='address')
         del scores_cat
