@@ -29,14 +29,11 @@ st.markdown("<br>", unsafe_allow_html=True)
 
 # Helper functions
 def get_file_names(directory):
-    return [
-        os.path.join(directory, file) for file in os.listdir(directory) if file.endswith('.json')
-    ]
+    return [os.path.join(directory, file) for file in os.listdir(directory) if file.endswith('.json')]
 
 def create_property_map(files):
-    return {
-        i+1: {'PROPERTY': file, 'address': extract_address_from_path(file)} for i, file in enumerate(files)
-    }
+    return {i+1: {'PROPERTY': file, 'address': extract_address_from_path(file)} for i, file in enumerate(files)}
+
 
 # Load data
 FILES = get_file_names(DATA_DIRECTORY)
@@ -94,39 +91,21 @@ weights['Custom'] = {key: st.sidebar.slider(key, min_value=0, max_value=10, valu
 
 weights_normalized = {key: {k: v / sum(sub_dict.values()) for k, v in sub_dict.items()} for key, sub_dict in weights.items()}
 
-
-
-
-######################################################################################################
+# Layers
 st.sidebar.subheader('Layers')
-######################################################################################################
-facilities_layer = st.sidebar.checkbox('Facilities', value = True)
-isochrones_walking = st.sidebar.checkbox('Walking distances', value = True)
-population_layer = st.sidebar.checkbox('Population data points', value = False)
+facilities_layer = st.sidebar.checkbox('Facilities', value=True)
+isochrones_walking = st.sidebar.checkbox('Walking distances', value=True)
+population_layer = st.sidebar.checkbox('Population data points', value=False)
 
+# Main page
+col1, col2, _ = st.columns([1, 2, 2])
+col1.subheader('Select an address:')
+property_id = col2.selectbox('', list(range(1, len(FILES)+1)), format_func=lambda x: property_map[x]['address'], label_visibility="collapsed", key='property_id')
 
-#########################################################################################
-# MAIN PAGE:
-#########################################################################################
-# for the drop-down list to choose which property to display:
-# First of all: a dictionary to map property IDs to file paths and addresses
-property_map = {}
-for i in range(len(FILES)):
-    property_map[i+1] = {'PROPERTY': FILES[i],
-                        'address': extract_address_from_path(FILES[i])}
-# Second:  display drop downlist,not in sidebar but as a header on the main page to avoid repetition:
-col111, col222, col333 = st.columns([1,2,2])
-col111.subheader('Select an address:')
-# col222.write('') # sets a space for next line "summary style"
-# col222.write('')
-
-property_id = col222.selectbox('', list(range(1,len(FILES)+1))    , format_func=lambda x: property_map[x]['address'], label_visibility="collapsed", key='property_id')
-
-
-
-# select one property and load data:
+# Load selected property data
 selected_property = property_map[property_id]
 PROPERTY = load_data(selected_property['PROPERTY'])
+
 
 
 ######################################################################################################
