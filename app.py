@@ -127,45 +127,26 @@ base_map.update_layout(
     )
 )
 
+# Display map and neighborhood info
+col_map, col_info = st.columns([3, 1])
+col_map.plotly_chart(base_map, use_container_width=True)
+col_info.subheader('About the neighborhood')
+col_info.write(PROPERTY['text_description']['neutral without emphasis']['text'])
 
-# use 75% of th width for  the map
-colx, coly = st.columns([3,1])
-colx.plotly_chart(base_map, use_container_width=True)
-# Add summary next to the map
-coly.subheader('About the neighborhood')
-# this list comes directly from the script "Add_Chat_GPT_description"
-# style_id = coly.selectbox('', ['neutral without emphasis','Real estate agent', 'Lex Fridman'],label_visibility="collapsed")
-style_id = 'neutral without emphasis'
-# style_id = 'neutral without emphasis'
-coly.write(PROPERTY['text_description'][style_id]['text'])
+# Neighborhood Vibe Score
+col_info.subheader('Neighborhood Vibe Score')
+neighborhood_score_placeholder = col_info.empty()
 
-# Neighborhood Vibe Score:
-##############################3
-coly.subheader('Neighborhood Vibe Score')
-# Only a placeholder here, definition of plot is further down.
-NeighborhoodVibeScore_placeholder = coly.empty()
+# Facility counts and Personal interests score
+col_facilities, _, col_personal = st.columns([9, 1, 3])
+col_facilities.subheader(f"Facilities within a {TIME_BOUND}-minute walk")
+col_facilities.pyplot(plot_facility_counts(PROPERTY), use_container_width=True)
 
-
-
-#  FACILITY COUNTS + PERSONAL INTERESTS SCORE
-######################################################################################################
-######################################################################################################
-col_a, col_b, col_c = st.columns([9,1,3])
-# FACILITY COUNTS
-######################################################################################################
-col_a.subheader(f"Facilities within a {TIME_BOUND}-minute walk ")
-col_a.pyplot(plot_facility_counts(PROPERTY), use_container_width=True)
-
-# PERSONAL INTERESTS SCORE
-######################################################################################################
-col_c.subheader('Personal interests score')
-# Only a placeholder here, definition of plot is further down.
-PersonalInterestsScore_placeholder = col_c.empty()
+col_personal.subheader('Personal interests score')
+personal_score_placeholder = col_personal.empty()
 
 
 
-
-commute_time_score = 0
 
 # SCORES CALCULATION 
 ######################################################################################################
@@ -176,7 +157,7 @@ scores = assign_cluster_scores(DATA_DIRECTORY)
 scores.rename(columns={'cluster_score':'Neighborhood Vibe Score'}, inplace = True)
 for category in weights_normalized:
     if category != 'Balanced':
-        scores_cat = assign_custom_scores(DATA_DIRECTORY,weights_normalized[category], commute_time_score )
+        scores_cat = assign_custom_scores(DATA_DIRECTORY,weights_normalized[category])
         scores_cat.rename(columns={'custom_score':category}, inplace = True)
         scores = scores.merge(scores_cat, on='address')
         del scores_cat
@@ -202,7 +183,7 @@ ax.set_ylabel('')
 ax.set_ylim(0,100)
 ax.set_xticks([]) # empty tick lables otherwise redundant info with subheader.
 # put that graph in the place holder:
-NeighborhoodVibeScore_placeholder.pyplot(fig, use_container_width=False)
+neighborhood_score_placeholder.pyplot(fig, use_container_width=False)
 
 
 # PERSONAL INTERESTS SCORE PLOT
@@ -216,7 +197,7 @@ ax.set_ylabel('')
 ax.set_ylim(0,100)
 ax.set_xticks([]) # empty tick lables otherwise redundant info with subheader.
 # Display the plot in the placeholder: 
-PersonalInterestsScore_placeholder.pyplot(fig, use_container_width=False)
+personal_score_placeholder.pyplot(fig, use_container_width=False)
 
 
 
