@@ -246,7 +246,7 @@ def calculate_cluster_score(df, cluster_weights, weight_coeffs):
     return df_copy
 
 # The function to get custom scores
-def assign_custom_scores(directory, facility_weights, commute_value):
+def assign_custom_scores(directory, facility_weights, commute_value=0):
     files = get_files(directory)
     datasets = get_datasets(files)
     facilities = make_count_table(datasets)
