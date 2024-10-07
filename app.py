@@ -106,37 +106,26 @@ property_id = col2.selectbox('', list(range(1, len(FILES)+1)), format_func=lambd
 selected_property = property_map[property_id]
 PROPERTY = load_data(selected_property['PROPERTY'])
 
-
-
-######################################################################################################
-#  MAP, TEXT and NEIGHBORHOOD VIBE SCORE
-######################################################################################################
+# Create map
 base_map = create_base_map(PROPERTY, 800, 800, 14)
-
-#  ISOCHRONE LAYER:
-if isochrones_walking == True:
+if isochrones_walking:
     add_isochrone(base_map, PROPERTY)
-else:
-    pass
-# POPULATION LAYER:
-if population_layer == True:
+if population_layer:
     add_population(base_map, PROPERTY)
-else:
-    pass
-# PLACES PLAYER:
-if facilities_layer == True:
+if facilities_layer:
     add_places(base_map, PROPERTY, 15)
-else:
-    pass
-# ORGINAL ADDRESS IN ANY CASE:
 add_original_address(base_map, PROPERTY)
 
-base_map.update_layout( margin=dict(r=0, t=0, l=0, b=0), 
-                            showlegend=True,
-                            legend = dict(  title=dict(text="Facilities", font=dict(size=17, color='black')), 
-                                            yanchor="top", y=0.99, xanchor="left", x=0.01,
-                                            font=dict(  size=15, color="black"),
-                            bgcolor="white")  )
+base_map.update_layout(
+    margin=dict(r=0, t=0, l=0, b=0),
+    showlegend=True,
+    legend=dict(
+        title=dict(text="Facilities", font=dict(size=17, color='black')),
+        yanchor="top", y=0.99, xanchor="left", x=0.01,
+        font=dict(size=15, color="black"),
+        bgcolor="white"
+    )
+)
 
 
 # use 75% of th width for  the map
