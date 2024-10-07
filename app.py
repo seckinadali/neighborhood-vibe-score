@@ -145,23 +145,22 @@ col_facilities.pyplot(plot_facility_counts(PROPERTY), use_container_width=True)
 col_personal.subheader('Personal interests score')
 personal_score_placeholder = col_personal.empty()
 
-
-
-
-# SCORES CALCULATION 
-######################################################################################################
-######################################################################################################
-
-# initializes the scores dataframe with teh cluster score, then iterates thourgh the weights_normalized dict to compute the other scores (the 4 presets) calculates custom scores (ALTHOUGH THE FUNCTION IS CALLED "assign_custom_scores" IT CAN BE USED TO COMPUTE ANY SCORES)
+# Calculate scores
 scores = assign_cluster_scores(DATA_DIRECTORY)
-scores.rename(columns={'cluster_score':'Neighborhood Vibe Score'}, inplace = True)
+scores.rename(columns={'cluster_score': 'Neighborhood Vibe Score'}, inplace=True)
+
 for category in weights_normalized:
     if category != 'Balanced':
-        scores_cat = assign_custom_scores(DATA_DIRECTORY,weights_normalized[category])
-        scores_cat.rename(columns={'custom_score':category}, inplace = True)
-        scores = scores.merge(scores_cat, on='address')
-        del scores_cat
-scores.rename(columns={'Custom':'Personal Interests Score'}, inplace = True)
+        category_scores = assign_custom_scores(DATA_DIRECTORY, weights_normalized[category])
+        category_scores.rename(columns={'custom_score': category}, inplace=True)
+        scores = scores.merge(category_scores, on='address')
+
+scores.rename(columns={'Custom': 'Personal Interests Score'}, inplace=True)
+
+
+########
+# to be revised:
+########
 
 
 # # DEBUGGING:
