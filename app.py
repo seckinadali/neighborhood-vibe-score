@@ -1,6 +1,5 @@
 import os
 import streamlit as st
-import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
 
@@ -176,14 +175,9 @@ fig, ax = plt.subplots(figsize=(1, 1.5))
 plot_score(property_scores, 4, '#017b4f', ax)
 personal_score_placeholder.pyplot(fig, use_container_width=False)
 
-
-
-# FURTHER INFO / DATA SOURCES:
-###################################################################################################
+# Data sources
 st.divider()
 st.subheader('Data sources')
 st.markdown('[Isochrones for reachability by foot and travel times](https://openrouteservice.org/dev/#/api-docs/v2/isochrones/{profile}/post)')
 st.markdown('[Population data](https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/metadata/4bfbbf20-d90e-4131-8fe2-4c454ad45c16)')
 st.markdown('[Travel time with public transports](https://transport.opendata.ch/)')
-
-
