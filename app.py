@@ -157,45 +157,23 @@ for category in weights_normalized:
 
 scores.rename(columns={'Custom': 'Personal Interests Score'}, inplace=True)
 
+# Plot scores
+property_scores = scores.iloc[property_id-1][1:]
 
-########
-# to be revised:
-########
+def plot_score(score_values, score_index, color, ax):
+    bar = sns.barplot(x=score_values.index[score_index:score_index+1], y=score_values.values[score_index:score_index+1], ax=ax, color=color)
+    bar.bar_label(bar.containers[0], fontweight='bold')
+    ax.set(xlabel='', ylabel='', ylim=(0, 100), xticks=[])
+    return fig
 
-
-# # DEBUGGING:
-# col3.write('DEBUGGING: Scores Dataframe')
-# col3.write(scores)
-
-# PLOT SCORES
-######################################################################################################
-######################################################################################################
-property_scores = scores.iloc[property_id-1][1:] # only the scores, not the addres
-# ONLY NEIGHBORHOOD SCORE, TO BE DISPLAYED RIGHT FRON THE MAP:
-######################################################################################################
-fig, ax = plt.subplots(figsize=(1.5,2))
-# Color #66cc00 is "Comparis green"
-bar2 = sns.barplot(x=property_scores.index[0:1], y=property_scores.values[0:1], ax = ax, color = '#66cc00') 
-bar2.bar_label(bar2.containers[0], fontweight='bold')
-ax.set_xlabel('')
-ax.set_ylabel('')
-ax.set_ylim(0,100)
-ax.set_xticks([]) # empty tick lables otherwise redundant info with subheader.
-# put that graph in the place holder:
+# Neighborhood Vibe Score
+fig, ax = plt.subplots(figsize=(1.5, 2))
+plot_score(property_scores, 0, '#66cc00', ax)
 neighborhood_score_placeholder.pyplot(fig, use_container_width=False)
 
-
-# PERSONAL INTERESTS SCORE PLOT
-######################################################################################################
-# col_c.subheader('Personal interests score')
-fig, ax = plt.subplots(figsize=(1,1.5))
-bar3 = sns.barplot(x=property_scores.index[4:5], y=property_scores.values[4:5], ax = ax, color = '#017b4f') # color = dark green from Comparis website
-bar3.bar_label(bar3.containers[0], fontweight='bold')
-ax.set_xlabel('')
-ax.set_ylabel('')
-ax.set_ylim(0,100)
-ax.set_xticks([]) # empty tick lables otherwise redundant info with subheader.
-# Display the plot in the placeholder: 
+# Personal Interests Score
+fig, ax = plt.subplots(figsize=(1, 1.5))
+plot_score(property_scores, 4, '#017b4f', ax)
 personal_score_placeholder.pyplot(fig, use_container_width=False)
 
 
