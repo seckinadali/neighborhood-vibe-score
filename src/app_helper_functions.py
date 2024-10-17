@@ -156,33 +156,18 @@ def add_original_address(base_map, FILE):
 # Function to create the Layer "Places"
 ############################################
 def add_places(base_map, FILE, marker_size=10, ):
-    # Color Mapping to be defined by hand and not dynamically so that a bar e.g. is always red
-    # better: use icons? See https://www.flaticon.com/search?word=supermarket%20location. 
-    # Issues with Scattermapbox: "symbol" argument only reacts to "circle"
-    ##############################################################################
-    # color_mapping = {
-    #     'bars': '#e41a1c',                    # Red
-    #     'restaurants': '#377eb8',             # Blue
-    #     'kindergarten': '#4daf4a',            # Green
-    #     'public_transportation': 'black',   
-    #     'gym_fitness': '#ff7f00',             # Orange
-    #     'grocery_stores_supermarkets': '#ffcc00', # Yellow dark
-    #     'gas_ev_charging': '#a65628',         # Brown
-    #     'schools': '#984ea3'                  # Purple
-    # }
-
-    #  variations between Dark green and light  green rom Comparis website:
-    #  ['#017b4f', '#028b5f', '#03a56f', '#05c07f', '#32cd32', '#4cd964', '#80e075','#66cc00'] 
     color_mapping = {
-        'bars': '#017b4f',                    
-        'restaurants': '#028b5f',             
-        'kindergarten': '#03a56f',            
-        'public_transportation': '#05c07f',   
-        'gym_fitness': '#32cd32',             
-        'grocery_stores_supermarkets': '#4cd964', 
-        'gas_ev_charging': '#80e075',         
-        'schools': '#66cc00'                 
+        'bars': '#e74c3c',                     # Red
+        'restaurants': '#f39c12',              # Orange
+        'kindergarten': '#3498db',             # Blue
+        'public_transportation': '#9b59b6',    # Purple
+        'gym_fitness': '#2ecc71',              # Green
+        'grocery_stores_supermarkets': '#f1c40f', # Yellow
+        'gas_ev_charging': '#e67e22',          # Dark Orange
+        'schools': '#1abc9c'                   # Teal
     }
+
+
     # format data
     neighborhood = get_facility_data(FILE)
 
