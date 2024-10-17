@@ -259,18 +259,17 @@ def plot_facility_counts(GOOGLE_FILE):
 
     google_sorted = google#.sort_values('count_raw', ascending=False) # do not sort for better comparison
     
-    #  variations between Dark green and light  green rom Comparis website:
-    #  ['#017b4f', '#028b5f', '#03a56f', '#05c07f', '#32cd32', '#4cd964', '#80e075','#66cc00'] 
     color_mapping = {
-        'bars': '#017b4f',                    
-        'restaurants': '#028b5f',             
-        'kindergarten': '#03a56f',            
-        'public_transportation': '#05c07f',   
-        'gym_fitness': '#32cd32',             
-        'grocery_stores_supermarkets': '#4cd964', 
-        'gas_ev_charging': '#80e075',         
-        'schools': '#66cc00'                 
+        'bars': '#e74c3c',                     # Red
+        'restaurants': '#f39c12',              # Orange
+        'kindergarten': '#3498db',             # Blue
+        'public_transportation': '#9b59b6',    # Purple
+        'gym_fitness': '#2ecc71',              # Green
+        'grocery_stores_supermarkets': '#f1c40f', # Yellow
+        'gas_ev_charging': '#e67e22',          # Dark Orange
+        'schools': '#1abc9c'                   # Teal
     }
+
     
     palette =list(color_mapping.values())  # variations between Dark green and light  green rom Comparis website
     # palette = [colors[i % 2] for i in range(len(google_sorted))]
